@@ -1,0 +1,39 @@
+\documentclass[twocolumn]{article}
+
+\input{preamble.tex}
+
+\begin{document}
+
+% =========================
+% Main manuscript
+% =========================
+
+\input{Sections/main}
+
+
+% =========================
+% References
+% =========================
+
+\bibliographystyle{naturemag}
+\bibliography{references}
+
+% =========================
+% Supplement
+% =========================
+
+\clearpage
+\onecolumn  % remove if you want supplement to stay two-column
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+\setcounter{table}{0}
+\renewcommand{\thetable}{S\arabic{table}}
+
+\setcounter{equation}{0}
+\renewcommand{\theequation}{S\arabic{equation}}
+
+\input{Sections/supplement}
+
+\end{document}

@@ -1,0 +1,31 @@
+% =========================
+% Preamble (shared)
+% =========================
+
+\usepackage[
+  paperwidth=210mm,
+  paperheight=297mm,
+  left=13.5mm,
+  right=13.5mm
+]{geometry}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+
+\usepackage[numbers,super,sort&compress]{natbib}
+\setcitestyle{citesep={,}}
+
+\usepackage[section]{placeins}
+
+\usepackage{caption}
+\captionsetup{
+  justification=justified,
+  singlelinecheck=false,
+  labelfont=bf,
+  labelsep=period
+}
+
+% Custom figure reference helpers
+\newcommand{\Figref}[1]{Figure~\ref{#1}}
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
