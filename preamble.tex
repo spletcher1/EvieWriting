@@ -9,11 +9,15 @@
   right=13.5mm
 ]{geometry}
 
-\usepackage{xcolor}
-\usepackage{soul}
+\usepackage{soul,xcolor}
 \sethlcolor{yellow}
 % use this for adding comments since bold is a little unwieldy
 % \hl{This sentence will be highlighted in whatever color we chose above.}
+
+% Evie highlights
+\newcommand{\eh}[1]{%
+  {\sethlcolor{cyan!30}\hl{#1}}%
+}
 
 \usepackage[T1]{fontenc}
 
