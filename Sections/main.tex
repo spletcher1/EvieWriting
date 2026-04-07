@@ -201,53 +201,5 @@ This nonlinear relationship between EB population activity and behavioral output
 
 Our findings that discrete populations of ellipsoid body ring neurons can instructively modulate lifespan through the generation of distinct internal states carry potentially significant implications for understanding the neural basis of aging in humans. The \textit{Drosophila} central complex, of which the ellipsoid body is a core component, shares strong neuroanatomical and functional homology with the vertebrate basal ganglia. Both structures serve as integrative hubs that process sensory information, coordinate motor output, and—critically—contribute to the generation of motivational and affective states. Recent work has expanded our understanding of the basal ganglia beyond its classical role in movement control, implicating this structure in the recognition of emotional stimuli, inference of others' emotional states, and awareness of subjective well-being {Gendron, 2023 128}. In particular, limbic basal ganglia output pathways, including ventral pallidal circuits, can assign appetitive or aversive value to ongoing behavior and reshape responses to challenge in a state-dependent manner. Our findings raise the possibility that a similarly general principle applies to aging: circuit configurations that impose distinct motivational or physiological states may converge on long-term effects on organismal maintenance and survival. More generally, these results suggest that lifespan may be modulated not only by what animals perceive, but by how neural state transforms the meaning of those perceptions into coordinated physiological output. If analogous circuits in the human basal ganglia similarly encode valence states that influence systemic physiology, this would provide a mechanistic framework for understanding associations between psychological states, chronic stress, and aging in human populations.
 
-
 %% AI wanted some limitations. lol.
 Several limitations should be considered when interpreting these findings. First, our transcriptomic analyses were performed on female heads at a single early time point, and thus do not capture male-specific or later-emerging molecular states. This is especially relevant given the sex-specific behavioral effects observed in place preference and negative geotaxis. Second, bulk head RNA-seq cannot distinguish transcriptional changes arising within the brain from those occurring in peripheral head tissues, nor can it resolve cell-type-specific responses downstream of EB manipulation. Third, the green light required for GtACR1 complicated behavioral interpretation of some inhibition experiments, particularly in the FLIC, where abrupt light onset itself appeared to be startling. Finally, although the present work shows that EB manipulations are sufficient to alter lifespan and to impose distinct transcriptional and motivational states, it does not yet identify the downstream endocrine, metabolic, or peripheral effectors that execute these aging phenotypes. These limitations define clear priorities for future work, including cell-type-resolved transcriptional analysis, direct study of IPC and neuroendocrine outputs, and more refined dissection of sex-specific responses.
-
-%% Some more points to consider
-
-
-\hl{maybe some of this to discussion?}
-performed a series of assays informed by our sequencing data. 
-
-Although the R2/R4 split-GAL4 labels an additional R4m subpopulation not isolated in the single-population manipulations, the switch from aversion with R2 alone to attraction with combined R2/R4 activation in both FLIC and place preference assays argues that co-activation generates a distinct motivational state rather than a simple summation of individual ring neuron effects.
-
-DEGs and GO enrichment pointed to changes in pathways related to nutrient sensing and starvation responses as well as energy storage and utilization. We therefore characterized feeding behavior, energy management, and overall organismal performance to determine whether these phenotypes might drive transcriptomic differences or implicate particular pathways as important contributors to lifespan extension.
-
-For example, whereas “nutrient response” genes like \textit{Thor} were strongly upregulated in R2-activated flies, indicating perceived nutrient scarcity \hl{here is the perceived nutrient stuff.  what do you mean by it?  It hasn't been discussed yet has it?}, they were downregulated in R2/R4 activated flies. 
-
-In light of these findings, we are currently investigating whether the lifespan extension of R4d-inhibited flies is observed only in the presence of environmental stressors, rather than representing the effects of R4d inhibition per se. this last sentence may move to the discussion when you might want to explain this buffer model in more detail.
-
-For example, R2 activation increased Thor and foxo expression [Seq fig], which could reflect an activation-driven suppression of feeding. Alternatively, activation could directly induce a starvation-like internal state, in which case, perceived hunger could drive compensatory increases in feeding.
-
-Unlike red-light experiments, inhibitory GtACR1 experiments are bounded in intensity by physiological considerations (principally excessive heat). Going forward, the use of recently developed red-gated inhibitory channels will help us probe behaviors under a broader range of light regimes. 
-
-
-If true, it may be that among these qualitatively different transcriptional profiles, one or more shared transcriptional changes may underlie lifespan extension. For example, activation of R2 and R2/R4 increased Cbs expression and drove changes in lipid metabolism and storage, and ER stress response genes were downregulated when R2 was activated and when R4d was inhibited. 
-
-Nevertheless, our data leave open the possibility that the phenotypic convergence on lifespan extension is coincidental, and perturbations of different neuron populations extend lifespan via distinct pathways, consistent with many known lifespan-modulating genes and processes appearing in our data. \hl{probably best for discussion:We do not know which, if any, of these changes drive lifespan extension, but these are high-priority candidates for future screening.}
-
-
-\subsection*{Lifespan/Seq Extras}
-- \textit{While no strong theme emerges in heads across all three treatments, differential signaling from these neurons may still recruit similar pathways downstream. Maybe put this down in body omics section if I end up having one.}
-- \textit{Given that the EB is an integrative center, we would not necessarily expect R2/R4 manipulation to drive expression changes in a greater number of genes than R2 alone or R4d alone, but our results suggest that manipulating these two EB neuron populations at once drives a broader response in the head than manipulating either population alone.}
-- \textit{Should thing about upstream interventions modulating many pathways at once (unlike drugs) go here or in the final discussion?}
-- \textit{SP: “Do you think these are mostly changed in the brain? Probably can suggest that, but you might want to clarify whether these aging pathways, which have largely been implicated in non-neuronal tissues, may or may not be acting in the brain. Could come back to this in the discussion.”}
-- \textit{This was left orphaned, but not deleted, by Scott: "While only R2 and R4 ring neurons are required for the death perception phenotype, most ring neuron classes relay sensory information to the EB, providing contextual information that could influence EB output.[cite] We wanted to know whether, and to what extent, the activity of these populations would modulate the lifespan effects of R2 and R4 manipulations described above."}
-
-\subsection*{Valence Extras}
-R2/R4 FLIC: They’re seeking food more often; unclear if seeking is the main thing I’m driving, and they incidentally eat more since they visit more, or if I’m increasing hunger and it manifests as more “grazing.” Can’t really distinguish with con-ex. Do we have examples where flies eat big meals? R50? Asked Kristy/Rachel. Alternatively, could I be interrupting establishment of satiety somehow?
-
-Arena: some cases where flies go from neutral during treatment to negative afterwards (e.g. R4d>Chr males) or have glaringly bimodal spreads; should I use this to segue into locomotor concerns/tests? Or just nod to it here but park that side quest in the supplement?
-
-\subsection*{Con-Ex Extras}
-[Save in case reviewers ask: Note that after a month of light treatment, the male population was reduced by about half, so analysis of males is likely underpowered at this time point. This loss was due in part to natural deaths (males are shorter-lived than females). Males, being smaller, also had a propensity to squeeze between the food cap and the vial wall, and older males were less likely to find their way back out of this gap. Vials containing these stuck males were omitted from analysis. Should I address why this only affected 2769? New vials had slightly larger diameter.]
-
-R2 induces a starvation-like transcriptional program without a true energetic deficit
-
-\subsection*{TAG Extras}
-[Males might be more sensitive because they’re smaller? But hard to imagine it would be an absolute reduction instead of a relative one.]
-
-\subsection*{DAMS Extras}
-SS02769: Additionally, they suggest that the decreased activity observed in the arena assay (\figref{fig:arenafig}) is particular to the arena format, and not indicative of gross motor defects. [But I got rid of the movement stuff; will use this if I add it back in.]
