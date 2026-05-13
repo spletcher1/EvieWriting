@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: compiled_manuscript.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--there's a number but no volume in linford2013
+You've used 50 entries,
+            2773 wiz_defined-function locations,
+            895 strings with 17387 characters,
+and the built_in function-call counts, 32258 in all, are:
+= -- 2657
+> -- 2778
+< -- 7
++ -- 927
+- -- 876
+* -- 3269
+:= -- 5120
+add.period$ -- 150
+call.type$ -- 50
+change.case$ -- 442
+chr.to.int$ -- 49
+cite$ -- 101
+duplicate$ -- 1042
+empty$ -- 2040
+format.name$ -- 940
+if$ -- 6452
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 50
+newline$ -- 258
+num.names$ -- 200
+pop$ -- 785
+preamble$ -- 1
+purify$ -- 392
+quote$ -- 0
+skip$ -- 862
+stack$ -- 0
+substring$ -- 1278
+swap$ -- 93
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 550
+warning$ -- 1
+while$ -- 228
+width$ -- 0
+write$ -- 657
+(There was 1 warning)

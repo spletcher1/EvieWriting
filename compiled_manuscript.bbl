@@ -1,0 +1,258 @@
+\begin{thebibliography}{50}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alic et~al.(2011)Alic, Hoddinott, Vinti, and Partridge]{alic2011}
+Nazif Alic, Matthew~P. Hoddinott, Giovanna Vinti, and Linda Partridge.
+\newblock Lifespan extension by increased expression of the {{Drosophila}} homologue of the {{IGFBP7}} tumour suppressor.
+\newblock \emph{Aging Cell}, 10\penalty0 (1):\penalty0 137--147, 2011.
+
+\bibitem[Buhl et~al.(2021)Buhl, Kottler, Hodge, and Hirth]{buhl2021}
+Edgar Buhl, Benjamin Kottler, James J.~L. Hodge, and Frank Hirth.
+\newblock Thermoresponsive motor behavior is mediated by ring neuron circuits in the central complex of {{Drosophila}}.
+\newblock \emph{Scientific Reports}, 11\penalty0 (1):\penalty0 155, December 2021.
+
+\bibitem[Bushey et~al.(2025)Bushey, Shiozaki, Shuai, Zheng, Jayaraman, Hasseman, Kolb, Team, and Turner]{bushey2025}
+Daniel Bushey, Hiroshi Shiozaki, Yichun Shuai, Jihong Zheng, Vivek Jayaraman, Jeremy~P. Hasseman, Ilya Kolb, GENIE~Project Team, and Glenn~C. Turner.
+\newblock {{RubyACRs Enable Red-Shifted Optogenetic Inhibition}} in {{Freely Behaving Drosophila}}.
+\newblock \emph{eLife}, 14, September 2025.
+
+\bibitem[Chakraborty et~al.(2019)Chakraborty, Gendron, Lyu, Munneke, DeMarco, Hoisington, and Pletcher]{chakraborty2019}
+Tuhin~S. Chakraborty, Christi~M. Gendron, Yang Lyu, Allyson~S. Munneke, Madeline~N. DeMarco, Zachary~W. Hoisington, and Scott~D. Pletcher.
+\newblock Sensory perception of dead conspecifics induces aversive cues and modulates lifespan through serotonin in {{Drosophila}}.
+\newblock \emph{Nature Communications}, 10\penalty0 (1):\penalty0 2365, May 2019.
+
+\bibitem[Essers et~al.(2016)Essers, Tain, Nespital, Goncalves, Froehlich, and Partridge]{essers2016}
+Paul Essers, Luke~S. Tain, Tobias Nespital, Joana Goncalves, Jenny Froehlich, and Linda Partridge.
+\newblock Reduced insulin/insulin-like growth factor signaling decreases translation in {{Drosophila}} and mice.
+\newblock \emph{Scientific Reports}, 6\penalty0 (1):\penalty0 30290, July 2016.
+
+\bibitem[Gems and Partridge(2013)]{gems2013}
+David Gems and Linda Partridge.
+\newblock Genetics of longevity in model organisms: {{Debates}} and paradigm shifts.
+\newblock \emph{Annual Review of Physiology}, 75:\penalty0 621--644, 2013.
+
+\bibitem[Gendron et~al.(2014)Gendron, Kuo, Harvanek, Chung, Yew, Dierick, and Pletcher]{gendron2014}
+Christi~M. Gendron, Tsung-Han Kuo, Zachary~M. Harvanek, Brian~Y. Chung, Joanne~Y. Yew, Herman~A. Dierick, and Scott~D. Pletcher.
+\newblock Drosophila life span and physiology are modulated by sexual perception and reward.
+\newblock \emph{Science (New York, N.Y.)}, 343\penalty0 (6170):\penalty0 544--548, January 2014.
+
+\bibitem[Gendron et~al.(2020)Gendron, Chakraborty, Chung, Harvanek, Holme, Johnson, Lyu, Munneke, and Pletcher]{gendron2020}
+Christi~M. Gendron, Tuhin~S. Chakraborty, Brian~Y. Chung, Zachary~M. Harvanek, Kristina~J. Holme, Jacob~C. Johnson, Yang Lyu, Allyson~S. Munneke, and Scott~D. Pletcher.
+\newblock Neuronal {{Mechanisms}} that {{Drive Organismal Aging Through}} the {{Lens}} of {{Perception}}.
+\newblock \emph{Annual Review of Physiology}, 82\penalty0 (1):\penalty0 227--249, February 2020.
+
+\bibitem[Gendron et~al.(2023)Gendron, Chakraborty, Duran, Dono, and Pletcher]{gendron2023}
+Christi~M. Gendron, Tuhin~S. Chakraborty, Cathryn Duran, Thomas Dono, and Scott~D. Pletcher.
+\newblock Ring neurons in the {{Drosophila}} central complex act as a rheostat for sensory modulation of aging.
+\newblock \emph{PLOS Biology}, 21\penalty0 (6):\penalty0 e3002149, June 2023.
+
+\bibitem[Govorunova et~al.(2015)Govorunova, Sineshchekov, Janz, Liu, and Spudich]{govorunova2015}
+Elena~G. Govorunova, Oleg~A. Sineshchekov, Roger Janz, Xiaoqin Liu, and John~L. Spudich.
+\newblock Natural light-gated anion channels: {{A}} family of microbial rhodopsins for advanced optogenetics.
+\newblock \emph{Science}, 349\penalty0 (6248):\penalty0 647--650, August 2015.
+
+\bibitem[Guo et~al.(2019)Guo, Nan, Miao, Jin, Yang, Wang, Tu, Bao, Lyu, Zheng, Deng, Guo, Xi, Yang, and Ge]{guo2019}
+Ting Guo, Zi~Nan, Chen Miao, Xiaoye Jin, Weiwei Yang, Zehua Wang, Yinqi Tu, Hongcun Bao, Jialan Lyu, Huimei Zheng, Qiannan Deng, Pengfei Guo, Yongmei Xi, Xiaohang Yang, and Wanzhong Ge.
+\newblock The autophagy-related gene {{Atg101}} in {{Drosophila}} regulates both neuron and midgut homeostasis.
+\newblock \emph{Journal of Biological Chemistry}, 294\penalty0 (14):\penalty0 5666--5676, April 2019.
+
+\bibitem[{Hernandez-Lima} et~al.(2025){Hernandez-Lima}, Seo, Urban, and Truttmann]{hernandez-lima2025}
+Mirella~A. {Hernandez-Lima}, Brian Seo, Nicholas~D. Urban, and Matthias~C. Truttmann.
+\newblock Modulation of {{C}}. elegans behavior, fitness, and lifespan by {{AWB}}/{{ASH-dependent}} death perception.
+\newblock \emph{Current Biology}, 35\penalty0 (9):\penalty0 2128--2138.e6, May 2025.
+
+\bibitem[Hulse et~al.(2021)Hulse, Haberkern, Franconville, {Turner-Evans}, Takemura, Wolff, Noorman, Dreher, Dan, Parekh, Hermundstad, Rubin, and Jayaraman]{hulse2021}
+Brad~K. Hulse, Hannah Haberkern, Romain Franconville, Daniel~B. {Turner-Evans}, Shin-Ya Takemura, Tanya Wolff, Marcella Noorman, Marisa Dreher, Chuntao Dan, Ruchi Parekh, Ann~M. Hermundstad, Gerald~M. Rubin, and Vivek Jayaraman.
+\newblock A connectome of the {{Drosophila}} central complex reveals network motifs suitable for flexible navigation and context-dependent action selection.
+\newblock \emph{eLife}, 10:\penalty0 e66039, October 2021.
+
+\bibitem[Ishimoto and Kamikouchi(2020)]{ishimoto2020}
+Hiroshi Ishimoto and Azusa Kamikouchi.
+\newblock A {{Feedforward Circuit Regulates Action Selection}} of {{Pre-mating Courtship Behavior}} in {{Female Drosophila}}.
+\newblock \emph{Current Biology}, 30\penalty0 (3):\penalty0 396--407.e4, 2020.
+
+\bibitem[Jones et~al.(2009)Jones, Gargano, Rhodenizer, Martin, Bhandari, and Grotewiel]{jones2009}
+Melanie~A. Jones, Julia~Warner Gargano, Devin Rhodenizer, Ian Martin, Poonam Bhandari, and Mike Grotewiel.
+\newblock A forward genetic screen in {{Drosophila}} implicates insulin signaling in age-related locomotor impairment.
+\newblock \emph{Experimental Gerontology}, 44\penalty0 (8):\penalty0 532--540, August 2009.
+
+\bibitem[Kabil et~al.(2011)Kabil, Kabil, Banerjee, Harshman, and Pletcher]{kabil2011}
+Hadise Kabil, Omer Kabil, Ruma Banerjee, Lawrence~G. Harshman, and Scott~D. Pletcher.
+\newblock Increased transsulfuration mediates longevity and dietary restriction in {{{\emph{Drosophila}}}}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 108\penalty0 (40):\penalty0 16831--16836, October 2011.
+
+\bibitem[Klapoetke et~al.(2014)Klapoetke, Murata, Kim, Pulver, {Birdsey-Benson}, Cho, Morimoto, Chuong, Carpenter, Tian, Wang, Xie, Yan, Zhang, Chow, Surek, Melkonian, Jayaraman, {Constantine-Paton}, Wong, and Boyden]{klapoetke2014}
+Nathan~C. Klapoetke, Yasunobu Murata, Sung~Soo Kim, Stefan~R. Pulver, Amanda {Birdsey-Benson}, Yong~Ku Cho, Tania~K. Morimoto, Amy~S. Chuong, Eric~J. Carpenter, Zhijian Tian, Jun Wang, Yinlong Xie, Zhixiang Yan, Yong Zhang, Brian~Y. Chow, Barbara Surek, Michael Melkonian, Vivek Jayaraman, Martha {Constantine-Paton}, Gane Ka~Shu Wong, and Edward~S. Boyden.
+\newblock Independent optical excitation of distinct neural populations.
+\newblock \emph{Nature Methods}, 11\penalty0 (3):\penalty0 338--346, 2014.
+
+\bibitem[Kottler et~al.(2019)Kottler, Faville, Bridi, and Hirth]{kottler2019}
+Benjamin Kottler, Richard Faville, Jessika~Cristina Bridi, and Frank Hirth.
+\newblock Inverse {{Control}} of {{Turning Behavior}} by {{Dopamine D1 Receptor Signaling}} in {{Columnar}} and {{Ring Neurons}} of the {{Central Complex}} in {{Drosophila}}.
+\newblock \emph{Current Biology}, 29\penalty0 (4):\penalty0 567--577.e6, February 2019.
+
+\bibitem[Libert et~al.(2007)Libert, Zwiener, Chu, Vanvoorhies, Roman, and Pletcher]{libert2007}
+Sergiy Libert, Jessica Zwiener, Xiaowen Chu, Wayne Vanvoorhies, Gregg Roman, and Scott~D. Pletcher.
+\newblock Regulation of {{Drosophila}} life span by olfaction and food-derived odors.
+\newblock \emph{Science (New York, N.Y.)}, 315\penalty0 (5815):\penalty0 1133--1137, February 2007.
+
+\bibitem[Linford et~al.(2013)Linford, Bilgir, Ro, and Pletcher]{linford2013}
+Nancy~J. Linford, Ceyda Bilgir, Jennifer Ro, and Scott~D. Pletcher.
+\newblock Measurement of lifespan in {{Drosophila}} melanogaster.
+\newblock \emph{Journal of Visualized Experiments: JoVE}, \penalty0 (71):\penalty0 50068, January 2013.
+
+\bibitem[{L{\'o}pez-Ot{\'i}n} et~al.(2013){L{\'o}pez-Ot{\'i}n}, Blasco, Partridge, Serrano, and Kroemer]{lopez-otin2013}
+Carlos {L{\'o}pez-Ot{\'i}n}, Maria~A. Blasco, Linda Partridge, Manuel Serrano, and Guido Kroemer.
+\newblock The hallmarks of aging.
+\newblock \emph{Cell}, 153\penalty0 (6):\penalty0 1194, 2013.
+
+\bibitem[Love et~al.(2014)Love, Huber, and Anders]{love2014}
+Michael~I. Love, Wolfgang Huber, and Simon Anders.
+\newblock Moderated estimation of fold change and dispersion for {{RNA-seq}} data with {{DESeq2}}.
+\newblock \emph{Genome Biology}, 15\penalty0 (12):\penalty0 550, December 2014.
+
+\bibitem[Lovick et~al.(2017)Lovick, Omoto, Ngo, and Hartenstein]{lovick2017}
+Jennifer~K. Lovick, Jaison~J. Omoto, Kathy~T. Ngo, and Volker Hartenstein.
+\newblock Development of the anterior visual input pathway to the {{Drosophila}} central complex.
+\newblock \emph{The Journal of Comparative Neurology}, 525\penalty0 (16):\penalty0 3458--3475, November 2017.
+
+\bibitem[Luo et~al.(2021)Luo, Johnson, Chakraborty, Piontkowski, Gendron, and Pletcher]{luo2021}
+Yuan Luo, Jacob~C. Johnson, Tuhin~S. Chakraborty, Austin Piontkowski, Christi~M. Gendron, and Scott~D. Pletcher.
+\newblock Yeast volatiles double starvation survival in {{Drosophila}}.
+\newblock \emph{Science Advances}, 7\penalty0 (20):\penalty0 eabf8896, May 2021.
+
+\bibitem[Miller et~al.(2020)Miller, Dean, Pletcher, and Leiser]{miller2020}
+Hillary~A Miller, Elizabeth~S Dean, Scott~D Pletcher, and Scott~F Leiser.
+\newblock Cell non-autonomous regulation of health and longevity.
+\newblock \emph{eLife}, 9:\penalty0 e62659, December 2020.
+
+\bibitem[Miller et~al.(2022)Miller, Huang, Dean, Schaller, Tuckowski, Munneke, Beydoun, Pletcher, and Leiser]{miller2022}
+Hillary~A. Miller, Shijiao Huang, Elizabeth~S. Dean, Megan~L. Schaller, Angela~M. Tuckowski, Allyson~S. Munneke, Safa Beydoun, Scott~D. Pletcher, and Scott~F. Leiser.
+\newblock Serotonin and dopamine modulate aging in response to food odor and availability.
+\newblock \emph{Nature Communications}, 13\penalty0 (1):\penalty0 3271, June 2022.
+
+\bibitem[Miquel et~al.(1976)Miquel, Lundgren, Bensch, and Atlan]{miquel1976}
+Jaime Miquel, Paul~R. Lundgren, Klaus~G. Bensch, and Henri Atlan.
+\newblock Effects of temperature on the life span, vitality and fine structure of {{Drosophila}} melanogaster.
+\newblock \emph{Mechanisms of Ageing and Development}, 5:\penalty0 347--370, January 1976.
+
+\bibitem[Mohammad et~al.(2017)Mohammad, Stewart, Ott, Chlebikova, Chua, Koh, Ho, and {Claridge-Chang}]{mohammad2017}
+Farhan Mohammad, James~C Stewart, Stanislav Ott, Katarina Chlebikova, Jia~Yi Chua, Tong-Wey Koh, Joses Ho, and Adam {Claridge-Chang}.
+\newblock Optogenetic inhibition of behavior with anion channelrhodopsins.
+\newblock \emph{Nature Methods}, 14\penalty0 (3):\penalty0 271--274, March 2017.
+
+\bibitem[Neckameyer and White(1993)]{neckameyer1993}
+Wendi~S. Neckameyer and Kalpana White.
+\newblock Drosophila {{Tyrosine Hydroxylase}} is {{Encoded}} by the {{Pale Locus}}.
+\newblock \emph{Journal of Neurogenetics}, 8\penalty0 (4):\penalty0 189--199, January 1993.
+
+\bibitem[Ofstad et~al.(2011)Ofstad, Zuker, and Reiser]{ofstad2011}
+Tyler~A. Ofstad, Charles~S. Zuker, and Michael~B. Reiser.
+\newblock Visual place learning in {{Drosophila}} melanogaster.
+\newblock \emph{Nature}, 474\penalty0 (7350):\penalty0 204--209, 2011.
+
+\bibitem[Omoto et~al.(2017)Omoto, Kele{\c s}, Nguyen, Bolanos, Lovick, Frye, and Hartenstein]{omoto2017}
+Jaison~Jiro Omoto, Mehmet~Fatih Kele{\c s}, Bao-Chau~Minh Nguyen, Cheyenne Bolanos, Jennifer~Kelly Lovick, Mark~Arthur Frye, and Volker Hartenstein.
+\newblock Visual {{Input}} to the {{{\emph{Drosophila}}}} {{Central Complex}} by {{Developmentally}} and {{Functionally Distinct Neuronal Populations}}.
+\newblock \emph{Current Biology}, 27\penalty0 (8):\penalty0 1098--1110, April 2017.
+
+\bibitem[Omoto et~al.(2018)Omoto, Nguyen, Kandimalla, Lovick, Donlea, and Hartenstein]{omoto2018}
+Jaison~Jiro Omoto, Bao Chau~Minh Nguyen, Pratyush Kandimalla, Jennifer~Kelly Lovick, Jeffrey~Michael Donlea, and Volker Hartenstein.
+\newblock Neuronal constituents and putative interactions within the {{Drosophila}} ellipsoid body neuropil.
+\newblock \emph{Frontiers in Neural Circuits}, 12\penalty0 (November):\penalty0 1--26, 2018.
+
+\bibitem[Park et~al.(2016)Park, Dus, Kim, Abu, Kanai, Rudy, and Suh]{park2016}
+Jin~Yong Park, Monica Dus, Seonil Kim, Farhan Abu, Makoto~I. Kanai, Bernardo Rudy, and Greg~S.B. Suh.
+\newblock Drosophila {{SLC5A11 Mediates Hunger}} by {{Regulating K}}+ {{Channel Activity}}.
+\newblock \emph{Current Biology}, 26\penalty0 (15):\penalty0 1965--1974, August 2016.
+
+\bibitem[Partridge et~al.(2010)Partridge, Alic, Bjedov, and Piper]{partridge2010}
+Linda Partridge, Nazif Alic, Ivana Bjedov, and Matt D~W Piper.
+\newblock Ageing in {{Drosophila}}: {{The}} role of the insulin/{{Igf}} and {{TOR}} signalling network.
+\newblock \emph{Experimental Gerontology}, 46\penalty0 (5):\penalty0 376--381, September 2010.
+
+\bibitem[Pletcher et~al.(2002)Pletcher, Macdonald, Marguerie, Certa, Stearns, Goldstein, and Partridge]{pletcher2002}
+Scott~D. Pletcher, Stuart~J. Macdonald, Richard Marguerie, Ulrich Certa, Stephen~C. Stearns, David~B. Goldstein, and Linda Partridge.
+\newblock Genome-wide transcript profiles in aging and calorically restricted {{Drosophila}} melanogaster.
+\newblock \emph{Current biology: CB}, 12\penalty0 (9):\penalty0 712--723, April 2002.
+
+\bibitem[Pontillo and Lyu(2025)]{pontillo2025}
+Nicholas Pontillo and Yang Lyu.
+\newblock Perception and {{Longevity Control}} in {{Invertebrate Model Organisms-A Mini-Review}} of {{Recent Advances}}.
+\newblock \emph{Biomolecules}, 15\penalty0 (2):\penalty0 187, January 2025.
+
+\bibitem[Prasad and Hens(2018)]{prasad2018}
+Naveen Prasad and Korneel Hens.
+\newblock Sugar {{Promotes Feeding}} in {{Flies}} via the {{Serine Protease Homolog}} scarface.
+\newblock \emph{Cell Reports}, 24\penalty0 (12):\penalty0 3194--3206.e4, September 2018.
+
+\bibitem[Rhodenizer et~al.(2008)Rhodenizer, Martin, Bhandari, Pletcher, and Grotewiel]{rhodenizer2008}
+Devin Rhodenizer, Ian Martin, Poonam Bhandari, Scott~D. Pletcher, and Mike Grotewiel.
+\newblock Genetic and environmental factors impact age-related impairment of negative geotaxis in {{Drosophila}} by altering age-dependent climbing speed.
+\newblock \emph{Experimental Gerontology}, 43\penalty0 (8):\penalty0 739--748, August 2008.
+
+\bibitem[Ro et~al.(2014)Ro, Harvanek, and Pletcher]{ro2014}
+Jennifer Ro, Zachary~M. Harvanek, and Scott~D. Pletcher.
+\newblock {{FLIC}}: High-throughput, continuous analysis of feeding behaviors in {{Drosophila}}.
+\newblock \emph{PloS One}, 9\penalty0 (6):\penalty0 e101107, 2014.
+
+\bibitem[Ryvkin et~al.(2024)Ryvkin, Omesi, Kim, Levi, Pozeilov, {Barak-Buchris}, Agranovich, Abramovich, Gottlieb, Jacob, N{\"a}ssel, Heberlein, and {Shohat-Ophir}]{ryvkin2024}
+Julia Ryvkin, Liora Omesi, Yong-Kyu Kim, Mali Levi, Hadar Pozeilov, Lital {Barak-Buchris}, Bella Agranovich, Ifat Abramovich, Eyal Gottlieb, Avi Jacob, Dick~R. N{\"a}ssel, Ulrike Heberlein, and Galit {Shohat-Ophir}.
+\newblock Failure to mate enhances investment in behaviors that may promote mating reward and impairs the ability to cope with stressors via a subpopulation of {{Neuropeptide F}} receptor neurons.
+\newblock \emph{PLOS Genetics}, 20\penalty0 (1):\penalty0 e1011054, January 2024.
+
+\bibitem[Salcedo et~al.(1999)Salcedo, Huber, Henrich, Chadwell, Chou, Paulsen, and Britt]{salcedo1999}
+Ernesto Salcedo, Armin Huber, Stefan Henrich, Linda~V. Chadwell, Wen-Hai Chou, Reinhard Paulsen, and Steven~G. Britt.
+\newblock Blue- and {{Green-Absorbing Visual Pigments}} of {{{\emph{Drosophila}}}} : {{Ectopic Expression}} and {{Physiological Characterization}} of the {{R8 Photoreceptor Cell-Specific Rh5}} and {{Rh6 Rhodopsins}}.
+\newblock \emph{The Journal of Neuroscience}, 19\penalty0 (24):\penalty0 10716--10726, December 1999.
+
+\bibitem[Seelig and Jayaraman(2013)]{seelig2013}
+Johannes~D. Seelig and Vivek Jayaraman.
+\newblock Feature detection and orientation tuning in the {{Drosophila}} central complex.
+\newblock \emph{Nature}, 503\penalty0 (7475):\penalty0 262--266, November 2013.
+
+\bibitem[Shell et~al.(2018)Shell, Schmitt, Lee, Johnson, Chung, Pletcher, and Grotewiel]{shell2018}
+Brandon~C. Shell, Rebecca~E. Schmitt, Kristen~M. Lee, Jacob~C. Johnson, Brian~Y. Chung, Scott~D. Pletcher, and Mike Grotewiel.
+\newblock Measurement of solid food intake in {{Drosophila}} via consumption-excretion of a dye tracer.
+\newblock \emph{Scientific Reports}, 8\penalty0 (1):\penalty0 11536, August 2018.
+
+\bibitem[{Stephenson-Jones} et~al.(2020){Stephenson-Jones}, {Bravo-Rivera}, Ahrens, Furlan, Xiao, {Fernandes-Henriques}, and Li]{stephenson-jones2020}
+Marcus {Stephenson-Jones}, Christian {Bravo-Rivera}, Sandra Ahrens, Alessandro Furlan, Xiong Xiao, Carolina {Fernandes-Henriques}, and Bo~Li.
+\newblock Opposing contributions of {{GABAergic}} and glutamatergic ventral pallidal neurons to motivational behaviours.
+\newblock \emph{Neuron}, 105\penalty0 (5):\penalty0 921--933.e5, March 2020.
+
+\bibitem[Strausfeld and Hirth(2013)]{strausfeld2013}
+Nicholas~J. Strausfeld and Frank Hirth.
+\newblock Deep {{Homology}} of {{Arthropod Central Complex}} and {{Vertebrate Basal Ganglia}}.
+\newblock \emph{Science}, 340\penalty0 (6129):\penalty0 157--161, April 2013.
+
+\bibitem[Weaver et~al.(2023{\natexlab{a}})Weaver, Holt, Henry, Lyu, and Pletcher]{weaver2023a}
+K.~J. Weaver, R.~A. Holt, E.~Henry, Y.~Lyu, and S.~D. Pletcher.
+\newblock Effects of hunger on neuronal histone modifications slow aging in {{Drosophila}}.
+\newblock \emph{Science}, 380\penalty0 (6645):\penalty0 625--632, May 2023{\natexlab{a}}.
+
+\bibitem[Weaver et~al.(2023{\natexlab{b}})Weaver, Raju, Rucker, Chakraborty, Holt, and Pletcher]{weaver2023b}
+Kristina~J Weaver, Sonakshi Raju, Rachel~A Rucker, Tuhin Chakraborty, Robert~A Holt, and Scott~D Pletcher.
+\newblock Behavioral dissection of hunger states in {{Drosophila}}.
+\newblock \emph{eLife}, 12:\penalty0 RP84537, June 2023{\natexlab{b}}.
+
+\bibitem[Whittaker et~al.(2000)Whittaker, Royzman, and {Orr-Weaver}]{whittaker2000}
+Allyson~J. Whittaker, Irena Royzman, and Terry~L. {Orr-Weaver}.
+\newblock Drosophila {{Double}} parked: A conserved, essential replication protein that colocalizes with the origin recognition complex and links {{DNA}} replication with mitosis and the down-regulation of {{S}} phase transcripts.
+\newblock \emph{Genes \& Development}, 14\penalty0 (14):\penalty0 1765--1776, July 2000.
+
+\bibitem[Wolff et~al.(2015)Wolff, Iyer, and Rubin]{wolff2015}
+Tanya Wolff, Nirmala~A. Iyer, and Gerald~M. Rubin.
+\newblock Neuroarchitecture and neuroanatomy of the {{Drosophila}} central complex: {{A GAL4-based}} dissection of protocerebral bridge neurons and circuits.
+\newblock \emph{Journal of Comparative Neurology}, 523\penalty0 (7):\penalty0 997--1037, 2015.
+
+\bibitem[Yan et~al.(2023)Yan, Lin, Yu, Wiggin, Wu, Meng, Liu, and Griffith]{yan2023}
+W.~Yan, H.~Lin, J.~Yu, T.~D. Wiggin, L.~Wu, Z.~Meng, C.~Liu, and L.~C. Griffith.
+\newblock Subtype-{{Specific Roles}} of {{Ellipsoid Body Ring Neurons}} in {{Sleep Regulation}} in {{Drosophila}}.
+\newblock \emph{J Neurosci}, 43\penalty0 (5):\penalty0 764--786, February 2023.
+
+\end{thebibliography}

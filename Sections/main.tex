@@ -1,6 +1,6 @@
 \section{Results}
 
-\subsection*{Manipulating subsets of EB neurons extends lifespan}
+\subsection*{R2 and R4 neurons in the Ellipsoid Body extend fly lifespan}
 
 To determine if the activity of ellipsoid body ring neurons is capable of modulating lifespan, we performed a series of experiments in which the activity of EB neurons was manipulated, with the following considerations informing our experimental design. 
 First, we sought to eliminate potential developmental effects and to restrict neuronal manipulations to adults with a developed central complex \citep{lovick2017}. 
@@ -8,22 +8,22 @@ Second, we wanted to avoid tools that require introducing confounding factors, s
 Third, we wanted the flexibility to perform acute, cyclic, or chronic manipulations in ethologically-relevant contexts involving lifespan, behavior, and health assays. 
 To accommodate these requirements, we adopted an optogenetic \citep{govorunova2015} approach to apply different treatment paradigms to freely-moving and fully developed adults by changing light-activation parameters and exposure times. 
 To assay lifespans, we housed flies in custom optogenetic rigs with programmable, interchangeable LED bars, accommodating different channelrhodopsins and allowing us to either activate \citep{klapoetke2014} or inhibit \citep{mohammad2017} targeted neuron populations. 
-Flies were otherwise aged using standard husbandry conditions \citep{linford2013}. 
 Unless otherwise noted, flies in all treatment paradigms were exposed to light activation (40 Hz, 32\% duty cycle) during ZT 0-12 of a 12:12 light:dark cycle, beginning at 3 days post-eclosion and continuing throughout adulthood, promoting a normal circadian rhythm and restricting neuronal manipulations to periods when flies would typically be alert and interacting with their environment (\figref{fig:lifespanfig}A).
+Flies were otherwise maintained using standard husbandry conditions \citep{linford2013}. 
 
 We focused our investigation on R2 and R4, specifically R4d, neurons, as these are required for the perception of dead conspecifics to modulate lifespan \citep{gendron2023} and for food perception to enhance starvation resistance \citep{luo2021}. 
 When flies expressing UAS-CsChrimson \citep{klapoetke2014} in R2 neurons (R2>Chr) were exposed to red light during subjective day, we observed a significantly extended lifespan in both females and males compared to siblings aged in the dark (\figref{fig:lifespanfig}B). 
-This effect was not observed in genotype control flies that did not express CsChrimson, ruling out general effects of red light on lifespan and indicating a direct effect of neuronal activation. 
-Activation of R4d neurons modestly increased female, but not male, lifespan (\figref{fig:lifespansupp}A). 
+This effect was not observed in genotype control flies that did not express CsChrimson, ruling out general lifespan-extending effects of red light and indicating a direct effect of neuronal activation. 
+Activation of R4d neurons had little meaningful effects on lifespan (\figref{fig:lifespansupp}A). 
 However, when R4d neurons were inhibited by exposing flies expressing the anion channelrhodopsin GtACR1 \citep{mohammad2017} to green light during subjective day, lifespan was significantly extended in both females and males (\figref{fig:lifespanfig}C). 
 These results should be interpreted with caution, however, because we observed that exposure to high-intensity green light caused a significant reduction in lifespan in all cohorts (roughly 50\% in females and 33\% in males). 
-Nevertheless, GtACR1 flies lived modestly but significantly longer than control flies in the light, and this difference was either reversed or not observed in the dark.
+Nevertheless, GtACR1 flies lived modestly but significantly longer than control flies in the light, a pattern that was not observed in the dark.
 
 % Got rid of the "ixn p-value" notes here since we decided not to use Cox regressions
 The observation that R2 and R4d neuron activation had different effects on lifespan was somewhat unexpected given that measures of R2 and R4 neuronal activity were both observed to be higher following exposure to dead conspecifics \citep{gendron2023}, which accelerates aging \citep{chakraborty2019}. 
 We therefore decided to examine the effect of simultaneous activation of R2 and R4 (comprising R4d and R4m subpopulations) using a split-GAL4 driver. 
-To our surprise, simultaneously activating both populations extended lifespan in males and females (\figref{fig:lifespanfig}D) to a \pink{greater} extent than did R2 activation alone. 
-In this experiment, red light exposure modestly increased lifespan of CsChrimson-expressing flies as well as their genotypic controls, but the increase in lifespan was significantly \pink{greater} in CsChrimson flies. 
+To our surprise, simultaneously activating both populations extended lifespan in males and females (\figref{fig:lifespanfig}D) to a greater extent than did R2 activation alone. 
+In this experiment, red light exposure modestly increased lifespan of CsChrimson-expressing flies as well as their genotypic controls, but the increase in lifespan was significantly greater in CsChrimson flies. 
 % Highlights - need Cox regression or something?
 Given the substantial increase in lifespan observed following simultaneous R2/R4 activation, we asked whether even broader manipulation of ellipsoid body neurons would recapitulate or even potentiate the lifespan extension that we observed following R2 and R2/R4 neuron activation. 
 Using a driver that targets additional EB neuron populations, including at least R3 neurons, we observed that broader EB inhibition had no effect on lifespan (\figref{fig:lifespanfig}E, left) and activation increased lifespan to an equal or lesser extent than R2 or R2/R4 activation alone (\figref{fig:lifespanfig}E, right). 
@@ -41,7 +41,7 @@ To investigate how R2 and R4 neurons modulate aging and whether they do so via s
 We chose to sample flies after one week of optogenetic manipulation to avoid survivorship bias that might arise at later time points while still allowing time for physiological differences to manifest. 
 Flies were transferred directly from experimental rigs to liquid nitrogen, then decapitated by vortexing, and heads were collected with a sieve. 
 Five biological replicates of 10 heads were collected for CsChrimson/GtACR1 and control genotypes from flies maintained either in constant darkness or channel-activating red/green lights during the 12 hours of subjective day. 
-Whole head samples comprised primarily brain tissue, although other tissues were present, including the head fat body and chitinous exoskeleton tissue. 
+Whole head samples comprised primarily brain tissue, although other tissues were present, including the head fat body. 
 
 We used the DESeq2 package in R \citep{love2014} to identify transcriptional changes associated with enhanced R2 neural activity.
 We specified a statistical model in which genotype (CsChrimson, control) and light stimulation (yes, no) served as main effects. 
@@ -50,7 +50,7 @@ After one week of R2 neuron activation, we identified 123 genes (70 downregulate
 Expression data from these genes produced clear separation of samples by treatment, indicating strong reproducibility across each of the five replicates (\figref{fig:seqfig}A). 
 Hierarchical clustering revealed that samples from flies with activated R2 neurons (i.e. R2>CsChrimson flies exposed to red light) formed a distinct group from flies without neuronal activation, including CsChrimson-expressing flies maintained in constant darkness as well as control genotype samples maintained in either darkness or red light. 
 
-Despite a stringent threshold of p < 0.01, we observed that one week of R2 neuron activation drove broad but pathway-enriched changes in the head. 
+Despite a stringent threshold (requiring a false discovery p < 0.01), we observed that one week of R2 neuron activation drove broad but pathway-enriched changes in the head. 
 GO analysis of upregulated genes revealed enrichment for ribosome biogenesis and rRNA processing, insulin signaling, and response to starvation (\figref{fig:seqfig}B). 
 Downregulated genes were enriched for protein folding and ER stress response pathways (\figref{fig:seqfig}C). 
 Together, these results suggest that activation of R2 neurons induces a distinct metabolic state in the head, characterized by altered nutrient signaling and reduced ER stress. 
@@ -58,8 +58,7 @@ It also caught our attention that many of the differentially-expressed genes hav
 For example, we observed the upregulation of multiple genes consistent with dampened insulin-like signaling (e.g., \textit{foxo}, \textit{Thor} (encoding d4E-BP), \textit{InR}, \textit{dilp6}) \citep{partridge2010}; upregulation of autophagy-related genes such as \textit{Atg101} \citep{guo2019}; upregulation of \textit{ImpL2}, an IIS antagonist which has been linked to lifespan extension \citep{alic2011}; and higher levels of \textit{Cbs}, which encodes the rate-limiting enzyme in the transsulfuration pathway and increases lifespan \citep{kabil2011}. 
 Together, these results demonstrate that short-term, part-time activation (12L/12D) of a few dozen R2 neurons drives significant changes in multiple aging-, nutrient-, and stress-response pathways. 
 
-Following one week of R4d silencing, far fewer genes were found to be differentially expressed (\figref{fig:seqfig}D), although R4d-specific changes were likely masked by remarkably potent independent effects of green light exposure---presumably because green light, unlike red light \citep{hanai2008}, is visible to flies. 
-Our green light paradigm was also more intense to compensate for its shorter wavelength, as the EB sits deep in the brain \citep{wolff2015}.
+Following one week of R4d silencing, far fewer genes were found to be differentially expressed (\figref{fig:seqfig}D), although R4d-specific changes were likely masked by remarkably potent independent effects of intense green light exposure \citep{wolff2015}.
 As observed for the R2 data, sample-based clustering grouped biological replicates as more closely related to each other than to samples from all other treatments, demonstrating reproducibility. 
 Consistent with its significant negative effect on lifespan (\figref{fig:lifespanfig}C), green light exposure affected the expression of 1,817 genes regardless of genotype (experiment-wise p < 0.01). 
 However, only 11 genes (9 downregulated and 2 upregulated) were associated with a significant p-value for the interaction term of the model, which indicates a differential response in flies with R4d neurons silenced. 
@@ -67,28 +66,35 @@ Interestingly, in both genotypes, green light drove strong upregulation of multi
 Other differentially-expressed genes following R4d inhibition include the enzyme tyrosine hydroxylase (\textit{ple}), which catalyzes the rate-determining step in dopamine synthesis \citep{neckameyer1993}; the serine protease homolog \textit{scarface} \citep{prasad2018}; and several genes of unknown function. 
 % Sugar promotes feeding via Scarface, note to self (2018)
 
+% I don't think this is why.  It's clearly more than just vision. I think that level of green light is physically harmful in some way.
+% presumably because green light, unlike red light~\citep{hanai2008}, is visible to flies.
+
+
 % moved to Discussion: "Temeratures in our ventilated..." 
 We next asked how transcriptional changes following simultaneous activation of R2 and R4 compared to manipulations of the individual neuron populations. 
-When R2 and R4 neurons were activated simultaneously, we once again observed excellent reproducibility with replicate samples within treatments being clustered together and flies with activated R2/R4 neurons forming a cluster distinct from both genotype and light controls (\figref{fig:seqfig2}A). 
-At a cutoff of p < 0.01, R2/R4 activation resulted in roughly twice as many transcriptional changes as did R2 activation alone (198 upregulated and 82 downregulated). 
+When R2 and R4 neurons were activated simultaneously, we once again observed high reproducibility with replicate samples within treatments being clustered together and flies with activated R2/R4 neurons forming a cluster distinct from both genotype and light controls (\figref{fig:seqfig2}A). 
+Using a false discovery rate-corrected cutoff of p < 0.01, we observed that R2/R4 activation resulted in roughly twice as many transcriptional changes as did R2 activation alone (198 upregulated and 82 downregulated). 
 A GO analysis of the upregulated genes was dominated by metabolic pathways related to amino acid metabolism as well as pentose-phosphate- and NADPH-generating processes (\figref{fig:seqfig2}B). 
-We also observed an upregulation of known lifespan-modulating genes involved in one carbon metabolism, including \textit{Cbs}, \textit{Gnmt}, \textit{Glyp}, \textit{Glys}, \textit{Nmdmc}, and \textit{Zw}. 
+We also observed an upregulation of severalknown lifespan-modulating genes involved in one carbon metabolism, including \textit{Cbs}, \textit{Gnmt}, \textit{Glyp}, \textit{Glys}, \textit{Nmdmc}, and \textit{Zw}. 
 Genes involved in starvation responses and lipid and carbohydrate catabolism were significantly downregulated (\figref{fig:seqfig2}C), which was in contrast to the upregulation of these pathways that we observed when R2 neurons were activated alone. 
-Notably, rather than recapitulating the effects of either of the previous two manipulations, or impacting a set of genes that was effectively a union of the effects of the focused manipulations, the transcriptional profile of R2/R4-activated flies was distinct from those of both R2 activation and R4d inhibition, even where it impinged on similar pathways (\figref{fig:seqfig2}D-E). 
+Notably, rather than recapitulating the effects of either of the previous two manipulations, or impacting a set of genes that was effectively a union of the two, the transcriptional profile of R2/R4-activated flies was distinct from those of both R2 activation and R4d inhibition, even where it impinged on similar pathways (\figref{fig:seqfig2}D-E). 
 
-\subsection*{EB ring neuron manipulations uncouple nutrient-state signaling from behavioral and physiological outputs}
-
+%\subsection*{EB ring neuron manipulations uncouple nutrient-state signaling from behavioral and physiological outputs}
+% uncouple is a verb that I don't think we have proven.  In other words we don't see a coupling event being uncoupled following activation. so maybe modify this a bit. Made a suggestion.
+\subsection*{EB ring neurons modulate nutrient-state signaling without corresponding behavioral and physiological outputs}
 Manipulations of R2 and R4d neurons alone and in combination produced markedly divergent transcriptional profiles in head tissues (\figref{fig:seqfig2}C-D). 
-This is at odds with a strict reading of the I1-FFL circuit model \citep{ishimoto2020}, which would predict that these three interventions ultimately converge on a common downstream state. Our data are instead more consistent with functionally distinct activity patterns across R2 and R4 populations encoding different interpretations of sensory stimuli or internal physiological signals, in keeping with the ellipsoid body's established role as an integrative center. 
-If each manipulation imposes a distinguishable internal state, those differences should in principle be reflected not only in gene expression but also in the behavioral and physiological programs those states normally coordinate. 
+This is at odds with a strict application of the I1-FFL circuit model \citep{ishimoto2020}, which would predict that these three interventions ultimately converge on a common downstream state. Our data are instead consistent with functionally distinct activity patterns across R2 and R4 populations encoding different interpretations of sensory stimuli or internal physiological signals, in keeping with the ellipsoid body's established role as an integrative center. 
+\hl{If each manipulation imposes a distinguishable internal state, those differences should in principle be reflected not only in gene expression but also in the behavioral and physiological programs those states normally coordinate.}
 We therefore asked how R2 activation, R4d inhibition, and R2/R4 co-activation affected feeding, energy storage and mobilization, and organismal performance, readouts expected to track changes in nutrient state, motivational drive, and overall physiological condition.
+
+%% This paragraph may paint us in a corner.  Following your logic, the lack of effects imply they don't impose distiunguishable internal states.
 
 \subsubsection*{Feeding behavior does not explain nutrient-state transcriptional signatures}
 
 Reduced nutrient intake, and homeostatic hunger drive \textit{per se}, slow aging in \textit{Drosophila} \citep{pletcher2002,weaver2023a}, and GO analyses of differentially-expressed genes in flies with activated R2 and R2/R4 neurons identified pathways indicative of altered nutrient state and metabolism. 
 We therefore asked whether the effects of neuronal activation might include changes in feeding that indicate a hunger state or that underlie the observed transcriptional differences. 
 To assay for feeding changes, we measured the volume of food intake using a consumption-excretion (“con-ex”) assay \citep{shell2018}. 
-Flies were placed on food containing a blue dye tracer for 24 hours under the same light regime used for lifespans, after which we quantified the amount of dye deposited on vial walls.  
+Flies were placed on food containing a blue dye tracer for 24 hours under the same light regime used for lifespan assays, after which we quantified the amount of dye deposited on vial walls.  
 Because flies can behaviorally and physiologically adapt to chronic neuron manipulation \citep{weaver2023a}, we tested light-naïve flies as well as flies that had been pre-treated with light for one week or one month, to evaluate changes over a significant portion of the lifespan. 
 
 We found no clear evidence that activation of R2 neurons alone or R2/R4 neurons in combination produces consistent changes in food consumption. 
@@ -100,41 +106,40 @@ Following a month of light pre-treatment, males, but not females, exhibited a si
 There were also no consistent effects of R2/R4 neuron activation on feeding. The interaction term was not statistically significant for males or females that were light-naïve (\figref{fig:conexfig}B, left panels for each sex) or given one week (\figref{fig:conexfig}B, center) or one month 
 (\figref{fig:conexfig}B, right) of pre-treatment. 
 We observed a nominally significant increase in R2/R4-activated female feeding after one week (p = 0.041), but this effect did not survive correction for multiple comparisons.
-These results suggest that R2 and R2/R4 activation do not robustly regulate feeding, with only a modest effect seen in aged males. 
+These results suggest that R2 and R2/R4 activation do not robustly regulate feeding. 
  % Moved to Discussion: "Our GO analysis revealed markedly..."
+
 
 \subsubsection*{TAG depletion does not predict starvation resistance after EB circuit manipulation}
 
 % TAG stats done. No correction now (only one experiment per sex/driver)
 % Starvation changed to reflect stats
 If the starvation-like transcriptional signature induced by R2 activation reflects a true nutrient-deprived physiological state, we might expect flies to exhibit hallmarks of nutrient deprivation, including reduced triglyceride (TAG) stores as well as altered starvation resistance and activity levels. 
-After one week of R2 activation, TAG levels were unchanged in females but significantly reduced in males (\figref{fig:conexfig}C), whereas R2/R4 activation significantly reduced TAG in both sexes (\figref{fig:conexfig}D), despite the observed decrease in starvation-response genes. 
-We then tested whether these differences predicted survival under nutrient deprivation. 
-Females of both genotypes were more sensitive to starvation than controls (\figref{fig:conexfig}E-F, left panels). 
-In males, starvation outcomes diverged despite overlapping effects on TAG: R2>Chr males were only modestly sensitized to starvation, whereas R2/R4d>Chr males were significantly more starvation sensitive (\figref{fig:conexfig}E-F, right panels). 
-Thus, reduced TAG did not consistently predict starvation sensitivity under these conditions. 
-This dissociation was especially notable in R2>Chr females, in which longevity extension and starvation-associated transcriptional signatures occurred without detectable TAG depletion; nevertheless, they were accompanied by reduced starvation resistance. 
-Together, these findings indicate that EB neuron activation can alter lipid storage and starvation survival in ways not explained by food intake and not simply predicted by inferred nutrient state, reinforcing the conclusion that neural activation decouples nutrient-state signaling from canonical metabolic and physiological outputs.
+After one week of R2 activation, TAG levels were unchanged in females but significantly reduced in males (\figref{fig:conexfig}C), whereas R2/R4 activation significantly reduced TAG in both sexes (\figref{fig:conexfig}D), contrary to the observed decrease in starvation-response genes. 
+We then examined if TAG differences \hl{correct as suggested?} predicted survival under nutrient deprivation. 
+Activation of both neuron populations resulted in females that were more starvation sensitive (\figref{fig:conexfig}E-F, left panels), while this was not true for males (\figref{fig:conexfig}E-F, right panels). \hl{correct as suggested?}
+That starvation sensitivity was not associated with reduced TAG was especially notable by R2>Chr females, in which longevity extension and starvation-associated transcriptional signatures occurred without detectable TAG depletion; nevertheless, they were accompanied by reduced starvation resistance. 
+Together, these findings indicate that EB neuron activation can alter lipid storage and starvation survival in ways not explained by food intake and not simply predicted by inferred nutrient state, suggesting that neural activation influences nutrient-state signaling independent of canonical metabolic and physiological outputs.
 
-We next asked whether these manipulations altered gross locomotor activity, using the \textit{Drosophila} Activity Monitoring System (DAMS) \citep{pfeiffenberger2010} to measure activity over 48 hours during optogenetic stimulation. 
-Flies were housed individually in horizontal tubes and maintained either under activating light or in darkness for the duration of the assay. 
-Acute R2 activation did not alter mean beam crossings in females, but it modestly increased activity in males relative to genetic controls in light (\figref{fig:damsfig}A, left). 
-[R2 1 week, \figref{fig:damsfig}A, center.] 
-[R2 1 month, \figref{fig:damsfig}A, right.] 
-[R2/R4 naive, \figref{fig:damsfig}B, left.] 
-After one week (\figref{fig:damsfig}B, center) and one month (\figref{fig:damsfig}B, right) of pre-treatment, R2/R4-activated flies of both sexes exhibited locomotor activity indistinguishable from controls.
-We found modest evidence for a decrease in female activity after one week (p = 0.035), but it did not survive multiple testing correction.
-Thus, neuronal activation did not consistently influence gross locomotor activity. 
-Although male R2 flies showed increased activity compared to genetic controls, they were not more active than dark controls (p = 0.053), even though TAG levels of male R2 flies were significantly lower than those of dark controls (\figref{fig:conexfig}C).
-% Naive is inappropriate comparison; revisit when I have 1 week R2 data
-Thus, increased movement is not sufficient to explain the decreased TAG stores in R2 males.
-These DAMS results are particularly informative for R2/R4>Chr flies, in which TAG stores were reduced despite unchanged feeding and a trend toward lower, rather than higher, movement. 
-Notably, we did not observe the hyperactivity classically associated with starvation-driven food-seeking in flies, consistent with our earlier finding that these manipulations impose nutrient-state-like programs without evoking canonical behavioral responses. 
-Together, these data argue that increased gross locomotor activity is unlikely to account for the changes in TAG levels or starvation resistance caused by EB neuron activation.
+% We next asked whether these manipulations altered gross locomotor activity, using the \textit{Drosophila} Activity Monitoring System (DAMS) \citep{pfeiffenberger2010} to measure activity over 48 hours during optogenetic stimulation. 
+% Flies were housed individually in horizontal tubes and maintained either under activating light or in darkness for the duration of the assay. 
+% Acute R2 activation did not alter mean beam crossings in females, but it modestly increased activity in males relative to genetic controls in light (\figref{fig:damsfig}A, left). 
+% [R2 1 week, \figref{fig:damsfig}A, center.] 
+% [R2 1 month, \figref{fig:damsfig}A, right.] 
+% [R2/R4 naive, \figref{fig:damsfig}B, left.] 
+% After one week (\figref{fig:damsfig}B, center) and one month (\figref{fig:damsfig}B, right) of pre-treatment, R2/R4-activated flies of both sexes exhibited locomotor activity indistinguishable from controls.
+% We found modest evidence for a decrease in female activity after one week (p = 0.035), but it did not survive multiple testing correction.
+% Thus, neuronal activation did not consistently influence gross locomotor activity. 
+% Although male R2 flies showed increased activity compared to genetic controls, they were not more active than dark controls (p = 0.053), even though TAG levels of male R2 flies were significantly lower than those of dark controls (\figref{fig:conexfig}C).
+% % Naive is inappropriate comparison; revisit when I have 1 week R2 data
+% Thus, increased movement is not sufficient to explain the decreased TAG stores in R2 males.
+% These DAMS results are particularly informative for R2/R4>Chr flies, in which TAG stores were reduced despite unchanged feeding and a trend toward lower, rather than higher, movement. 
+% Notably, we did not observe the hyperactivity classically associated with starvation-driven food-seeking in flies, consistent with our earlier finding that these manipulations impose nutrient-state-like programs without evoking canonical behavioral responses. 
+% Together, these data argue that increased gross locomotor activity is unlikely to account for the changes in TAG levels or starvation resistance caused by EB neuron activation.
 
 \subsection*{Negative geotaxis reveals delayed, sex-specific effects of ring neuron manipulation}
 
-Measures of baseline feeding, TAG storage, and spontaneous locomotor activity did not clearly distinguish the effects of R2 and R2/R4d manipulations, leading us to ask whether differences would manifest following an acute behavioral challenge. 
+Measures of baseline feeding, TAG storage, and starvation resistance did not clearly distinguish the effects of R2 and R2/R4d manipulations, leading us to ask whether differences would manifest following an acute behavioral challenge. 
 To assess this, we tested negative geotaxis, an evoked climbing response widely used to measure age-sensitive locomotor performance and neuromuscular function in \textit{Drosophila} \citep{rhodenizer2008,jones2009}. 
 Flies were assayed using our custom “D-Drop” platform, which drops flies in individual lanes and uses video tracking to quantify several characteristics of their subsequent climbing behavior. 
 To gauge climbing speed and overall robustness, we focused on maximum height reached 9 sec after drop and total upward distance climbed over 30 sec. 
@@ -144,7 +149,7 @@ R2/R4d activation likewise produced no detectable effect after one week of pre-t
 After one month of pre-treatment, however, female R2/R4d>Chr flies outperformed controls in both height at 9 sec and total upward distance. (\figref{fig:ddropfig}B). Males showed a modest decrease in climbing ability (Total Up p = 0.045), but this effect did not survive multiple testing correction.  
 
 We observed that green light \textit{per se} shortens lifespan (\figref{fig:lifespanfig}C) and causes molecular stress responses (\figref{fig:seqfig}D) in both control and GtACR1 flies, and that R4d neuron inhibition may buffer these stress responses. 
-We therefore asked if the effects of green light manifest as reduced negative geotaxis and if R4d inhibition would promote endurance against this purported stress. 
+We therefore asked if the effects of green light stess manifest physically as reduced negative geotaxis and if R4d inhibition would promote endurance against this purported stress. 
 In females, we saw a modest trend toward worse climbing after one week of R4d inhibition (Total Up p = 0.035); however, after multiple testing correction, there were no detectable effects at either time point (\figref{fig:ddropfig}C). 
 In males, by contrast, R4d inhibition improved both climbing metrics after one week pre-treatment, and this advantage persisted after five weeks of pre-treatment. 
 R4d activation, by comparison, produced only nominally significant improvements in climbing in either sex prior to correction (Total Up female p = 0.040, male p = 0.046) (\figref{fig:ddropsupp}A). 
@@ -154,20 +159,22 @@ No effects were evident at the one-week time point corresponding to our transcri
 Divergent effects emerged only later in R2/R4 females, but whether these represent delayed consequences of the earlier transcriptional programs remains unclear. 
 By contrast, R4d inhibition produced a robust and sustained improvement in male climbing performance. 
 Because comparable transcriptomic data are not available for males, we cannot determine whether this sex-specific phenotype reflects a shared molecular program with different behavioral output or a distinct underlying mechanism. 
-Taken together, these data indicate that our ring neuron manipulations do not significantly alter behavioral patterns and do not produce gross body weight or locomotor deficits. 
-Transcriptional states characterized by GO do not map onto detectable differences in these common health and behavior readouts. 
-Lifespan extension is therefore unlikely to be mediated by changes in these phenotypes, and may instead be due to direct effects of neuron manipulation on downstream signaling and metabolic pathways.
+Taken together, these data indicate that our ring neuron manipulations do not significantly alter behavioral patterns and do not produce gross nutritional, body composition or performance deficits. \hl{Correct as suggested?} 
+Transcriptional patterns characterized by GO do not map onto detectable differences in these common health and behavior readouts. 
+Lifespan extension is therefore not a secondary consequence of changes in these phenotypes. Instead, it may be due to changes in neural states and the downstream signaling and metabolic pathways they influence.
+
+% Suggest removing this because it is kind of obvious and might confuse a little the idea of state effects.
+
 
 \subsection*{R2, R4d, and R2/R4 activation produce distinct valence states}
 
 % note to self: nothing is BH-corrected in the supp since everything is its own metric, so stats are raw anova p.
-Activation of R2 neurons and co-activation of R2/R4 neurons produced distinct transcriptional responses without consistent effects on feeding, locomotor activity, or overt physiology, arguing against a model in which EB activity influences aging solely through a shared set of behavioral or physiological outputs. 
-Rather, these results suggested that EB ring neurons may act instructively, imposing distinct internal states whose immediate consequences are separable but whose downstream effects converge on lifespan regulation. 
+Our results suggested that EB ring neurons may act instructively, imposing distinct internal states whose immediate consequences are separable but whose downstream effects converge on lifespan regulation. 
 In natural environments, ring neuron activity is engaged by behaviorally relevant stimuli, including cues that drive discrimination of nutritive value \citep{park2016} or avoidance of threatening conditions \citep{buhl2021}. 
 Because standard husbandry conditions are relatively benign and homogeneous, however, the motivational consequences of experimentally imposed EB states may be muted under baseline conditions. 
 We therefore next asked whether these manipulations differ in valence, reasoning that their appetitive or aversive properties might clarify the functional logic by which EB circuits influence lifespan.
 
-We first examined valence using the FLIC assay, which permits flies to associate optogenetic stimulation with self-initiated interactions with liquid food at a defined well \citep{ro2014}. 
+We first measured valence using the FLIC assay, which permits flies to associate optogenetic stimulation with self-initiated interactions with liquid food at a defined well \citep{ro2014}. 
 In this paradigm, individual flies were presented with a choice between a water well and a 10\% sucrose well, and closed-loop optogenetic stimulation (red light for CsChrimson or green light for GtACR1) was triggered selectively by contact with the sucrose food. 
 Each “trigger” fly was paired with a yoked control that received identical light stimulation determined solely by the behavior of the trigger fly, without relationship to its own feeding behavior (\figref{fig:flicfig}A). 
 This design allowed us to ask whether activation or inhibition of specific EB neuron populations altered the motivational value of the sucrose-associated food while accounting for non-associative consequences of light exposure (increased hunger, for example). 
@@ -178,12 +185,12 @@ Increased sucrose interactions, more frequent visits, or longer visit durations 
 Due to the sophistication and limited throughput of this assay, and because our transcriptomic analyses were performed in females, we restricted this component of our study to females to enable direct comparison between observed valence and underlying transcriptional states.
 
 Again, we first tested R2 activation, prompted by the observation that R2>Chr animals exhibited transcriptomic signatures consistent with nutrient stress and starvation-like state changes. 
-If so, activation of R2 neurons might be negatively valenced or might alter the motivational salience of a nutritive stimulus, respectively. 
+If so, we reasoned that activation of R2 neurons might be negatively valenced or might alter the motivational salience of a nutritive stimulus, respectively. 
 Indeed, light-naïve R2>Chr trigger flies showed a marked reduction in interactions with the sucrose well relative to yoked controls, indicating that contact with the trigger well was strongly aversive despite the inherent attractiveness of sucrose (\figref{fig:flicfig}B, left). 
 This effect was accompanied by a significant reduction in event duration (\figref{fig:flicsupp}A, left), suggesting that flies rapidly disengaged from the well once stimulation was triggered. 
 Notably, however, R2>Chr flies did not reduce the number of visits to the sucrose well, implying that R2 activation did not simply condition avoidance of the well itself (\figref{fig:flicsupp}A, right). 
 Instead, these data suggest a more acute aversive state that promotes premature disengagement while leaving repeated approach behavior largely intact. 
-This trend remained evident after one week (\figref{fig:flicfig}B; p = 0.035 uncorrected) and one month (\figref{fig:flicfig}B, right) of light pre-treatment, indicating that the negative valence associated with R2 activation is persistent and does not substantially diminish with chronic exposure.
+This trend remained evident after one week (\figref{fig:flicfig}B; p = 0.035 uncorrected) and one month (\figref{fig:flicfig}B, right) of light pre-treatment, indicating that the negative valence associated with R2 activation does not substantially diminish with chronic exposure.
 
 Because the transcriptional profile induced by R2 activation was associated with genes involved in starvation response, we considered whether the aversive effect of R2 stimulation might obscure a parallel increase in motivation to feed. 
 In principle, if R2 activation enhanced food drive while simultaneously imposing negative valence, then the immediate aversive response of trigger flies could preclude increased sucrose consumption. 
@@ -235,27 +242,26 @@ R4d manipulations, by contrast, did not yield a valence signature stable enough 
 Together, these findings argue that EB ring neurons do not make fixed, additive contributions to motivational state, but instead generate qualitatively distinct and differentially stable internal states through combinatorial recruitment, raising the question of how such state differences relate to the common downstream outcome of extended lifespan.
 
 \subsection*{R2 neuron activation remodels metabolism in peripheral tissues}
-Finally, to examine how EB manipulation globally influences physiology, we performed bulk RNA-sequencing and metabolomic profiling on whole bodies of female flies. 
-Our preliminary investigation was focused on R2-activated flies, as we were especially interested in whether the starvation-response program observed in heads would manifest in the periphery. 
+Finally, to examine how EB neuron manipulation in the brain influences gene expression and physiology in the periphery, we performed bulk RNA-sequencing and metabolomic profiling on whole bodies of female flies. 
+We focused on R2-activated flies to determine whether the starvation-response program observed in heads would manifest in the periphery. 
 Body donors were reared and collected the same way as head donors. 
 Bodies were separated from heads using a sieve, and five bodies were collected for each of five samples. 
 % My numbers are slightly different from Scott's (his were 234/182); assume he re-ran his own analysis when writing this?
 Using DESeq2 to identify genes with a significant genotype (CsChrimson, control) and light stimulation (yes, no) interaction, we identified \pink{229 upregulated and 181 downregulated} genes in peripheral tissues (experiment-wise p-value < 0.01) (\figref{fig:bodyseqsupp}A). 
 Strikingly, the peripheral transcriptional response was nearly completely distinct from that observed in the head, with only \pink{7 of 526} differentially-expressed genes shared between compartments (\figref{fig:bodyseqfig}A), indicating that R2 activation drove tissue-specific transcriptional programs. 
 
-Despite this disparity in response genes, downregulated processes were consistent with the starvation-like transcriptional profile in heads, as R2 activation drove peripheral downregulation of genes involved in cell cycle progression and DNA synthesis and repair (\figref{fig:bodyseqfig}B). 
+Despite the disparity in response genes, downregulated processes were consistent with the starvation-like transcriptional profile in heads, as R2 activation drove peripheral downregulation of genes involved in cell cycle progression and DNA synthesis and repair (\figref{fig:bodyseqfig}B). 
 These included replication factors \textit{PolA2}, \textit{Cdc45}, and the Cdt1 ortholog \textit{dup} \citep{whittaker2000}; mitotic regulators \textit{Cdk1}, \textit{twe} (Cdc25), and \textit{fzy} (Cdc20); kinetochore and centrosome components \textit{Mis12}, \textit{Sas-4} (CENPJ), and \textit{spd-2} (Cep192); and DNA repair factors \textit{RecQ5}, \textit{Mlh1}, and \textit{Pms2}. Chromatin remodeling and transcriptional factors were likewise downregulated, indicating a shift away from proliferative states. 
 
 By contrast, we did not observe an upregulation of canonical stress- or starvation-response genes in bodies. 
 Instead, the peripheral response was characterized by electrochemical homeostasis and organellar acidification (\figref{fig:bodyseqfig}C). 
 Among the most significantly upregulated genes were more than a dozen vacuolar H$^{+}$-ATPase subunits and accessory factors, including \textit{Vha16-1}, \textit{Vha68-2}, \textit{Vha44}, \textit{VhaAC45}, \textit{VhaSFD}, \textit{Vha26}, \textit{VhaAC39-1}, \textit{Vha55}, \textit{Vha100-2}, and \textit{ATP6AP2}. 
 This V-ATPase program was not accompanied by the upregulation of autophagy or trafficking pathways. 
-We also noted the upregulation of three inwardly rectifying potassium channels (\textit{Irk1}, \textit{Irk2}, and \textit{Irk3}). 
-Additionally, we observed enrichment of lipid-associated processes, including genes involved in fatty acid synthesis (\textit{ACC}) and ether phospholipid synthesis (\textit{Agps}). 
+We also noted the upregulation of three inwardly rectifying potassium channels (\textit{Irk1}, \textit{Irk2}, and \textit{Irk3}), as well as an enrichment of lipid-associated processes, including genes involved in fatty acid synthesis (\textit{ACC}) and ether phospholipid synthesis (\textit{Agps}). 
 Notably, we also observed inductions of \textit{Sam-S} and \textit{Gnmt}, indicating changes in methionine flux.
 
 Targeted metabolomic profiling of peripheral tissues using a similar experimental design, but a less restrictive experiment-wise p < 0.05 cutoff, revealed a broad and coordinated metabolic remodeling that reinforced our interpretation of the transcriptional response. 
-PCA revealed that the single most influential source of variance in the data was the effect of neuronal activation, as PC1 (accounting for 41.2\% of the variance) separated R2>Chr flies exposed to light from all other samples (\figref{fig:metabfig}A). 
+PCA revealed that the single most influential source of variance in the data was neuronal activation, as PC1 (accounting for 41.2\% of the variance) separated R2>Chr flies exposed to light from all other samples (\figref{fig:metabfig}A). 
 A total of 87 metabolite abundances were found to be significantly affected by R2 neuron activation (\figref{fig:metabfig}B-C). 
 Among the 47 metabolites reduced in abundance, the dominant pattern was broad depletion of free nucleotides and nucleosides, including purines, pyrimidines, and modified nucleoside species, alongside a broad reduction in free amino acids and derivatives. 
 Reductions in S-adenosylhomocysteine (SAH), choline, glycerophosphocholine, and acylcarnitines were also observed. 
