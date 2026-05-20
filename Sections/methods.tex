@@ -5,6 +5,7 @@
 %% Kristy Science paper
 Fly stocks were maintained on a standard cornmeal-based larval growth medium and in a controlled environment (21C, 60\% humidity) with a 12:12hr light:dark cycle. We controlled the developmental larval density by manually aliquoting 32 ul of collected eggs into individual bottles containing 25-50mL of food at 25C. Following eclosion, mixed sex flies were kept on SY10\% medium (10\% w/v sucrose and 10\% w/v yeast) for 2-4 days until they were sorted by sex and transferred onto chemically defined food or kept on SY10\% food, as needed, for experiments. Experimental flies were flipped to fresh food e/o day until completion of the experiment. Unless otherwise noted, we used mated female flies that were between 7-12 days old for all experiments. The following stocks were used for experiments: Canton-S and w 1118 were obtained from the Bloomington Drosophila Stock Center. UAS-CsChrimson (BDSC #55135 and #55136), UAS-H3.3A-GFP (BDSC #68241), UAS-HIRA RNAi (BDSC #35346), GMR50H05-GAL4 (BDSC #38764), Trh-GAL4 (BDSC #38388), UAS-BCAT RNAi (VDRC KK110229), UAS-BCAT RNAi (VDRC GD25204), and Rpd3def24 (BDSC 32239) were purchased from BDSC or the Vienna Drosophila Resource Center, as indicated. PoxN mutants were provided by J. Alcedo (Wayne State University). Nsyb-GAL4 was provided by L. Buttitta (University of Michigan, MI) and Nsyb-GeneSwitch-GAL4 was obtained from A. Sehgal (Perelman School of Medicine, PA). UAS-GtACR was provided by M. Dus (University of Michigan, MI). All transgenic lines used in this study, with the exception of UAS-H3.3A-GFP, UAS-HIRA RNAi, Nsyb-GAL4, Nsyb-GeneSwitch-GAL4, and Rpd3def24 were back-crossed 10 generations to w-;Canton-S prior to experiments
 
+\subsection{Lifespan measurements}
 Lifespan measurements74
 Lifespans were measured using established protocols (69). We established 6-10 replicate vials75
 for each treatment, with 20 flies per vial. Flies were transferred to fresh media every 2-3 days, at76
@@ -27,6 +28,18 @@ parameters. Lifespan and Con-Ex experiments used a stimulus frequency of 40 Hz a
 width of 800 ms. Flies were exposed to this protocol every day for 12 hours per day during the93
 light period, followed by 12 hours of darkness.94
 95
+
+\subsection{RNA sequencing}
+GO.data <- GO.data %>% mutate(diffexpressed = case_when(
+  log2fc > 0 & padj < 0.01 ~ 'UP',
+  log2fc < 0 & padj < 0.01 ~ 'DOWN',
+  padj > 0.01 ~ 'NO'
+))
+
+.:FC threshold is anything other than zero.
+
+Include how we did analysis (DESeq2)
+
 Consumption-excretion feeding assays96
 Con-Ex experiments were carried out as previously described (25, 26). Experimental female flies97
 were sorted to appropriate BCAA diets (10 flies per vial, 8-10 replicates for each treatment)98

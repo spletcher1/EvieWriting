@@ -1,47 +1,3 @@
-\title{Paper Draft}
-\author{Henry et al}
-\date{} % keep if you want to suppress date
-
-\maketitle
-
-\section{Introduction}
-
-% This was ripped straight from Shaposhnikov, but don't think I need it anyway:
-% Aging is a complex biological process characterized by the progressive decline of physiological functions and increased susceptibility to disease, ultimately leading to death {Shaposhnikov, 2022 159}.
-Over the past several decades, research across diverse model organisms, from yeast and nematodes to flies and mammals, has revealed that the rate of aging is not fixed but can be modulated by genetic, environmental, and pharmacological interventions \citep{gems2013}. 
-Remarkably, many of the molecular pathways that regulate lifespan are highly conserved, suggesting that fundamental mechanisms of aging may be shared across taxa \citep{lopez-otin2013}.
-While much of aging research has involved direct perturbation of these conserved pathways, an intriguing dimension of aging biology was revealed by the discovery that sensory perception can modulate lifespan independent of the physical acts associated with perceived stimuli \citep{pontillo2025, gendron2020, miller2020, garratt2022}. 
-Studies in the nematode worm, \textit{Caenorhabditis elegans}, and the vinegar fly, \textit{Drosophila melanogaster}, have demonstrated that sensory cues related to food, mates, and even the presence of dead conspecifics can initiate physiological changes that influence patterns of aging \citep{gendron2014, chakraborty2019, libert2007, hernandez-lima2025, miller2022}. 
-These effects are mediated by neuronal circuits that emanate from sensory tissues and interface with deeper regions of the central nervous system, ultimately engaging conserved neuromodulators, including biogenic amines and neuropeptides, that influence metabolism, stress resistance, and longevity \citep{chakraborty2019, miller2020, miller2022}. 
-
-In at least some cases, sensory perception has been shown to modulate lifespan through the motivational states \textit{per se} that it influences. 
-For example, the neuropeptide F system, homologous to mammalian neuropeptide Y, is a component of reward- and stress-related processing, and its activation can reduce starvation resistance and shorten lifespan \citep{ryvkin2024, gendron2014}.
-Sensory perception of potential mates shortens lifespan in male flies through circuits involving NPF signaling, whereas successful mating reverses these effects \citep{gendron2014}, suggesting that an unresolved expectation of reward can influence lifespan. 
-Insatiable hunger also slows aging, despite promoting behaviors normally associated with decreased lifespan \citep{weaver2023a}. 
-These observations indicate that identifying the neural circuits that interpret and integrate sensory inputs, as well as how they generate conserved internal states that prescribe physiological outcomes, may provide new insight into healthy aging.
-
-In \textit{Drosophila}, one neural substrate has recently emerged as a strong candidate for such an interpretive center: the ellipsoid body (EB). 
-The EB resides within the central complex, a region that shares functional and organizational homology with the mammalian basal ganglia \citep{strausfeld2013}. 
-The EB is subdivided into concentric domains innervated by six major classes of ring neurons (termed "ER" neurons) that process visual, thermal, mechanosensory, and circadian information to drive behavioral outputs \citep{hulse2021, buhl2021, yan2023}. 
-Additional roles for EB ring neuron classes involve locomotor control, sleep, visual memory, and state-dependent action selection, suggest that it is well-positioned to link myriad sensory representations to organismal state \citep{ofstad2011, yan2023, buhl2021, kottler2019}.
-Recent work has implicated this structure in aging biology.
-Exposure of flies to dead conspecifics, termed “death perception,” reduces fat stores, lowers starvation resistance, and shortens lifespan in a manner that requires visual function and serotonin signaling through 5-HT2A-expressing ER2 and ER4 neurons \citep{chakraborty2019}.
-Insulin-like peptides, as well as the insulin-responsive transcription factor dFOXO, are required for aging effects of death perception, suggesting that EB ring neurons interface with conserved metabolic pathways implicated in lifespan control \citep{gendron2023}. 
-
-
-The extent to which the results in \textit{Drosophila} may illuminate similar processes in other taxa may hinge on the nature of the EB's role in influencing health-related outcomes. 
-One possibility is that these neurons function primarily as passive conduits or gates for lifespan-altering sensory information: if their function is disrupted, flies may simply fail to perceive \citep{seelig2013, omoto2017} or internally represent salient stimuli, and phenotypes normally induced by those stimuli would not manifest. 
-A more intriguing alternative is that the EB is an instructive modulator of aging-related processes, and direct manipulation of ring neuron activity, independent of particular sensory input, would be sufficient to alter aging. 
-If true, this latter case would implicate the EB and functionally similar structures---i.e., central hubs of neuromodulation and sensory integration---as rich targets for aging research.
-
-Here, we use a variety of optogenetic tools, which enable temporally precise activation or inhibition of genetically-defined neuronal populations, to show that \textit{Drosophila} EB ring neuron populations are prescriptive modulators of aging that encode behaviorally meaningful information and orchestrate diverse transcriptional and metabolic responses throughout the animal. 
-Our findings indicate that these neurons can act as active regulators of pro-longevity physiology rather than only as conduits for perception-dependent aging signals. 
-Activation of ER2 neurons, inhibition of ER4d neurons, and simultaneous activation of ER2 and ER4 neurons each extends lifespan in males and females, but the manipulations produce divergent transcriptional responses in head tissues, including distinct effects on insulin signaling, stress-response, and metabolic pathways. 
-Despite these molecular differences, we detect no consistent changes in feeding, fat storage, locomotor activity, or climbing ability that account for the longevity effects, arguing against a simple explanation based on overt energetic or behavioral shifts. 
-Valence assays further show that ER2 activation alone produces a negatively-valenced state, whereas combined ER2/ER4 activation produces a positively-valenced state, indicating that distinct neural states with different immediate behavioral consequences can converge on increased lifespan. 
-Transcriptomic and metabolomic profiling of peripheral tissues further reveals that ER2 activation drives systemic metabolic remodeling, including suppression of proliferative programs and upregulation of electrochemical and membrane homeostasis pathways not observed in head tissues, demonstrating that EB ring neuron activity induces tissue-specific responses throughout the fly.
-Together, these findings support a model in which the ellipsoid body serves as an integrative neural locus through which sensory and state-related processes can influence aging via multiple downstream physiological programs.
-
 \section{Results}
 
 \subsection*{Manipulating ER2 and ER4 neurons in the ellipsoid body extends fly lifespan}
@@ -112,7 +68,6 @@ Interestingly, in both genotypes, green light drove strong upregulation of multi
 Other differentially-expressed genes following ER4d inhibition include the enzyme tyrosine hydroxylase (\textit{ple}), which catalyzes the rate-determining step in dopamine synthesis \citep{neckameyer1993}; the serine protease homolog \textit{scarface} \citep{prasad2018}; and several genes of unknown function. 
 % Sugar promotes feeding via Scarface, note to self (2018)
 
-% moved to Discussion: "Temeratures in our ventilated..." 
 We next asked how transcriptional changes following simultaneous activation of ER2 and ER4 compared to manipulations of the individual neuron populations. 
 When ER2 and ER4 neurons were activated simultaneously, we once again observed high reproducibility with replicate samples within treatments being clustered together and flies with activated ER2/ER4 neurons forming a cluster distinct from both genotype and light controls (\figref{fig:seqfig2}A). 
 Using a false discovery rate-corrected cutoff of p < 0.01, we observed that ER2/ER4 activation resulted in roughly twice as many transcriptional changes as did ER2 activation alone (198 upregulated and 82 downregulated). 
@@ -121,15 +76,11 @@ We also observed an upregulation of several known lifespan-modulating genes invo
 Genes involved in starvation responses and lipid and carbohydrate catabolism were significantly downregulated (\figref{fig:seqfig2}C), which was in contrast to the upregulation of these pathways that we observed when ER2 neurons were activated alone. 
 Notably, rather than recapitulating the effects of either of the previous two manipulations, or impacting a set of genes that was effectively a union of the two, the transcriptional profile of ER2/ER4-activated flies was distinct from those of both ER2 activation and ER4d inhibition, even where it impinged on similar pathways (\figref{fig:seqfig2}D-E). 
 
-%\subsection*{EB ring neuron manipulations uncouple nutrient-state signaling from behavioral and physiological outputs}
-% uncouple is a verb that I don't think we have proven.  In other words we don't see a coupling event being uncoupled following activation. so maybe modify this a bit. Made a suggestion.
 \subsection*{EB ring neurons modulate nutrient-state signaling without corresponding behavioral and physiological outputs}
 Manipulations of ER2 and ER4d neurons alone and in combination produced markedly divergent transcriptional profiles in head tissues (\figref{fig:seqfig2}C-D). 
 This is at odds with a strict application of the I1-FFL circuit model \citep{ishimoto2020}, which would predict that these three interventions ultimately converge on a common downstream state. Our data are instead consistent with functionally distinct activity patterns across ER2 and ER4 populations encoding different interpretations of sensory stimuli or internal physiological signals, in keeping with the ellipsoid body's established role as an integrative center. 
 If each manipulation imposes a distinguishable internal state, we reasoned that those differences might be reflected not only in gene expression but also in the behavioral or physiological programs those states normally coordinate.
 We therefore asked how ER2 activation, ER4d inhibition, and ER2/ER4 co-activation affected feeding, energy storage and mobilization, and organismal performance, readouts expected to track changes in nutrient state, motivational drive, and overall physiological condition.
-
-%% This paragraph may paint us in a corner.  Following your logic, the lack of effects imply they don't impose distiunguishable internal states.
 
 \subsubsection*{Feeding behavior does not explain nutrient-state transcriptional signatures}
 
@@ -305,86 +256,3 @@ Among the 47 metabolites reduced in abundance, the dominant pattern was broad de
 Reductions in S-adenosylhomocysteine (SAH), choline, glycerophosphocholine, and acylcarnitines were also observed. 
 Three biochemical modules emerged from the 40 significantly upregulated metabolites: a central carbon module comprising glycolytic and TCA-cycle intermediates including pyruvate, oxaloacetate, and cis-aconitate alongside pentose phosphate pathway species; a small nitrogen species module containing glutamine, arginine, serine, and betaine; and a tryptophan-kynurenine module marked by coordinated elevation of kynurenic acid, quinolinic acid, and anthranilic acid. 
 Pathway-level analysis using FELLA, which maps metabolite changes onto the KEGG network to identify enriched biological modules, corroborated these findings and indicated additional enrichment of taurine and hypotaurine metabolism, beta-alanine metabolism, and folate transport, with starch and sucrose metabolism and nucleotide sugar biosynthesis also represented (\figref{fig:metabfig}D).
-
-\section{Discussion}
-
-Previous work showed that R2 and R4 neurons are required for death perception to modulate lifespan, establishing these cells as a neural substrate through which sensory experience can influence aging \citep{gendron2023}. 
-Here, we show that direct activation of R2 neurons, co-activation of R2/R4 neurons, and inhibition of R4d neurons are each sufficient to promote longevity under standard laboratory conditions in adult flies of both sexes. 
-Strikingly, these effects are elicited by manipulating very small neuronal populations---in some cases, fewer than ten neurons per hemisphere \citep{omoto2018}---underscoring the sensitivity of organismal aging to defined circuit states. 
-These findings argue that the EB acts instructively rather than merely as a passive conduit for lifespan-altering sensory information.
-
-We also show that distinct EB manipulations converge on increased lifespan through divergent molecular states, as bulk head transcriptomics after one week of treatment revealed that R2 activation, R4d inhibition, and R2/R4 co-activation did not produce a common downstream transcriptional program. 
-R4d inhibition produced a more limited transcriptional response than R2 or R2/R4 activation, but attenuated stress-associated changes observed in green-light controls. 
-Temperatures in our ventilated optogenetic lifespan apparatuses were not significantly higher than those experienced by flies aged in constant darkness, indicating that something other than heat was the primary cause of the effects of green light on lifespan and gene expression. 
-Fly vision is more sensitive to green than to red light \citep{salcedo1999}, and certain wavelengths of light can have significant physical effects on the brain \citep{song2022} or shorten lifespan \citep{johnson2023}. Over-representation of upregulated heat shock proteins suggest that green light represents a meaningful stressor at the intensity used in our experiments to ensure deep brain penetration \citep{wolff2015}. 
-If so, it may be that a muted molecular response to moderate long-term stress contributed to the extended lifespan of flies with silenced R4d neurons. 
-It is, however, currently unknown whether similar mechanisms influence lifespan in more benign conditions. 
-
-The transcriptional data also point to specific pathways that may link EB activity to aging-regulatory physiology. 
-The induction of \textit{foxo}, \textit{Thor}, \textit{InR}, \textit{dilp6}, and \textit{Cbs} following R2 activation suggests a coordinated engagement of nutrient-sensing, proteostatic, and sulfur-amino-acid metabolic processes previously implicated in lifespan control. 
-Notably, however, the R2-induced state does not resemble a canonical starvation program. 
-Nutrient-responsive IIS components were induced alongside ribosome biogenesis and translational programs that are not ordinarily co-regulated in this way \citep{essers2016}, suggesting that direct EB activation may uncouple pathways that are typically coordinated by nutrient availability. 
-Because prior work showed that R2/R4 neurons regulate \textit{dilp3} and \textit{dilp5} expression in insulin-producing cells during death perception \citep{gendron2023}, one plausible hypothesis is that EB-dependent internal states are translated into systemic aging effects through downstream neuroendocrine centers. 
-However, the present data do not establish that mechanism directly, and defining the relevant effector pathways will require future work.
-
-Notably, the molecular signatures induced by EB manipulation did not manifest as simple changes in behavior or physiology. 
-Our GO analysis revealed markedly different transcriptional indicators of nutrient availability in the brain following R2 and R2/R4d activation. 
-General starvation-response processes were upregulated in R2-activated heads (\figref{fig:seqfig}B), a signature that could in principle arise from reduced food intake or, alternatively, from a hunger-like neural state that should drive increased feeding to satisfy perceived demand. 
-We observed neither, arguing that the transcriptomic changes are unlikely to arise secondarily from altered food consumption.
-By contrast, starvation-response processes were downregulated in R2/R4d-activated heads (\figref{fig:seqfig2}C), and the transcriptome was instead enriched for biosynthetic and storage-associated processes, including protein synthesis and glycogen metabolism, suggestive of a nutrient-replete state.
-We again saw no corresponding change in feeding that would be expected if this state were behaviorally driven. 
-Together, these findings indicate that the transcriptional signatures elicited by R2/R4 manipulations are a direct result of neural activation itself rather than a secondary effect of changes in behavior, and they argue against dietary restriction as the basis of lifespan extension in either manipulation. 
-The absence of canonical hunger or satiety behaviors does not, however, imply that these manipulations are motivationally silent. 
-As described below, R2 and R2/R4 activation produce dissociable motivational states detectable in choice and approach assays, even as they leave food-seeking and consumption unchanged.
-
-Despite unchanged feeding, R2 males and both R2/R4 sexes had reduced TAG stores. 
-These TAG changes did not consistently track lifespan extension or starvation resistance. 
-Climbing performance in a negative geotaxis assay, a standard measure of neuromuscular function in aging flies, similarly failed to reveal early behavioral correlates of the transcriptional states measured after one week of manipulation. 
-Together, these results indicate that EB-dependent regulation of aging is not readily explained by gross changes in feeding, energy expenditure, lipid depletion, or locomotor performance.
-
-Although EB manipulations did not produce the feeding or energy-related physiological changes that would be expected from the transcriptional nutrient-state signatures, they did generate dissociable motivational states.
-In the FLIC, R2 activation in females was aversive, promoting rapid disengagement from the sucrose well without suppressing re-approach, while R2/R4 co-activation was positively valenced, increasing interactions and return frequency without prolonging individual feeding bouts. 
-In a feeding-independent place-preference assay, the positive valence of R2/R4 co-activation generalized across sex and stimulation regime. 
-Interestingly, the negative valence of R2 and R4d activation was more context dependent, being restricted to females across both light regimes (R2), or restricted to one light regime but generalizing across sex (R4d). 
-Together, these findings indicate that EB ring neurons do not contribute fixed, additive aversive or appetitive signals.
-Rather, the motivational meaning of EB activity depends on population combination, assay context, sex, and stimulation conditions. 
-
-A particularly informative consequence of this combinatorial structure is that manipulations of opposite valence both extend lifespan. 
-R2 activation produces a predominantly aversive state, while R2/R4 co-activation produces a predominantly appetitive one, yet both reliably 
-increase survival in males and females. 
-This pattern is difficult to reconcile with models in which longevity is mediated by a particular motivational valence, or by any single downstream behavioral or physiological state that valence would normally engage. 
-A more plausible interpretation is that distinct EB-imposed internal states recruit partially distinct downstream programs that nonetheless converge on slower aging. 
-Such convergence is consistent with the divergence we observed at the transcriptional level, where R2, R4d, and R2/R4 manipulations each extended lifespan through largely non-overlapping gene-expression programs.
-
-These results may be interpreted in light of known interactions among ring-neuron classes. 
-Prior work suggests that R2, R4m, and R4d neurons participate in an incoherent feedforward circuit \citep{ishimoto2020}, which under a strict reading would predict that R2 activation, R2/R4 co-activation, and R4d inhibition ultimately converge on a common downstream state. 
-The marked divergence we observed in transcriptional profile, valence, and downstream physiology across these three manipulations is difficult to reconcile with such a model, although we cannot exclude convergence on a shared terminal mechanism(s) farther downstream of the EB. 
-A more parsimonious interpretation is that EB circuits influence aging through population-level configurations whose downstream consequences depend on the particular combination of neurons engaged, consistent with the EB's established role as an integrative rather than relay structure. 
-In this view, lifespan extension is not the signature of a single privileged EB activity pattern but is instead a property of multiple distinguishable circuit states.
-
-Molecular profiling of peripheral tissues revealed that R2 activation drove coordinated systemic remodeling beyond the brain. 
-In bodies, R2 activation suppressed proliferative and DNA repair programs while upregulating a vacuolar H$^{+}$-ATPase-dominated electrochemical homeostasis program not observed in heads, indicating that EB activity orchestrates tissue-specific rather than uniform physiological responses. 
-This V-ATPase program was not accompanied by the upregulation of autophagy or trafficking pathways, suggesting a decoupling of organellar acidification from degradative or secretory functions. 
-The upregulation of inwardly rectifying potassium channels may serve to maintain cell membrane potential during increased organellar proton flux, and the enrichment of fatty acid and ether phospholipid synthesis genes suggests a remodeling of cellular and organellar membranes to support increased ion transport. 
-Metabolomic profiling reinforced this interpretation: the depletion of free nucleotides and amino acids likely reflects the reduced proliferative burden observed in our transcriptional data, while reductions in choline, glycerophosphocholine, and acylcarnitines may reflect the increase in membrane remodeling activity. 
-Among upregulated metabolites, the accumulation of glycolytic and TCA-cycle intermediates may reflect reduced demand for proliferative inputs, while glutamine and arginine may likewise accumulate as a consequence of reduced demand from growth-related processes. 
-Serine and betaine serve as methyl donors, and their elevation, along with depletions in SAH and choline and the upregulation of both \textit{Sam-S} and \textit{Gnmt} in head and body, indicates a restructuring of methionine cycle flux. 
-Although none of the core kynurenine pathway genes were upregulated in our RNA-seq dataset, the coordinated elevation of kynurenic acid, quinolinic acid, and anthranilic acid could account for the depleted tryptophan signature. 
-The convergence of transcriptomic and metabolomic datasets indicates an orchestrated remodeling of peripheral physiology imposed by the activation of a small number of R2 neurons in the brain, one that does not resemble canonical starvation or dietary restriction and further supports the conclusion that EB neuron activation imposes a distinct physiological state rather than recapitulating a known nutritional condition.
-
-Our findings that discrete or combined populations of ellipsoid body ring neurons can instructively modulate lifespan through the generation of distinct internal states carry potentially significant implications for understanding the neural basis of aging in humans. 
-The \textit{Drosophila} central complex, of which the ellipsoid body is a core component, shares strong neuroanatomical and functional homology with the vertebrate basal ganglia \citep{strausfeld2013}. 
-Both structures serve as integrative hubs that process sensory information, coordinate motor output, and critically contribute to the generation of motivational and affective states. 
-In particular, limbic basal ganglia output pathways, including ventral pallidal circuits, can assign appetitive or aversive value to ongoing behavior and reshape responses to challenge in a state-dependent manner \citep{stephenson-jones2020}. 
-Our findings raise the possibility that a similarly general principle applies to aging: circuit configurations that impose distinct motivational or physiological states may converge on long-term effects on organismal maintenance and survival. 
-More generally, these results suggest that lifespan may be modulated not only by what animals perceive, but by how neural state transforms the meaning of those perceptions into coordinated physiological output. 
-If analogous circuits in the human brain similarly encode valence states that influence systemic physiology, this would provide a mechanistic framework for understanding associations between psychological states, chronic stress, and aging in humans.
-
-%\subsubsection*{Limitations}
-%Several limitations should be considered when interpreting these findings. 
-%First, our transcriptomic analyses were performed on female heads at a single early time point, and thus do not capture male-specific or later-emerging molecular states. 
-%Second, bulk head RNA-seq cannot distinguish transcriptional changes arising within the brain from those occurring in peripheral head tissues, nor can it resolve cell-type-specific responses downstream of EB manipulation. 
-%Third, the green light required for GtACR1 complicated behavioral interpretation of some inhibition experiments, particularly in the FLIC, where abrupt light onset itself appeared to be startling. 
-%Newly developed red-responsive anion channelrhodopsins will help mitigate this in future experiments \citep{bushey2025}. 
-%Finally, although the present work shows that EB manipulations are sufficient to alter lifespan and to impose distinct transcriptional and motivational states, it does not yet establish the causal chain linking EB activity to the peripheral transcriptional and metabolic changes observed, nor identify the downstream endocrine effectors that execute these aging phenotypes. 
-%These limitations define clear priorities for future work, including cell-type-resolved transcriptional analysis, direct study of neural insulin-producing cells and neuroendocrine outputs, and more refined dissection of sex-specific responses.
