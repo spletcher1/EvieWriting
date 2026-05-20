@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,11 +15,6 @@ Edgar Buhl, Benjamin Kottler, James J.~L. Hodge, and Frank Hirth.
 \newblock Thermoresponsive motor behavior is mediated by ring neuron circuits in the central complex of {{Drosophila}}.
 \newblock \emph{Scientific Reports}, 11\penalty0 (1):\penalty0 155, December 2021.
 
-\bibitem[Bushey et~al.(2025)Bushey, Shiozaki, Shuai, Zheng, Jayaraman, Hasseman, Kolb, Team, and Turner]{bushey2025}
-Daniel Bushey, Hiroshi Shiozaki, Yichun Shuai, Jihong Zheng, Vivek Jayaraman, Jeremy~P. Hasseman, Ilya Kolb, GENIE~Project Team, and Glenn~C. Turner.
-\newblock {{RubyACRs Enable Red-Shifted Optogenetic Inhibition}} in {{Freely Behaving Drosophila}}.
-\newblock \emph{eLife}, 14, September 2025.
-
 \bibitem[Chakraborty et~al.(2019)Chakraborty, Gendron, Lyu, Munneke, DeMarco, Hoisington, and Pletcher]{chakraborty2019}
 Tuhin~S. Chakraborty, Christi~M. Gendron, Yang Lyu, Allyson~S. Munneke, Madeline~N. DeMarco, Zachary~W. Hoisington, and Scott~D. Pletcher.
 \newblock Sensory perception of dead conspecifics induces aversive cues and modulates lifespan through serotonin in {{Drosophila}}.
@@ -29,6 +24,11 @@ Tuhin~S. Chakraborty, Christi~M. Gendron, Yang Lyu, Allyson~S. Munneke, Madeline
 Paul Essers, Luke~S. Tain, Tobias Nespital, Joana Goncalves, Jenny Froehlich, and Linda Partridge.
 \newblock Reduced insulin/insulin-like growth factor signaling decreases translation in {{Drosophila}} and mice.
 \newblock \emph{Scientific Reports}, 6\penalty0 (1):\penalty0 30290, July 2016.
+
+\bibitem[Garratt et~al.(2022)Garratt, Erturk, Alonzo, Zufall, {Leinders-Zufall}, Pletcher, and Miller]{garratt2022}
+Michael Garratt, Ilkim Erturk, Roxann Alonzo, Frank Zufall, Trese {Leinders-Zufall}, Scott~D. Pletcher, and Richard~A. Miller.
+\newblock Lifespan {{Extension}} in {{Female Mice By Early}}, {{Transient Exposure}} to {{Adult Female Olfactory Cues}}.
+\newblock \emph{eLife}, 11:\penalty0 e84060, October 2022.
 
 \bibitem[Gems and Partridge(2013)]{gems2013}
 David Gems and Linda Partridge.
@@ -75,6 +75,11 @@ Hiroshi Ishimoto and Azusa Kamikouchi.
 \newblock A {{Feedforward Circuit Regulates Action Selection}} of {{Pre-mating Courtship Behavior}} in {{Female Drosophila}}.
 \newblock \emph{Current Biology}, 30\penalty0 (3):\penalty0 396--407.e4, 2020.
 
+\bibitem[Johnson et~al.(2023)Johnson, Munneke, Richardson, Gendron, and Pletcher]{johnson2023}
+Jacob~C. Johnson, Allyson~S. Munneke, Haley~M. Richardson, Christi~M. Gendron, and Scott~D. Pletcher.
+\newblock Light modulates {{Drosophila}} lifespan via perceptual systems independent of circadian rhythms.
+\newblock \emph{Aging}, 15:\penalty0 396--420, January 2023.
+
 \bibitem[Jones et~al.(2009)Jones, Gargano, Rhodenizer, Martin, Bhandari, and Grotewiel]{jones2009}
 Melanie~A. Jones, Julia~Warner Gargano, Devin Rhodenizer, Ian Martin, Poonam Bhandari, and Mike Grotewiel.
 \newblock A forward genetic screen in {{Drosophila}} implicates insulin signaling in age-related locomotor impairment.
@@ -103,7 +108,7 @@ Sergiy Libert, Jessica Zwiener, Xiaowen Chu, Wayne Vanvoorhies, Gregg Roman, and
 \bibitem[Linford et~al.(2013)Linford, Bilgir, Ro, and Pletcher]{linford2013}
 Nancy~J. Linford, Ceyda Bilgir, Jennifer Ro, and Scott~D. Pletcher.
 \newblock Measurement of lifespan in {{Drosophila}} melanogaster.
-\newblock \emph{Journal of Visualized Experiments: JoVE}, \penalty0 (71):\penalty0 50068, January 2013.
+\newblock \emph{Journal of Visualized Experiments}, 71:\penalty0 e50068, January 2013.
 
 \bibitem[{L{\'o}pez-Ot{\'i}n} et~al.(2013){L{\'o}pez-Ot{\'i}n}, Blasco, Partridge, Serrano, and Kroemer]{lopez-otin2013}
 Carlos {L{\'o}pez-Ot{\'i}n}, Maria~A. Blasco, Linda Partridge, Manuel Serrano, and Guido Kroemer.
@@ -218,7 +223,12 @@ Johannes~D. Seelig and Vivek Jayaraman.
 \bibitem[Shell et~al.(2018)Shell, Schmitt, Lee, Johnson, Chung, Pletcher, and Grotewiel]{shell2018}
 Brandon~C. Shell, Rebecca~E. Schmitt, Kristen~M. Lee, Jacob~C. Johnson, Brian~Y. Chung, Scott~D. Pletcher, and Mike Grotewiel.
 \newblock Measurement of solid food intake in {{Drosophila}} via consumption-excretion of a dye tracer.
-\newblock \emph{Scientific Reports}, 8\penalty0 (1):\penalty0 11536, August 2018.
+\newblock \emph{Scientific Reports}, 8\penalty0 (11536), August 2018.
+
+\bibitem[Song et~al.(2022)Song, Yang, Law, Hendrix, Kretzschmar, Robinson, and Giebultowicz]{song2022}
+Yujuan Song, Jun Yang, Alexander~D. Law, David~A. Hendrix, Doris Kretzschmar, Matthew Robinson, and Jadwiga~M. Giebultowicz.
+\newblock Age-dependent effects of blue light exposure on lifespan, neurodegeneration, and mitochondria physiology in {{Drosophila}} melanogaster.
+\newblock \emph{npj Aging}, 8\penalty0 (11):\penalty0 1--9, July 2022.
 
 \bibitem[{Stephenson-Jones} et~al.(2020){Stephenson-Jones}, {Bravo-Rivera}, Ahrens, Furlan, Xiao, {Fernandes-Henriques}, and Li]{stephenson-jones2020}
 Marcus {Stephenson-Jones}, Christian {Bravo-Rivera}, Sandra Ahrens, Alessandro Furlan, Xiong Xiao, Carolina {Fernandes-Henriques}, and Bo~Li.
