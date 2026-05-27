@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{54}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -94,6 +94,12 @@ Hadise Kabil, Omer Kabil, Ruma Banerjee, Lawrence~G. Harshman, and Scott~D. Plet
 Nathan~C. Klapoetke, Yasunobu Murata, Sung~Soo Kim, Stefan~R. Pulver, Amanda {Birdsey-Benson}, Yong~Ku Cho, Tania~K. Morimoto, Amy~S. Chuong, Eric~J. Carpenter, Zhijian Tian, Jun Wang, Yinlong Xie, Zhixiang Yan, Yong Zhang, Brian~Y. Chow, Barbara Surek, Michael Melkonian, Vivek Jayaraman, Martha {Constantine-Paton}, Gane Ka~Shu Wong, and Edward~S. Boyden.
 \newblock Independent optical excitation of distinct neural populations.
 \newblock \emph{Nature Methods}, 11\penalty0 (3):\penalty0 338--346, 2014.
+
+\bibitem[Kolde(2025)]{pheatmap}
+Raivo Kolde.
+\newblock \emph{pheatmap: Pretty Heatmaps}, 2025.
+\newblock URL \url{https://CRAN.R-project.org/package=pheatmap}.
+\newblock R package version 1.0.13.
 
 \bibitem[Kottler et~al.(2019)Kottler, Faville, Bridi, and Hirth]{kottler2019}
 Benjamin Kottler, Richard Faville, Jessika~Cristina Bridi, and Frank Hirth.
@@ -259,6 +265,13 @@ Allyson~J. Whittaker, Irena Royzman, and Terry~L. {Orr-Weaver}.
 Tanya Wolff, Nirmala~A. Iyer, and Gerald~M. Rubin.
 \newblock Neuroarchitecture and neuroanatomy of the {{Drosophila}} central complex: {{A GAL4-based}} dissection of protocerebral bridge neurons and circuits.
 \newblock \emph{Journal of Comparative Neurology}, 523\penalty0 (7):\penalty0 997--1037, 2015.
+
+\bibitem[Xu et~al.(2024)Xu, Hu, Cai, Xie, Luo, Zhan, Tang, Wang, Liu, Wang, Xie, Wu, Xie, and Yu]{clusterprofiler}
+Shuangbin Xu, Erqiang Hu, Yantong Cai, Zijing Xie, Xiao Luo, Li~Zhan, Wenli Tang, Qianwen Wang, Bingdong Liu, Rui Wang, Wenqin Xie, Tianzhi Wu, Liwei Xie, and Guangchuang Yu.
+\newblock Using clusterprofiler to characterize multiomics data.
+\newblock \emph{Nature Protocols}, 19\penalty0 (11):\penalty0 3292--3320, Nov 2024.
+\newblock \doi{10.1038/s41596-024-01020-z}.
+\newblock URL \url{https://www.nature.com/articles/s41596-024-01020-z}.
 
 \bibitem[Yan et~al.(2023)Yan, Lin, Yu, Wiggin, Wu, Meng, Liu, and Griffith]{yan2023}
 W.~Yan, H.~Lin, J.~Yu, T.~D. Wiggin, L.~Wu, Z.~Meng, C.~Liu, and L.~C. Griffith.
