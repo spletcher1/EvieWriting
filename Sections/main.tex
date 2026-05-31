@@ -27,9 +27,9 @@ To our surprise, simultaneously activating both populations extended lifespan in
 In this experiment, red light exposure modestly increased lifespan of CsChrimson-expressing flies as well as their genotypic controls, but the increase in lifespan was significantly greater in CsChrimson flies. 
 % Highlights - need Cox regression or something?
 Given the substantial increase in lifespan observed following simultaneous ER2/ER4 activation, we asked whether even broader manipulation of ellipsoid body neurons would recapitulate or even potentiate the lifespan extension that we observed following ER2 and ER2/ER4 neuron activation. 
-Using a driver that targets additional EB neuron populations, including at least R3 neurons, we observed that broader EB inhibition had no effect on lifespan (\figref{fig:lifespanfig}E, left) and activation increased lifespan to an equal or lesser extent than ER2 or ER2/ER4 activation alone (\figref{fig:lifespanfig}E, right). 
+Using a driver that targets additional EB neuron populations, including at least R3 neurons, we observed that broader EB inhibition had a modest effect on lifespan (\figref{fig:lifespanfig}E, left) and activation increased lifespan to an equal or lesser extent than ER2 or ER2/ER4 activation alone (\figref{fig:lifespanfig}E, right). 
 
-Together, these data demonstrate that enhanced EB neural activity promotes longevity primarily through ER2 and ER4 neurons, supporting the notion that the ellipsoid body is an instructive generator of lifespan-modulating signals. 
+Together, these data demonstrate that enhanced EB neural activity promotes longevity through ER2 and ER4 neurons, supporting the notion that the ellipsoid body is an instructive generator of lifespan-modulating signals. 
 These results may be interpreted in the context of known activity patterns of ER2/ER4 in other contexts. 
 Ishimoto et al. reported that ER2, ER4m, and ER4d neurons work together in an incoherent type 1 feedforward loop (I1-FFL) \citep{ishimoto2020}. 
 Upon simultaneous activation of ER2/ER4m and ER4d, ER4d signaling initially increased, but sustained activity of GABAergic ER2 and ER4m neurons gradually suppressed ER4d activity. 
@@ -52,7 +52,7 @@ Expression data from these genes produced clear separation of samples by treatme
 Hierarchical clustering revealed that samples from flies with activated ER2 neurons (i.e. ER2>CsChrimson flies exposed to red light) formed a distinct group from flies without neuronal activation, including CsChrimson-expressing flies maintained in constant darkness as well as control genotype samples maintained in either darkness or red light. 
 
 Despite a stringent threshold (requiring a false discovery rate < 0.01), we observed that one week of ER2 neuron activation drove broad but pathway-enriched changes in the head. 
-GO analysis of upregulated genes revealed enrichment for ribosome biogenesis and rRNA processing, insulin signaling, and response to starvation (\figref{fig:seqfig}B). 
+Gene Ontology (GO) analysis of upregulated genes revealed enrichment for ribosome biogenesis and rRNA processing, insulin signaling, and response to starvation (\figref{fig:seqfig}B). 
 Downregulated genes were enriched for protein folding and ER stress response pathways (\figref{fig:seqfig}C). 
 Together, these results suggest that activation of ER2 neurons induces a distinct metabolic state in the head, characterized by altered nutrient signaling and reduced ER stress. 
 It also caught our attention that many of the differentially-expressed genes have been implicated in aging biology, with several known to modulate aging directly. 
@@ -60,7 +60,6 @@ For example, we observed the upregulation of multiple genes consistent with damp
 Together, these results demonstrate that short-term, part-time activation (12L/12D) of a few dozen ER2 neurons drives significant changes in multiple aging-, nutrient-, and stress-response pathways. 
 
 Following one week of ER4d silencing, far fewer genes were found to be differentially expressed (\figref{fig:seqfig}D), although ER4d-specific changes were likely masked by remarkably potent independent effects of intense green light exposure. 
-
 As observed for the ER2 data, sample-based clustering grouped biological replicates as more closely related to each other than to samples from all other treatments, demonstrating reproducibility. 
 Consistent with its significant negative effect on lifespan (\figref{fig:lifespanfig}C), green light exposure affected the expression of 1,817 genes regardless of genotype (experiment-wise p < 0.01). 
 However, only 11 genes (9 downregulated and 2 upregulated) were associated with a significant p-value for the interaction term of the model, which indicates a differential response in flies with ER4d neurons silenced. 
@@ -106,11 +105,11 @@ These results suggest that ER2 and ER2/ER4 activation do not robustly regulate f
 \subsubsection*{TAG depletion does not predict starvation resistance after EB circuit manipulation}
 
 If the starvation-like transcriptional signature induced by ER2 activation reflects a true nutrient-deprived physiological state, we might expect flies to exhibit hallmarks of nutrient deprivation, including reduced triglyceride (TAG) stores as well as altered starvation resistance and activity levels. 
-After one week of ER2 activation, TAG levels were unchanged in females but significantly reduced in males (\figref{fig:conexfig}C), whereas ER2/ER4 activation significantly reduced TAG in both sexes (\figref{fig:conexfig}D), contrary to the observed decrease in starvation-response genes. 
+After one week of ER2 activation to match RNA-seq treatment, TAG levels were unchanged in females but significantly reduced in males (\figref{fig:conexfig}C), whereas ER2/ER4 activation significantly reduced TAG in both sexes (\figref{fig:conexfig}D), contrary to the observed decrease in starvation-response genes. 
 We then examined if TAG differences predicted survival under nutrient deprivation. 
-Flies of both sexes were pre-treated with light for 1 week before being flipped onto 2\% agar, a hydrating but non-nutritive medium. 
+Flies of both sexes were pre-treated with light for 1 week to match TAG assay condiditions before being flipped onto 2\% agar, a hydrating but non-nutritive medium. 
 Females of both genotypes were more sensitive to starvation than controls (\figref{fig:conexfig}E-F, left panels). 
-In males, starvation outcomes diverged despite overlapping effects on TAG: ER2>Chr males were only modestly sensitized to starvation, an effect driven by a long tail in control survival. By contrast, ER2/ER4d>Chr males were significantly sensitized (\figref{fig:conexfig}E-F, right panels). 
+In males, starvation outcomes diverged despite overlapping effects on TAG: ER2>Chr males were only modestly sensitized to starvation compared to their dark controls, an effect driven by a long tail in control survival. By contrast, ER2/ER4d>Chr males were significantly sensitized (\figref{fig:conexfig}E-F, right panels). 
 That starvation sensitivity was not associated with reduced TAG was especially notable in ER2>Chr females, in which longevity extension and starvation-associated transcriptional signatures occurred without detectable TAG depletion; nevertheless, they were accompanied by reduced starvation resistance. 
 Together, these findings indicate that EB neuron activation can alter lipid storage and starvation survival in ways not explained by food intake and not simply predicted by inferred nutrient state, suggesting that neural activation influences nutrient-state signaling independent of canonical metabolic and physiological outputs.
 
@@ -132,18 +131,18 @@ Together, these findings indicate that EB neuron activation can alter lipid stor
 
 \subsection*{Negative geotaxis reveals delayed, sex-specific effects of ring neuron manipulation}
 
-Measures of baseline feeding, TAG storage, and starvation resistance did not clearly distinguish the effects of ER2 and ER2/ER4d manipulations, leading us to ask whether differences would manifest following an acute behavioral challenge. 
-To assess this, we tested negative geotaxis, an evoked climbing response widely used to measure age-sensitive locomotor performance and neuromuscular function in \textit{Drosophila} \citep{rhodenizer2008, jones2009}. 
-Flies were assayed using our custom “D-Drop” platform, which drops flies in individual lanes and uses video tracking to quantify several characteristics of their subsequent climbing behavior. 
+Ring neurons have established roles in locomotor control \citep{buhl2021,kottler2019}, so we next asked whether an evoked motor assay might reveal differences among neural manipulations that measures of baseline feeding, TAG storage, and starvation resistance did not.
+To assess this, we tested negative geotaxis, a stereotyped climbing response widely used to measure age-sensitive locomotor performance and neuromuscular function in \textit{Drosophila} \citep{rhodenizer2008, jones2009}. 
+Flies were assayed using our custom “D-Drop” platform, which drops a chamber containing multiple single-fly lanes and uses video tracking to quantify several characteristics of flies' subsequent climbing behavior. 
 To gauge climbing speed and overall robustness, we focused on maximum height reached 9 sec after drop and total upward distance climbed over 30 sec. 
 Light-naïve flies were omitted, as flies were not optogenetically stimulated during this assay. 
 ER2>Chr flies of neither sex exhibited a significant Light $\times$ Genotype interaction for either metric after one week or one month of activation (\figref{fig:ddropfig}A). 
 ER2/ER4d activation likewise produced no detectable effect after one week of pre-treatment in either sex (\figref{fig:ddropfig}B, left panel for each sex). 
-After one month of pre-treatment, however, female ER2/ER4d>Chr flies outperformed controls in both height at 9 sec and total upward distance. (\figref{fig:ddropfig}B). Males showed a modest decrease in climbing ability (Total Up p = 0.045), but this effect did not survive multiple testing correction.  
+After one month of pre-treatment, however, female ER2/ER4d>Chr flies outperformed controls in both height at 9 sec and total upward distance (\figref{fig:ddropfig}B). Males showed a modest decrease in climbing ability (Total Up p = 0.045), but this effect did not survive multiple testing correction.  
 
 We observed that green light \textit{per se} shortens lifespan (\figref{fig:lifespanfig}C) and causes molecular stress responses (\figref{fig:seqfig}D) in both control and GtACR1 flies, and that ER4d neuron inhibition may buffer these stress responses. 
 We therefore asked if the effects of green light stress manifest physically as reduced negative geotaxis and if ER4d inhibition would promote endurance against this purported stress. 
-In females, we saw a modest trend toward worse climbing after one week of ER4d inhibition (Total Up p = 0.035); however, after multiple testing correction, there were no detectable effects at either time point (\figref{fig:ddropfig}C). 
+In females, we saw a modest trend toward reduced climbing ability after one week of ER4d inhibition (Total Up p = 0.035); however, after multiple testing correction, there were no detectable effects at either time point (\figref{fig:ddropfig}C). 
 In males, by contrast, ER4d inhibition improved both climbing metrics after one week pre-treatment, and this advantage persisted after five weeks of pre-treatment. 
 ER4d activation, by comparison, produced only nominally significant improvements in climbing in either sex prior to correction (Total Up female p = 0.040, male p = 0.046) (\figref{fig:ddropsupp}A). 
 
@@ -162,12 +161,12 @@ Transcriptional patterns characterized by GO do not map onto predictable, detect
 Our results suggested that EB ring neurons may act instructively, imposing distinct internal states whose immediate consequences are separable but whose downstream effects converge on lifespan regulation. 
 In natural environments, ring neuron activity is engaged by behaviorally relevant stimuli, including cues that drive discrimination of nutritive value \citep{park2016} or avoidance of threatening conditions \citep{buhl2021}. 
 Because standard husbandry conditions are relatively benign and homogeneous, however, the motivational consequences of experimentally imposed EB states may be muted under baseline conditions. 
-We therefore next asked whether these manipulations differ in valence, reasoning that their appetitive or aversive properties might clarify the functional logic by which EB circuits influence lifespan.
+We therefore next asked whether these manipulations differ in valence, reasoning that their attractive or aversive properties might clarify the functional logic by which EB circuits influence lifespan.
 
 We first measured valence using the FLIC assay, which permits flies to associate optogenetic stimulation with self-initiated interactions with liquid food at a defined well \citep{ro2014}. 
 In this paradigm, individual flies were presented with a choice between a water well and a 10\% sucrose well, and closed-loop optogenetic stimulation (red light for CsChrimson or green light for GtACR1) was triggered selectively by contact with the sucrose food. 
 Each “trigger” fly was paired with a yoked control that received identical light stimulation determined solely by the behavior of the trigger fly, without relationship to its own feeding behavior (\figref{fig:flicfig}A). 
-This design allowed us to ask whether activation or inhibition of specific EB neuron populations altered the motivational value of the sucrose-associated food while accounting for non-associative consequences of light exposure (increased hunger, for example). 
+This design allowed us to ask whether activation or inhibition of specific EB neuron populations altered the perceived reward value of the sucrose-associated food while accounting for non-associative consequences of light exposure (increased hunger, for example). 
 As with our behavioral assays, we performed these experiments both in light-naïve flies and in flies pre-exposed to light for one week or one month. 
 Because FLIC data can be used to extract several features of feeding behavior, it allowed us to assess the valence of each manipulation using multiple behavioral dimensions. 
 Each FLIC signal over threshold was scored as an “interaction” with the liquid food, and these data were further parsed into the number of discrete well visits (“events”) and the duration of those visits (“median duration”) \citep{weaver2023b}. 
@@ -208,9 +207,9 @@ Together, these data indicate that simultaneous activation of ER2 and ER4 neuron
 
 \subsection*{EB valence is shaped by context, sex, and circuit composition}
 To test whether the valence effects observed in the FLIC generalized beyond a feeding context, we assayed place preference in a rectangular multi-lane arena in which one half of each lane was illuminated and the other remained dark. 
-Unlike the closed-loop FLIC, this open-loop design delivered light on a pre-programmed schedule regardless of fly position, dissociating valence from sucrose contact or response-contingent stimulation.
+Unlike the closed-loop FLIC, this open-loop design delivered light on a pre-programmed schedule regardless of fly po67vwFNpP4i9aYTbsition, dissociating valence from sucrose contact or response-contingent stimulation.
 Flies were observed during a 10-min dark acclimation period followed by a 60-min light treatment period of 5 sec on/5 sec off.
-Both sexes were tested, and each manipulation was evaluated at two stimulation frequencies (48 Hz and 200 Hz) to further gauge generalizability. 
+Light-naïve flies of both sexes were tested, and each manipulation was evaluated at two stimulation frequencies (48 Hz to mimic FLIC conditions, and 200 Hz) to further gauge generalizability. 
 
 The positive valence of ER2/ER4 co-activation generalized cleanly. 
 Both sexes significantly preferred the illuminated side during treatment, and it was observed at both 48 Hz (\figref{fig:arenafig}B) and 200 Hz (\figref{fig:arenasupp}A), indicating that the appetitive state reflects a stable property of the ER2/ER4-activated circuit rather than an artifact of a particular assay or stimulation regime.
@@ -232,8 +231,8 @@ ER4d manipulations, by contrast, did not yield a valence signature stable enough
 Together, these findings argue that EB ring neurons do not make fixed, additive contributions to motivational state, but instead generate qualitatively distinct and differentially stable internal states through combinatorial recruitment, raising the question of how such state differences relate to the common downstream outcome of extended lifespan.
 
 \subsection*{ER2 neuron activation remodels metabolism in peripheral tissues}
-Finally, to examine how EB neuron manipulation in the brain influences gene expression and physiology in the periphery, we performed bulk RNA-sequencing and metabolomic profiling on whole bodies of female flies. 
-We focused on ER2-activated flies to determine whether the starvation-response program observed in heads would manifest in the periphery. 
+Finally, to examine how EB neuron manipulation in the brain influences gene expression and physiology in the periphery, we performed bulk RNA-sequencing and metabolomic profiling on headless bodies of female flies. 
+We focused on ER2-activated flies to determine whether the strong starvation-response program observed in heads would manifest in the periphery. 
 Body donors were reared and collected the same way as head donors. 
 Bodies were separated from heads using a sieve, and five bodies were collected for each of five samples. 
 % My numbers are slightly different from Scott's (his were 234/182); assume he re-ran his own analysis when writing this?

@@ -74,8 +74,8 @@
 \begin{figure}[p]
 \centering
 \includegraphics[width=\textwidth,height=.9\textheight,keepaspectratio]{Figs/Seq_Fig.pdf}
-\caption{\textbf{ER2 activation drives broad transcriptional changes and produces distinct head transcriptome from ER4d inhibition.} Bulk RNA-seq data from whole heads of female flies treated with light for 1 week. 
-Ten heads collected per sample. 
+\caption{\textbf{ER2 activation drives broad transcriptional changes and produces a head transcriptomic profile distinct from ER4d inhibition.} Bulk RNA-seq data from whole heads of female flies treated with light for 1 week shows broad transcriptomic changes in R2>Chr flies. 
+Ten heads were collected per sample. 
 Differentially expressed genes (DEGs) identified at FDR < 0.01 (Benjamini-Hochberg correction) using DESeq2 R package. 
 \textbf{(A)} DEGs downregulated (left) and upregulated (right) by ER2 activation (ER2>Chr). 
 \textbf{(B)} Top 15 GO Biological Processes upregulated by ER2 activation. 
@@ -89,8 +89,8 @@ Differentially expressed genes (DEGs) identified at FDR < 0.01 (Benjamini-Hochbe
 \centering
 \includegraphics[width=\textwidth,height=.9\textheight,keepaspectratio]{Figs/Seq_Fig2.pdf}
 \caption{\textbf{ER2/ER4 activation shares little transcriptomic overlap with ER2 activation or ER4d inhibition.} Bulk RNA-seq data from whole heads of female flies treated with light for 1 week. 
-Ten heads collected per sample. 
-Differentially expressed genes (DEGs) identified at FDR < 0.01 (Benjamini-Hochberg correction) using DESeq2 R package. 
+Ten heads were collected per sample. 
+Heatmap shows differentially expressed genes (DEGs) identified at FDR < 0.01 (Benjamini-Hochberg correction) using DESeq2 R package. 
 \textbf{(A)} DEGs downregulated (left) and upregulated (right) by ER2/ER4 activation (ER2/ER4>Chr). 
 \textbf{(B)} Top 15 GO Biological Processes upregulated by ER2/ER4 activation. 
 \textbf{(C)} Top 7 GO Biological Processes downregulated by ER2/ER4 activation. 
@@ -139,10 +139,10 @@ P-values were obtained by log-rank analysis of correspondingly colored lines. n 
 \includegraphics[scale=1]{Figs/DDrop_Fig.pdf}
 \caption{\textbf{EB manipulation does not impair climbing ability.} Height reached by 9 sec after drop (top plots of each panel) and total up distance climbed in 30 sec after drop (bottom plots). 
 Interaction (Light $\times$ Genotype) p-values were derived from 2-way ANOVAs. 
-Benjamini-Hochberg correction was applied within each sex and driver and across time points and climbing metrics. 
+Benjamini-Hochberg correction was applied within each sex/driver and across time points and climbing metrics. 
 Points represent average of 3 trials per individual. 
 n = 23-28.
-\textbf{(A-B)} One week of activation has no effect on ER2 and ER2/ER4 males and females. 
+\textbf{(A-B)} One week of activation had no effect on ER2 and ER2/ER4 males and females. 
 Female ER2/ER4 flies exhibit improved climbing by both metrics after one month of activation; ER2 females, ER2 males, and ER2/ER4 males exhibit no change after one month. 
 \textbf{(C)} ER4d>GtACR1 males, but not females, show improved climbing ability after both one week and five weeks of inhibition. 
 }
@@ -153,6 +153,7 @@ Female ER2/ER4 flies exhibit improved climbing by both metrics after one month o
 \centering
 \includegraphics[scale=1]{Figs/FLIC_Fig.pdf}
 \caption{\textbf{FLIC captures distinct valence states induced by EB manipulation.} 
+Female flies were used to assay valence of neuron activation.
 Sucrose interaction p-values were derived from the Genotype $\times$ Linkage interaction term of a linear mixed model (Interactions ~ Genotype * Linkage + (1|Group), lmer) with yoked pairs modeled as a random intercept.
 Benjamini-Hochberg correction was applied within each sex and driver and across time points. 
 \textbf{(A)} A "trigger" fly (top chamber) controlled optogenetic light for itself and a yoked control (bottom) by touching a 10\% sucrose (S10) well. 
@@ -167,10 +168,12 @@ Benjamini-Hochberg correction was applied within each sex and driver and across 
 \centering
 \includegraphics[width=\textwidth,height=.9\textheight,keepaspectratio]{Figs/Arena_Fig.pdf}
 \caption{\textbf{Valence of EB manipulation is sex-, circuit-, and context-dependent.} 
-\textbf{(A)} Light-naïve flies (n = 34-36) were placed in lanes with a dark side and an illuminated side (red light, 48 Hz) and subjected to a two-phase protocol: 1) a 10-min dark acclimation period; 2) a 60-min treatment of 5 sec on/5 sec off. Reported p-values for Preference Index correspond to Genotype $\times$ Phase interaction term. 
+\textbf{(A)} Light-naïve flies (n = 34-36) were placed in lanes with a dark side and an illuminated side (red light, 48 Hz) and subjected to a two-phase protocol: 1) a 10-min dark acclimation period; 2) a 60-min treatment of 5 sec on/5 sec off. 
+Reported p-values for Preference Index correspond to Genotype $\times$ Phase interaction term. 
 \textbf{(B)} ER2/ER4>Chr females and males strongly preferred lit side of arena. 
 \textbf{(C)} ER2>Chr females, but not males, preferred dark side. 
-\textbf{(D)} ER4d>Chr females preferred lit side, but showed decreased light preference relative to controls. Males preferred dark side.
+\textbf{(D)} ER4d>Chr females preferred lit side, but showed decreased light preference relative to controls. 
+Males preferred dark side.
 }
 \label{fig:arenafig}
 \end{figure}
@@ -179,7 +182,7 @@ Benjamini-Hochberg correction was applied within each sex and driver and across 
 \centering
 \includegraphics[width=\textwidth,height=.9\textheight,keepaspectratio]{Figs/Bodyseq_Fig.pdf}
 \caption{\textbf{ER2 activation produces transcriptional signatures in the periphery that are distinct from those in the head.} 
-Bulk RNA-seq data from whole bodies of ER2-GAL4 flies treated with light for 1 week. 
+Bulk RNA-seq data were acquired from whole bodies of ER2-GAL4 flies treated with light for 1 week. 
 5 bodies collected per sample. 
 Differentially expressed genes (DEGs) identified at FDR < 0.01 (Benjamini-Hochberg correction) using DESeq2 R package. 
 \textbf{(A)} Overlap between all DEGs observed in ER2-activated heads (purple) and bodies (green). Shared genes are indicated by 2 red arrows (upregulated) or a red and blue arrow (oppositely regulated in heads and bodies; red = upregulated in heads, blue = downregulated in heads). 
