@@ -2,10 +2,10 @@
 
 \subsection*{Fly stocks and husbandry}
 
-Eggs were collected from grape juice agar as described in Gendron et al., 2023, and 32 $\mu$L of eggs were aliquoted into bottles containing 25-50 mL of CT larval growth medium (\pink{recipe}). 
+Eggs were collected from grape juice agar as described in Gendron et al., 2023, and 32 $\mu$L of eggs were aliquoted into bottles containing 25-50 mL of CT larval growth medium (\pink{recipe?}). 
 Channelrhodopsin-expressing flies and their genetic controls were reared and maintained in dim 12:12 light:dark conditions at 25$^{\circ}$ C and 60\% humidity.
 Unless otherwise specified, flies were collected 0-1 days after eclosion, transferred to 10\% sucrose/10\% yeast (SY10) medium, and allowed to mate for \pink{2-6} days. %6 is R4d>Chr FLIC from christmas break...maybe mention there instead? otherwise it's 2-4
-Mated flies were then sorted by sex onto all-trans retinal (\pink{500 $\mu$M ATR}) SY10 medium, 20/vial, under brief CO\textsubscript{2} anesthesia. 
+Mated flies were then sorted by sex onto all-trans retinal (500 $\mu$M ATR) SY10 medium, 20/vial, under brief CO\textsubscript{2} anesthesia. 
 Adult flies were flipped onto fresh food every 2-3 days until completion of experiments.
 Dark controls were flipped in a dark room to minimize incidental channel activation. 
 The following stocks were used, and obtained from the Bloomington Drosophila Stock Center: white Canton-S (WCS), UAS-CsChrimson (BDSC \#55315), UAS-GtACR1 (BDSC \#92983), UAS-20X-GFP (BDSC \#32194), ER2-GAL4 (BDSC \#48343), ER4d-GAL4 (BDSC \#48487), ER2/ER4-GAL4 (BDSC \#75997), and BDSC \#39805 (broader EB).
@@ -23,11 +23,12 @@ Vial position was randomized within each optogenetic rig and dark box.
 
 \subsection*{Lifespan assays}
 
-Three- to 9-day old flies were placed in randomized positions in optogenetic rigs.
 Each treatment comprised 5-10 vials of 20 flies each (see \figref{fig:lifespanfig} caption for populations per experiment). 
+Flies were 3-9 days old when entering light; experimental and control genotypes were age-matched \hl{to within a day}.
 Flies were exposed to 12 V (red) or 20 V (green) light from ZT 0-12 every day (40 Hz, 32\% duty cycle).
 Rigs and dark boxes were maintained in incubators set to 25$^{\circ}$ C and 60\% humidity. 
 \eh{Male R2 was a different program than everything else; rheostat paper doesn't specify program, so do we just omit that generally?}
+%19.5 V 
 
 \subsection*{Starvation assays}
 
@@ -35,7 +36,6 @@ Flies were 3-4 days old when placed into light for 1 week of pre-treatment befor
 After pre-treatment, flies were removed from ATR medium, sorted into 10 vials of 10 flies, and placed onto 2\% agar, which provides water but not nutrition.
 Anti-fungal agent Tegosept was omitted from starvation medium to avoid introducing a nutritive solvent (EtOH). 
 Flies were treated with red light for the duration of the assay and flipped onto clean agar every 2-3 days.
-Vial position was randomized within each optogenetic rig and dark box.
 Surviving flies were counted every few hours. 
 Counting frequency increased as experiment progressed, as starving vials often go extinct within a short window. 
 Due to the high frequency of census taking, starvation flies were not kept in an incubator, but at room temperature (21.1-23.3$^{\circ}$ C) and ambient humidity.
@@ -81,7 +81,6 @@ Con-ex experiments were performed as previously described \citep{shell2018}, wit
 Light-naïve flies were sorted 10/vial instead of 20/vial for overnight ATR pre-treatment, to allow for direct flipping into con-ex vials withouth anesthesia the following day. 
 From an initial cohort of 120 flies, 100 were chosen for each time point (10 vials). 
 The remainder were treated identically to the analyzed experimental flies (including during assays) and were maintained to compensate for possible age-related attrition at later time points.
-Vial position was randomized in the optogenetic rig and dark box for each time point.
 Flies were 3-4 days old for the first (light-naïve) timepoint, to match standard lifespan conditions.
 After 24 hours, dyed food caps were removed, and flies were returned to standard ATR SY10 medium (20/vial) and placed back in the light rig or the dark box.
 Dye deposited on walls was washed by vortexting 3 mL of DI water in each vial. 
@@ -105,14 +104,14 @@ Ten biological replicates were analyzed.
 \subsection*{Negative geotaxis assay}
 
 Negative geotaxis was assayed using equipment and tracking software developed by our lab (D-Drop Deluxe and DTrack).
-\pink{7-8 days and 3-5 weeks; look up actual 1-month numbers(\# of days of treatment) but don't get hung up on it for now.} 
-Flies were anesthetized on a cold pad and individually transferred into lanes of custom 12-lane or 14-lane chambers, then placed at 25$^{\circ}$ C in ambient light or in a dark box for appromixamtely \pink{15} minutes to wake up.
+Flies were maintained as in lifespans (12 V red light or 19.5-20 V green light) and given 1 week (6-8 days) or 1 month (21-34 days) of light treatment starting at 3-8 days of age, after 2-5 days of mating. 
+D-Drop does not have integrated optogenetic LEDs, making this the only behavioral assay without concurrent neuron activation/inhibition (therefore no naïve time point was included). 
+For assay, flies were anesthetized on a cold pad and individually transferred into lanes of custom 12-lane or 14-lane chambers, then placed at 25$^{\circ}$ C in ambient light or in a dark box for 10-25 minutes to recover.
 Chambers were then loaded onto the "D-Drop Deluxe," an instrument that drops, illuminates, and records videos of single chambers. 
 Each chamber was dropped 3 consecutive times and recorded for 30 sec after each drop.
 After recording, flies were given an additonal 30 sec to recover (60 total sec between drops).
-D-Drop does not have integrated optogenetic LEDs, making this the only behavioral assay without concurrent neuron activation/inhibition. 
-Light-treated flies were instead dropped under ambient light conditions, with a ring light (for recording) contributing additional light. 
-Dark controls, though kept light-naive until the assay, were also subjected to this ring light during recording.
+Light-treated flies were dropped under ambient light conditions, with a ring light (for recording) contributing additional light. 
+Dark controls, though kept light-naïve until the assay, were also subjected to this ring light during recording.
 Height reached by 9 sec after drop and total up distance climbed in 30 sec after drop were averaged across replicates. 
 Interaction (Light $\times$ Genotype) p-values were derived from 2-way ANOVAs. 
 Benjamini-Hochberg FDR correction was applied within each sex and driver and across time points and climbing metrics.
@@ -141,7 +140,13 @@ Benjamini-Hochberg FDR correction was applied within each sex and driver and acr
 
 \subsection*{Place preference assay}
 
-\pink{Blah}-day old light-naive flies were aspirated into individual lanes of a multi-lane rectangular arena ((\figref{fig:arenafig}A).
+% Missing precise age data for some of these. It's probably in Slack...
+% But these ranges should cover it, assuming the usual ages based on my pipelines (3-8 days old before assays)
+% R2: Normal mating/sorting scheme. Flies were 11-18 days old at time of assays. 
+% 2769: Missing age data; assume 7-15 days old at time of assay 
+% R4d-Chr: 10-12 days old for 48 Hz; unsure for 200 Hz, but I assume the range of all flies covers it.
+% R4d-GtACR: Think I set these up at the same time as 2769, so they're a few days older
+\hl{Seven- to 21-day old} light-naive flies were aspirated into individual lanes of a multi-lane rectangular arena ((\figref{fig:arenafig}A).
 Flies were given 10 minutes to acclimate to the arena \eh{in the dark}, after which one half of the transparent arena floor was illuminated for 60 min (5 sec on/5 sec off).
 GtACR1 flies and their genetic controls were exposed to green light at 24 V/40 Hz/32\% duty cycle.
 CsChrimson flies and their genetic controls were exposed to red light (18 V) at either 48 Hz/32\% duty cycle (meant to mimic FLIC light parameters) or 200 Hz/20\% duty cycle. 
@@ -152,17 +157,17 @@ Data were pooled across 2-3 runs.
 
 \subsection*{RNA sequencing data acquisition}
 
-%check that i did in fact use latin squares for everyone
-For bulk head and body transcriptomics, 3- to 6-day old female flies were placed into optogenetic rigs (positions randomized within \hl{Latin squares)} or maintained in the dark in the same incubator for 1 week, after which they were flash-frozen in liquid nitrogen.
+For bulk head and body transcriptomics, 3- to 6-day old female flies were placed into optogenetic rigs or maintained in the dark in the same incubator for 1 week, after which they were flash-frozen in liquid nitrogen.
 The same light parameters were used as for lifespans above.
 Flies were combined within conditions and vortexed to remove heads from bodies.
 Heads and bodies were sorted using a sieve and counted into \pink{ribolyzer} tubes in a petri dish on dry ice.
-Ten heads or 5 bodies (ER2 only) were grouped per sample, and 5 samples were sequenced per condition. \eh{(Should I mention that the bodies are a separate batch?)} 
+Ten heads or 5 bodies (ER2 only) were grouped per sample, and 5 samples were sequenced per condition. 
+\eh{(Should I mention that the bodies are a separate batch?)} 
 RNA was extracted using the New England BioLabs Inc. (NEB) Monarch Total RNA Miniprep Kit (T2010S). 
 Samples were lysed in 800 $\mu$L of the kit's lysis buffer at 6.5 m/s for 15 seconds in a \pink{ribolyzer}.
 Bulk RNA was extracted according to manufacturer's instructions (including the optional DNase treatment) and sent to Admera Health LLC for library preparation using polyA selection and the NEBNext Ultra II Directional RNA Library Prep Kit.
 Libraries were sequenced on an Illumina platform with 2$\times$150 bp paired-end reads at a depth of 40 M reads per sample (20 M per direction).
-\pink{(Check files from Admera to see how they performed alignment and QC. Big Data server)}
+\pink{(Check files from Admera to see how they performed alignment and QC? Big Data server)}
 
 \subsection*{RNA sequencing data processing and statistsical analysis}
 

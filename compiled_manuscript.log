@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  26 MAY 2026 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  31 MAY 2026 23:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -330,8 +330,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 49.
- [4] [5] [6] [7] [8] [9]) (./Sections/discussion.tex [10] [11]) (./Sections/methods.tex [12] [13] [14] [15]) (./compiled_manuscript.bbl [16] [17] [18] [19]) (./Sections/figures.tex [20]
-<Figs/Lifespan_Fig.pdf, id=453, 383.88518pt x 664.21446pt>
+ [4] [5] [6] [7] [8] [9]) (./Sections/discussion.tex [10] [11] [12]) (./Sections/methods.tex [13] [14] [15]) [16] (./compiled_manuscript.bbl [17] [18] [19]) (./Sections/figures.tex [20]
+<Figs/Lifespan_Fig.pdf, id=460, 383.88518pt x 664.21446pt>
 File: Figs/Lifespan_Fig.pdf Graphic file (type pdf)
 <use Figs/Lifespan_Fig.pdf>
 Package pdftex.def Info: Figs/Lifespan_Fig.pdf  used on input line 6.
@@ -340,15 +340,15 @@ Package pdftex.def Info: Figs/Lifespan_Fig.pdf  used on input line 6.
 
 LaTeX Warning: Float too large for page by 70.8556pt on input line 17.
 
-<Figs/Seq_Fig.pdf, id=454, 553.16765pt x 692.64067pt>
+<Figs/Seq_Fig.pdf, id=461, 553.16765pt x 692.64067pt>
 File: Figs/Seq_Fig.pdf Graphic file (type pdf)
 <use Figs/Seq_Fig.pdf>
 Package pdftex.def Info: Figs/Seq_Fig.pdf  used on input line 76.
 (pdftex.def)             Requested size: 425.18074pt x 532.38377pt.
 
-LaTeX Warning: Float too large for page by 22.85358pt on input line 86.
+LaTeX Warning: Float too large for page by 34.85358pt on input line 86.
 
-<Figs/Seq_Fig2.pdf, id=455, 583.69772pt x 769.88832pt>
+<Figs/Seq_Fig2.pdf, id=462, 583.69772pt x 769.88832pt>
 File: Figs/Seq_Fig2.pdf Graphic file (type pdf)
 <use Figs/Seq_Fig2.pdf>
 Package pdftex.def Info: Figs/Seq_Fig2.pdf  used on input line 90.
@@ -356,7 +356,7 @@ Package pdftex.def Info: Figs/Seq_Fig2.pdf  used on input line 90.
 
 LaTeX Warning: Float too large for page by 34.84457pt on input line 101.
 
-<Figs/Con-Ex_and_TAG_Fig.pdf, id=456, 493.29195pt x 475.1863pt>
+<Figs/Con-Ex_and_TAG_Fig.pdf, id=463, 493.29195pt x 475.1863pt>
 File: Figs/Con-Ex_and_TAG_Fig.pdf Graphic file (type pdf)
 <use Figs/Con-Ex_and_TAG_Fig.pdf>
 Package pdftex.def Info: Figs/Con-Ex_and_TAG_Fig.pdf  used on input line 105.
@@ -364,7 +364,7 @@ Package pdftex.def Info: Figs/Con-Ex_and_TAG_Fig.pdf  used on input line 105.
 
 LaTeX Warning: Float too large for page by 52.08391pt on input line 121.
 
-<Figs/DDrop_Fig.pdf, id=457, 466.0411pt x 532.84569pt>
+<Figs/DDrop_Fig.pdf, id=464, 466.0411pt x 532.84569pt>
 File: Figs/DDrop_Fig.pdf Graphic file (type pdf)
 <use Figs/DDrop_Fig.pdf>
 Package pdftex.def Info: Figs/DDrop_Fig.pdf  used on input line 139.
@@ -372,41 +372,41 @@ Package pdftex.def Info: Figs/DDrop_Fig.pdf  used on input line 139.
 
 LaTeX Warning: Float too large for page by 47.31418pt on input line 150.
 
-<Figs/FLIC_Fig.pdf, id=458, 356.73174pt x 434.89677pt>
+<Figs/FLIC_Fig.pdf, id=465, 356.73174pt x 434.89677pt>
 File: Figs/FLIC_Fig.pdf Graphic file (type pdf)
 <use Figs/FLIC_Fig.pdf>
 Package pdftex.def Info: Figs/FLIC_Fig.pdf  used on input line 154.
 (pdftex.def)             Requested size: 356.73085pt x 434.8957pt.
-<Figs/Arena_Fig.pdf, id=459, 383.40741pt x 402.86711pt>
+<Figs/Arena_Fig.pdf, id=466, 383.40741pt x 402.86711pt>
 File: Figs/Arena_Fig.pdf Graphic file (type pdf)
 <use Figs/Arena_Fig.pdf>
-Package pdftex.def Info: Figs/Arena_Fig.pdf  used on input line 168.
+Package pdftex.def Info: Figs/Arena_Fig.pdf  used on input line 169.
 (pdftex.def)             Requested size: 506.72531pt x 532.44397pt.
 
-LaTeX Warning: Float too large for page by 22.91377pt on input line 176.
+LaTeX Warning: Float too large for page by 22.91377pt on input line 179.
 
-<Figs/Bodyseq_Fig.pdf, id=460, 440.02794pt x 255.65714pt>
+<Figs/Bodyseq_Fig.pdf, id=467, 440.02794pt x 255.65714pt>
 File: Figs/Bodyseq_Fig.pdf Graphic file (type pdf)
 <use Figs/Bodyseq_Fig.pdf>
-Package pdftex.def Info: Figs/Bodyseq_Fig.pdf  used on input line 180.
+Package pdftex.def Info: Figs/Bodyseq_Fig.pdf  used on input line 183.
 (pdftex.def)             Requested size: 520.71231pt x 302.53493pt.
-<Figs/Metab_Fig.pdf, id=461, 545.86136pt x 736.30183pt>
+<Figs/Metab_Fig.pdf, id=468, 545.86136pt x 736.30183pt>
 File: Figs/Metab_Fig.pdf Graphic file (type pdf)
 <use Figs/Metab_Fig.pdf>
-Package pdftex.def Info: Figs/Metab_Fig.pdf  used on input line 194.
+Package pdftex.def Info: Figs/Metab_Fig.pdf  used on input line 197.
 (pdftex.def)             Requested size: 394.70236pt x 532.4064pt.
 
-LaTeX Warning: Float too large for page by 22.8762pt on input line 205.
+LaTeX Warning: Float too large for page by 22.8762pt on input line 208.
 
 ) [21
 
 ] [22 <./Figs/Lifespan_Fig.pdf>] [23 <./Figs/Seq_Fig.pdf>] [24 <./Figs/Seq_Fig2.pdf>] [25 <./Figs/Con-Ex_and_TAG_Fig.pdf>] [26 <./Figs/DDrop_Fig.pdf>] [27 <./Figs/FLIC_Fig.pdf>] [28 <./Figs/Arena_Fig.pdf>] [29 <./Figs/Bodyseq_Fig.pdf>] [30 <./Figs/Metab_Fig.pdf>] (./Sections/supplement.tex
-<Figs/Lifespan_Supp.pdf, id=11714, 304.3892pt x 158.33554pt>
+<Figs/Lifespan_Supp.pdf, id=11724, 304.3892pt x 158.33554pt>
 File: Figs/Lifespan_Supp.pdf Graphic file (type pdf)
 <use Figs/Lifespan_Supp.pdf>
 Package pdftex.def Info: Figs/Lifespan_Supp.pdf  used on input line 5.
 (pdftex.def)             Requested size: 520.70602pt x 270.85803pt.
-<Figs/DDrop_Supp.pdf, id=11715, 243.1193pt x 558.95526pt>
+<Figs/DDrop_Supp.pdf, id=11725, 243.1193pt x 558.95526pt>
 File: Figs/DDrop_Supp.pdf Graphic file (type pdf)
 <use Figs/DDrop_Supp.pdf>
 Package pdftex.def Info: Figs/DDrop_Supp.pdf  used on input line 12.
@@ -415,7 +415,7 @@ Package pdftex.def Info: Figs/DDrop_Supp.pdf  used on input line 12.
 
 LaTeX Warning: Float too large for page by 10.85597pt on input line 22.
 
-<Figs/FLIC_Supp.pdf, id=11716, 355.00127pt x 426.25247pt>
+<Figs/FLIC_Supp.pdf, id=11726, 355.00127pt x 426.25247pt>
 File: Figs/FLIC_Supp.pdf Graphic file (type pdf)
 <use Figs/FLIC_Supp.pdf>
 Package pdftex.def Info: Figs/FLIC_Supp.pdf  used on input line 26.
@@ -423,7 +423,7 @@ Package pdftex.def Info: Figs/FLIC_Supp.pdf  used on input line 26.
 
 LaTeX Warning: Float too large for page by 106.84181pt on input line 43.
 
-<Figs/Arena_Supp.pdf, id=11717, 383.4064pt x 421.36824pt>
+<Figs/Arena_Supp.pdf, id=11727, 383.4064pt x 421.36824pt>
 File: Figs/Arena_Supp.pdf Graphic file (type pdf)
 <use Figs/Arena_Supp.pdf>
 Package pdftex.def Info: Figs/Arena_Supp.pdf  used on input line 47.
@@ -431,7 +431,7 @@ Package pdftex.def Info: Figs/Arena_Supp.pdf  used on input line 47.
 
 LaTeX Warning: Float too large for page by 34.90753pt on input line 56.
 
-<Figs/Bodyseq_Supp.pdf, id=11718, 900.33968pt x 1236.91113pt>
+<Figs/Bodyseq_Supp.pdf, id=11728, 900.33968pt x 1236.91113pt>
 File: Figs/Bodyseq_Supp.pdf Graphic file (type pdf)
 <use Figs/Bodyseq_Supp.pdf>
 Package pdftex.def Info: Figs/Bodyseq_Supp.pdf  used on input line 60.
@@ -450,16 +450,16 @@ Package rerunfilecheck Info: File `compiled_manuscript.out' has not changed.
 Here is how much of TeX's memory you used:
  12005 strings out of 469006
  191449 string characters out of 5454814
- 646717 words of memory out of 5000000
+ 637336 words of memory out of 5000000
  40418 multiletter control sequences out of 15000+600000
  639362 words of font info for 62 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 79i,10n,82p,1777b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,82p,1777b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1000.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1728.600pk> </Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on compiled_manuscript.pdf (36 pages, 5708628 bytes).
+Output written on compiled_manuscript.pdf (36 pages, 5710121 bytes).
 PDF statistics:
- 18661 PDF objects out of 22161 (max. 8388607)
- 9388 compressed objects within 94 object streams
+ 18672 PDF objects out of 22161 (max. 8388607)
+ 9397 compressed objects within 94 object streams
  138 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
