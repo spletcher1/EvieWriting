@@ -189,7 +189,21 @@ Rather than retaining the most statistically significant term in each cluster, w
 \subsection*{Metabolomics data acquisition, processing, and statistical analysis}
 
 Three-day-old female flies were treated and harvested as described for RNA sequencing. 
-Six samples of 30 whole female bodies were sent to the University of Washington's metabolomics core for analysis. \eh{care of Ben?}
+Six samples of 30 whole female bodies were sent to the University of Washington's metabolomics core for analysis. \eh{care of Ben/Daniel?}
+
+\eh{Got this from Christi; if we keep it I'll modify the wording a bit, but I don't have this level of detail for RNA-seq.}
+\textit{Preparation of biological tissue samples for targeted LC-MS without absolute concentration: Adapted from Daniel Djukovic and Lisa Bettcher}
+10 mg of body tissue samples were homogenized in 200 $\mu$L of cold (4$^{\circ}$ C) Milli-Q water with zirconium oxide beads using a Bullet Blender. 
+After homogenization, metabolites were extracted by adding 800 $\mu$L of methanol containing internal standards. 
+This extraction solution was prepared by spiking 100 mL of methanol and 1 mL of 12.370 mM 13C-Glucose and 0.4 mL of 6.463 mM \hl{13}C-glutamic acid. 
+The mixture was vortexed for 10 seconds, incubated at -20$^{\circ}$ C for 30 minutes, then sonicated in an ice bath for 10 minutes.
+To separate the extracts, the mixture was centrifuged at 14K RPM for 15 minutes at 4$^{\circ}$ C. A 600 $\mu$L aliquot of the supernatant was transferred to a new tube, and the samples were dried completely in a Speedvac at 30$^{\circ}$ C for approximately 2 hours. 
+The dried pellets were then stored at -80$^{\circ}$ C until the reconstitution step.
+The dried pellets were then reconstituted in 1,000 $\mu$L of a hydrophilic interaction liquid chromatography (HILIC) solvent. 
+The HILIC solvent was made by a 30:70 mixture of mobile phase solvents A1 (10 mM ammonium acetate in 95\% H2O/3\% acetonitrile/2\% methanol + 0.2\% acetic acid) and B1 (10 mM ammonium acetate in 93\% acetonitrile/5\% water/2\%methanol + 0.2\% acetic acid), and was spiked with internal standard to a final concentration of 19.58\% $\mu$M \hl{13}C-lactate and 3.550 $\mu$M \hl{13}C-tyrosine. 
+The reconstituted samples were vortexed for 10 seconds and centrifuged for 5 minutes at 14K RPM in 4$^{\circ}$ C. 
+The final aliquot of the supernatant was transferred to LC vials for mass spectrometry.
+
 Targeted \eh{(specifics?)} metabolomics data from bodies were analyzed using a 2$\times$2 factorial design with Treatment (Light vs. Dark) and Genotype (ER2>Chr vs. ER2>WCS) as factors. 
 Metabolites with more than two missing values across all samples were removed. 
 Remaining abundances were natural log-transformed and mean-centered per sample. 
