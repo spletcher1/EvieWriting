@@ -1,52 +1,66 @@
 % =========================
 % Preamble (shared)
 % =========================
-
 \usepackage[
   paperwidth=210mm,
   paperheight=297mm,
   left=13.5mm,
-  right=13.5mm
+  right=13.5mm,
+  top=25mm,        % expanded top margin
+  bottom=25mm      % expanded bottom margin
 ]{geometry}
+
+% Line numbers
+\usepackage{lineno}
+\linenumbers
+
+% Double spacing
+\usepackage{setspace}
+\doublespacing
+
+% Page number top right
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}                          % clear all header/footer fields
+\fancyhead[R]{\thepage}             % page number top right
+\renewcommand{\headrulewidth}{0pt}  % remove header rule
+\renewcommand{\footrulewidth}{0pt}  % remove footer rule
+\fancypagestyle{plain}{%            % fix page 1
+  \fancyhf{}%
+  \fancyhead[R]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
 
 \usepackage{soul,xcolor}
 \sethlcolor{yellow}
 % use this for adding comments since bold is a little unwieldy
 % \hl{This sentence will be highlighted in whatever color we chose above.}
-
 % Evie highlights
 \newcommand{\eh}[1]{%
-  {\sethlcolor{cyan!30}\hl{#1}}%
+{\sethlcolor{cyan!30}\hl{#1}}%
 }
-
 % Scott highlights
 \newcommand{\pink}[1]{%
-  {\sethlcolor{pink!50}\hl{#1}}%
+{\sethlcolor{pink!50}\hl{#1}}%
 }
-
 \usepackage[T1]{fontenc}
-
 \usepackage{graphicx}
-
 %\usepackage[numbers,super,sort&compress]{natbib}
 %\setcitestyle{citesep={,}}
 \usepackage[authoryear]{natbib}
 \setcitestyle{round}
-
 \usepackage[section]{placeins}
-
 \usepackage{afterpage}
-
 \usepackage{caption}
 \captionsetup{
   justification=justified,
   singlelinecheck=false,
   labelfont=bf,
-  labelsep=period
+  labelsep=period,
+  font=footnotesize
 }
-
 % Custom figure reference helpers
 \newcommand{\Figref}[1]{Figure~\ref{#1}}
 \newcommand{\figref}[1]{Fig.~\ref{#1}}
-
 \usepackage{hyperref}
