@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex compiled_manuscript"] 1781270755.48267 "compiled_manuscript.aux" "compiled_manuscript.bbl" "compiled_manuscript" 1781270756.32029 0
+["bibtex compiled_manuscript"] 1781291235.56989 "compiled_manuscript.aux" "compiled_manuscript.bbl" "compiled_manuscript" 1781291320.25032 0
   "./references.bib" 1781235047.55137 21586 27290083c051694248cfd411bba215db ""
   "./vancouver.bst" 1780942319.85882 40624 ac6ae80a2b874e3abad2798e8fbde6a2 ""
-  "compiled_manuscript.aux" 1781270756.20925 31134 f0e99b5155092e93024c2b9f7f789747 "pdflatex"
+  "compiled_manuscript.aux" 1781291320.13956 31134 e6cfddf28737d9a0702859e4dc57b2df "pdflatex"
   (generated)
   "compiled_manuscript.bbl"
   "compiled_manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1781270755.52055 "/Users/evie/University of Michigan Dropbox/Evelynn Henry/Paper Writing/TestTex/EvieWriting/compiled_manuscript.tex" "compiled_manuscript.pdf" "compiled_manuscript" 1781270756.32045 0
+["pdflatex"] 1781291319.47963 "/Users/evie/University of Michigan Dropbox/Evelynn Henry/Paper Writing/TestTex/EvieWriting/compiled_manuscript.tex" "compiled_manuscript.pdf" "compiled_manuscript" 1781291320.25046 0
   "/Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk" 1773692837.05629 25396 beff6185fe7a5de0cf406b1727e23138 ""
   "/Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk" 1773692836.8124 31928 e81ef188fa223f70adf65bddd6957bfe ""
   "/Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk" 1773692837.6556 40112 bbaacb1a5dd74029535095f08645a92d ""
@@ -129,15 +129,15 @@
   "Figs/Metab_Fig.pdf" 1779309510.34056 931273 570c380c6921a2d449b47401d283b58d ""
   "Figs/Seq_Fig.pdf" 1780324943.63153 175375 800af65e3b085673592501894219b65c ""
   "Figs/Seq_Fig2.pdf" 1779301042.22233 221646 88da58cf6fa56b7eeae8ce35084828c1 ""
-  "Sections/discussion.tex" 1781211027.27366 12674 8de3aff357b5a56a56c028195a3a6995 ""
+  "Sections/discussion.tex" 1781291319.28111 13349 0f8490cecb29af2164392062ce88c56b ""
   "Sections/figures.tex" 1781270754.33903 11966 38657df335667196476fcc87b9ddaa35 ""
   "Sections/intro.tex" 1781234827.00566 10181 dcc88c97cfc0c486c8a209162279f9c3 ""
   "Sections/main.tex" 1781237134.70525 42952 c08d7dfa39c67eebaa285b39c6dc3635 ""
   "Sections/methods.tex" 1781238355.1405 18303 275e4c083ba8c92896f5a3080069202e ""
   "Sections/supplement.tex" 1781233212.0073 4713 b9e19a322a0d6677c2eb91c0bc0e1626 ""
-  "compiled_manuscript.aux" 1781270756.20925 31134 f0e99b5155092e93024c2b9f7f789747 "pdflatex"
-  "compiled_manuscript.bbl" 1781270755.51872 13042 3c423bfe2fd76addd4775605c1c089c7 "bibtex compiled_manuscript"
-  "compiled_manuscript.out" 1781270755.71623 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "compiled_manuscript.aux" 1781291320.13956 31134 e6cfddf28737d9a0702859e4dc57b2df "pdflatex"
+  "compiled_manuscript.bbl" 1781291235.59393 13042 3c423bfe2fd76addd4775605c1c089c7 "bibtex compiled_manuscript"
+  "compiled_manuscript.out" 1781291319.67897 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "compiled_manuscript.tex" 1780942444.94271 913 8f5dae9836067535fa8c49656f7b973e ""
   "preamble.tex" 1780942406.95106 1667 f5280cf6854285dd024bc8c0864211f5 ""
   (generated)
