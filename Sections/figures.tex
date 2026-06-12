@@ -9,8 +9,8 @@
 \textbf{(B--D)} (Left) Expression patterns of drivers used in each experiment. Neurons were either activated (dashed red lines) using UAS-CsChrimson, or inhibited (dashed green lines) using UAS-GtACR1. Dark controls (black lines) were included for all experiments. P-values were obtained by log-rank analysis of correspondingly colored lines. Control genotypes (solid lines) were bred by crossing respective GAL4 drivers with WCS.
 \textbf{(B)} Activation of ER2 extended lifespan in both sexes. n = 95-117.
 \textbf{(C)} Inhibition of ER4d extended lifespan in both sexes. n = 145-189.
-\textbf{(D)} Simultaneous activation of ER2 and ER4 neurons extends lifespan in both sexes. n = 127-139.
-\textbf{(E)} Inhibition (left) and activation (right) of broader EB (BDSC 39805) extends lifespan in females. GtACR1 n = 127-133; Chr n = 95-115. 
+\textbf{(D)} Simultaneous activation of ER2 and ER4 neurons extended lifespan in both sexes. n = 127-139.
+\textbf{(E)} Inhibition (left) and activation (right) of broader EB (BDSC \#39805) modestly extended lifespan in females. GtACR1 n = 127-133; Chr n = 95-115. 
 \textbf{(B--E)} P-values were obtained by log-rank analysis of line pairs indicated by color. 
 }
 \label{fig:lifespanfig}
@@ -74,7 +74,7 @@
 \begin{figure}[p]
 \centering
 \includegraphics[width=\textwidth,height=.9\textheight,keepaspectratio]{Figs/Seq_Fig.pdf}
-\caption{\textbf{ER2 activation drives broad transcriptional changes and produces a head transcriptomic profile distinct from ER4d inhibition.} Bulk RNA-seq data from whole heads of female flies treated with light for 1 week shows broad transcriptomic changes in R2>Chr flies. 
+\caption{\textbf{ER2 activation drives broad transcriptional changes and produces a head transcriptomic profile distinct from ER4d inhibition.} Bulk RNA-seq data from whole heads of female flies treated with light for 1 week shows broad transcriptomic changes in ER2>Chr flies. 
 Ten heads were collected per sample. 
 Differentially expressed genes (DEGs) identified at FDR < 0.01 (Benjamini-Hochberg correction) using DESeq2 R package. 
 \textbf{(A)} DEGs downregulated (left) and upregulated (right) by ER2 activation (ER2>Chr). 
@@ -103,11 +103,11 @@ Heatmap shows differentially expressed genes (DEGs) identified at FDR < 0.01 (Be
 \begin{figure}[p]
 \centering
 \includegraphics[width=\textwidth,height=.9\textheight,keepaspectratio]{Figs/Con-Ex_and_TAG_Fig.pdf}
-\caption{\textbf{ER2 and ER2/ER4 activation dissociates nutrient-state signaling from behavioral and physiological outputs.} \textbf{(A-D)} Interaction (Light $\times$ Genotype) p-values derived from 2-way ANOVAs. 
+\caption{\textbf{ER2 and ER2/ER4 activation dissociates nutrient-state signaling from behavioral and physiological outputs.} \textbf{(A-D)} Interaction (light $\times$ genotype) p-values derived from 2-way ANOVAs. 
 Benjamini-Hochberg correction was applied within each sex and driver, and across time points for con-ex. 
 Female TAG points represent 5 flies; all others represent 10 flies. 
 \textbf{(A)} ER2-GAL4 con-ex. ER2-activated females were indistinguishable from controls. 
-Naive and one-week pre-treated males were indistinguishable from controls, but male feeding was reduced after one month of pre-treatment
+Naïve and one-week pre-treated males were indistinguishable from controls, but male feeding was reduced after one month of pre-treatment.
 Female n = 8-10; male n = 7-10. 
 \textbf{(B)} ER2/ER4-GAL4 con-ex. 
 ER2/ER4 activated males and females were indistinguishable from controls at all time points. 
@@ -138,7 +138,7 @@ P-values were obtained by log-rank analysis of correspondingly colored lines. n 
 \centering
 \includegraphics[scale=1]{Figs/DDrop_Fig.pdf}
 \caption{\textbf{EB manipulation does not impair climbing ability.} Height reached by 9 sec after drop (top plots of each panel) and total up distance climbed in 30 sec after drop (bottom plots). 
-Interaction (Light $\times$ Genotype) p-values were derived from 2-way ANOVAs. 
+Interaction (light $\times$ genotype) p-values were derived from 2-way ANOVAs. 
 Benjamini-Hochberg correction was applied within each sex/driver and across time points and climbing metrics. 
 Points represent average of 3 trials per individual. 
 n = 23-28.
@@ -154,7 +154,7 @@ Female ER2/ER4 flies exhibit improved climbing by both metrics after one month o
 \includegraphics[scale=1]{Figs/FLIC_Fig.pdf}
 \caption{\textbf{FLIC captures distinct valence states induced by EB manipulation.} 
 Female flies were used to assay valence of neuron activation.
-Sucrose interaction p-values were derived from the Genotype $\times$ Linkage interaction term of a linear mixed model (Interactions ~ Genotype * Linkage + (1|Group), lmer) with yoked pairs modeled as a random intercept.
+Sucrose interaction p-values were derived from the genotype $\times$ linkage interaction term of a linear mixed model (Interactions ~ Genotype * Linkage + (1|Group), lmer) with yoked pairs modeled as a random intercept.
 Benjamini-Hochberg correction was applied within each sex and driver and across time points. 
 \textbf{(A)} A "trigger" fly (top chamber) controlled optogenetic light for itself and a yoked control (bottom) by touching a 10\% sucrose (S10) well. 
 \textbf{(B)} ER2 activation was aversive in light-naïve flies and in flies pre-treated with light for 1 month. n = 9-18. 
@@ -169,11 +169,11 @@ Benjamini-Hochberg correction was applied within each sex and driver and across 
 \includegraphics[width=\textwidth,height=.9\textheight,keepaspectratio]{Figs/Arena_Fig.pdf}
 \caption{\textbf{Valence of EB manipulation is sex-, circuit-, and context-dependent.} 
 \textbf{(A)} Light-naïve flies (n = 34-36) were placed in lanes with a dark side and an illuminated side (red light, 48 Hz) and subjected to a two-phase protocol: 1) a 10-min dark acclimation period; 2) a 60-min treatment of 5 sec on/5 sec off. 
-Reported p-values for Preference Index correspond to Genotype $\times$ Phase interaction term. 
+Reported p-values for Preference Index correspond to genotype $\times$ phase interaction term. 
 \textbf{(B)} ER2/ER4>Chr females and males strongly preferred lit side of arena. 
-\textbf{(C)} ER2>Chr females, but not males, preferred dark side. 
+\textbf{(C)} ER2>Chr females, but not males, preferred the unlit side. 
 \textbf{(D)} ER4d>Chr females preferred lit side, but showed decreased light preference relative to controls. 
-Males preferred dark side.
+Males preferred unlit side.
 }
 \label{fig:arenafig}
 \end{figure}
@@ -186,8 +186,8 @@ Bulk RNA-seq data were acquired from whole bodies of ER2-GAL4 flies treated with
 5 bodies collected per sample. 
 Differentially expressed genes (DEGs) identified at FDR < 0.01 (Benjamini-Hochberg correction) using DESeq2 R package. 
 \textbf{(A)} Overlap between all DEGs observed in ER2-activated heads (purple) and bodies (green). Shared genes are indicated by 2 red arrows (upregulated) or a red and blue arrow (oppositely regulated in heads and bodies; red = upregulated in heads, blue = downregulated in heads). 
-\textbf{(B)} Top 15 peripheral GO Biological Processes upregulated by ER2 activation. 
-\textbf{(C)} Top 15 peripheral GO Biological Processes downregulated by ER2 activation. 
+\textbf{(B)} Top 15 peripheral GO Biological Processes downregulated by ER2 activation. 
+\textbf{(C)} Top 15 peripheral GO Biological Processes upregulated by ER2 activation. 
 }
 \label{fig:bodyseqfig}
 \end{figure}
@@ -196,10 +196,10 @@ Differentially expressed genes (DEGs) identified at FDR < 0.01 (Benjamini-Hochbe
 \centering
 \includegraphics[width=\textwidth,height=.9\textheight,keepaspectratio]{Figs/Metab_Fig.pdf}
 \caption{\textbf{ER2 activation remodels peripheral metabolism.} 
-Targeted metabolomic profiling at FDR < 0.05 (Light $\times$ Genotype interaction; Benjamini–Hochberg correction). 
+Targeted metabolomic profiling at FDR < 0.05 (light $\times$ genotype interaction; Benjamini–Hochberg correction). 
 30 bodies collected per sample. 
 \textbf{(A)} PC1 separates ER2-activated flies from all other samples. 
-\textbf{(B)} 87 metabolites were significantly affected by EER2 neuron activation (40 up/47 down). 
+\textbf{(B)} 87 metabolites were significantly affected by ER2 neuron activation (40 up/47 down). 
 \textbf{(C)} Peripheral metabolites reduced (left) or increased (right) in abundance upon ER2 activation.
 Red light treatment separates ER2>Chr flies from all 3 control conditions.
 \textbf{(D)} KEGG pathway enrichment of significantly altered metabolites (FELLA). Dot color and x-axis indicate statistical significance ($-\log_{10}(p)$).

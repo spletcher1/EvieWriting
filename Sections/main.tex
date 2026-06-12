@@ -11,16 +11,15 @@ To assay lifespans, we housed flies in custom optogenetic rigs with programmable
 Unless otherwise noted, flies in all treatment paradigms were exposed to light activation (40 Hz, 32\% duty cycle) during ZT 0-12 of a 12:12 light:dark cycle, beginning at 3 days post-eclosion and continuing throughout adulthood, promoting a normal circadian rhythm and restricting neuronal manipulations to periods when flies would typically be alert and interacting with their environment (\figref{fig:lifespanfig}A).
 Flies were otherwise maintained using standard husbandry conditions \citep{linford2013}. 
 
-We focused our investigation on ER2 and ER4, specifically ER4d, neurons, as these are required for the perception of dead conspecifics to modulate lifespan \citep{gendron2023} and for food perception to enhance starvation resistance \citep{luo2021}. 
+We focused our investigation on ER2 and ER4 neurons, with particular emphasis on the ER4d subpopulation, as these are required for the perception of dead conspecifics to modulate lifespan \citep{gendron2023} and for food perception to enhance starvation resistance \citep{luo2021}. 
 When flies expressing UAS-CsChrimson \citep{klapoetke2014} in ER2 neurons (ER2>Chr) were exposed to red light during subjective day, we observed a significantly extended lifespan in both females and males compared to siblings aged in the dark (\figref{fig:lifespanfig}B). 
 This effect was not observed in genotype control flies that did not express CsChrimson, ruling out general lifespan-extending effects of red light and indicating a direct effect of neuronal activation. 
-Activation of ER4d neurons had little meaningful effect on lifespan (\figref{fig:lifespansupp}A). 
-However, when ER4d neurons were inhibited by exposing flies expressing the anion channelrhodopsin GtACR1 \citep{mohammad2017} to green light during subjective day, lifespan was significantly extended in both females and males (\figref{fig:lifespanfig}C). 
+Activation of ER4d neurons had a modest but significant effect on lifespan (\figref{fig:lifespansupp}A). 
+By contrast, inhibition of ER4d neurons by exposing flies expressing the anion channelrhodopsin GtACR1 \citep{mohammad2017} (ER4d>GtACR1) to green light during subjective day produced a more pronounced lifespan extension in both females and males (\figref{fig:lifespanfig}C).
 These results should be interpreted with caution, however, because we observed that exposure to high-intensity green light caused a significant reduction in lifespan in all cohorts (roughly 50\% in females and 33\% in males). 
 Nevertheless, GtACR1 flies lived modestly but significantly longer than control flies in the light, a pattern that was not observed in the dark.
 
-% Got rid of the "ixn p-value" notes here since we decided not to use Cox regressions
-The observation that ER2 and ER4d neuron activation had different effects on lifespan was somewhat unexpected given that measures of ER2 and ER4 neuronal activity were both observed to be higher following exposure to dead conspecifics \citep{gendron2023}, which accelerates aging \citep{chakraborty2019}. 
+The observation that activation of ER2 neurons and, to a lesser extent, ER4d neurons increased lifespan was somewhat unexpected, given that measures of ER2 and ER4 neuronal activity were both observed to be higher following exposure to dead conspecifics \citep{gendron2023}, which accelerates aging \citep{chakraborty2019}. 
 We therefore decided to examine the effect of simultaneous activation of ER2 and ER4 (comprising ER4d and ER4m subpopulations) using a split-GAL4 driver. 
 To our surprise, simultaneously activating both populations extended lifespan in males and females (\figref{fig:lifespanfig}D) to a greater extent than did ER2 activation alone. 
 In this experiment, red light exposure modestly increased lifespan of CsChrimson-expressing flies as well as their genotypic controls, but the increase in lifespan was significantly greater in CsChrimson flies. 
@@ -48,20 +47,20 @@ We specified a statistical model in which genotype (CsChrimson, control) and lig
 A genotype $\times$ light interaction term was used to identify significant transcriptional changes that were specific to light-driven channelrhodopsin stimulation, and these were the primary focus of our analysis. 
 After one week of ER2 neuron activation, we identified 123 genes (70 downregulated and 53 upregulated) whose expression values exhibited experiment-wise interaction p-values (corrected for false discovery rate) less than our cutoff of p < 0.01. 
 Expression data from these genes produced clear separation of samples by treatment, indicating strong reproducibility across each of the five replicates (\figref{fig:seqfig}A). 
-Hierarchical clustering revealed that samples from flies with activated ER2 neurons (i.e. ER2>CsChrimson flies exposed to red light) formed a distinct group from flies without neuronal activation, including CsChrimson-expressing flies maintained in constant darkness as well as control genotype samples maintained in either darkness or red light. 
+Hierarchical clustering revealed that samples from flies with activated ER2 neurons (i.e. ER2>Chr flies exposed to red light) formed a distinct group from flies without neuronal activation, including CsChrimson-expressing flies maintained in constant darkness as well as control genotype samples maintained in either darkness or red light. 
 
 Despite a stringent threshold, we observed that one week of ER2 neuron activation drove broad but pathway-enriched changes in the head. 
 Gene Ontology (GO) analysis of upregulated genes revealed enrichment for ribosome biogenesis and rRNA processing, insulin signaling, and response to starvation (\figref{fig:seqfig}B). 
 Downregulated genes were enriched for protein folding and ER stress response pathways (\figref{fig:seqfig}C). 
 Together, these results suggest that activation of ER2 neurons induces a distinct metabolic state in the head, characterized by altered nutrient signaling and reduced ER stress. 
-It also caught our attention that many of the differentially-expressed genes have been implicated in aging biology, with several known to modulate aging directly. 
+Notably, many of the differentially-expressed genes have been implicated in aging biology, with several known to modulate aging directly. 
 For example, we observed the upregulation of multiple genes consistent with dampened insulin-like signaling (e.g., \textit{foxo}, \textit{Thor} (encoding d4E-BP), \textit{InR}, \textit{dilp6}) \citep{partridge2010}; upregulation of autophagy-related genes such as \textit{Atg101} \citep{guo2019}; upregulation of \textit{ImpL2}, an IIS antagonist which has been linked to lifespan extension \citep{alic2011}; and higher levels of \textit{Cbs}, which encodes the rate-limiting enzyme in the transsulfuration pathway and increases lifespan \citep{kabil2011}. 
 Together, these results demonstrate that short-term, part-time activation (12L/12D) of a few dozen ER2 neurons drives significant changes in multiple aging-, nutrient-, and stress-response pathways. 
 
 Following one week of ER4d silencing, far fewer changes in gene expression could be attributed to ER4d inhibition (\figref{fig:seqfig}D), although such changes were likely masked by remarkably potent independent effects of green light exposure. 
 As observed for the ER2 data, sample-based clustering grouped biological replicates as more closely related to each other than to samples from all other treatments, demonstrating reproducibility. 
 Consistent with its significant negative effect on lifespan (\figref{fig:lifespanfig}C), green light exposure affected the expression of 1,817 genes regardless of genotype (experiment-wise p < 0.01). 
-However, only 11 genes (9 downregulated and 2 upregulated) were associated with a significant p-value for the genotype $times$ light interaction term of the model, which indicates a differential response in flies with ER4d neurons silenced. 
+However, only 11 genes (9 downregulated and 2 upregulated) exhibited a significant genotype $\times$ light interaction, indicating a differential transcriptional response in flies with ER4d neurons silenced. 
 Interestingly, in both genotypes, green light drove strong upregulation of multiple genes that encode heat shock proteins (e.g., \textit{Hsp23}, \textit{Hsp26}, \textit{Hsp27}, \textit{Hsp70Bb}), which was significantly muted in flies with ER4d neurons silenced. 
 Other differentially-expressed genes following ER4d inhibition include the enzyme tyrosine hydroxylase (\textit{ple}), which catalyzes the rate-determining step in dopamine synthesis \citep{neckameyer1993}; the serine protease homolog \textit{scarface} \citep{prasad2018}; and several genes of unknown function. 
 % Sugar promotes feeding via Scarface, note to self (2018)
@@ -70,9 +69,7 @@ We next asked how transcriptional changes following simultaneous activation of E
 When ER2 and ER4 neurons were activated simultaneously, we once again observed high reproducibility with replicate samples within treatments being clustered together and flies with activated ER2/ER4 neurons forming a cluster distinct from both genotype and light controls (\figref{fig:seqfig2}A). 
 Using a false discovery rate-corrected cutoff of p < 0.01, we observed that ER2/ER4 activation resulted in roughly twice as many transcriptional changes as did ER2 activation alone (198 upregulated and 82 downregulated). 
 
-
-with additional enrichment of biosynthetic and glycogen-metabolism-related pathways
-A GO analysis of the upregulated genes was dominated by metabolic pathways related to amino acid metabolism as well as pentose-phosphate- and NADPH-generating processes (\figref{fig:seqfig2}B). 
+A GO analysis of the upregulated genes was dominated by metabolic pathways related to amino acid metabolism as well as pentose-phosphate- and NADPH-generating processes, with additional enrichment of biosynthetic and glycogen-metabolism-related pathways (\figref{fig:seqfig2}B). 
 We also observed an upregulation of several known lifespan-modulating genes involved in one carbon metabolism, including \textit{Cbs}, \textit{Gnmt}, \textit{Glyp}, \textit{Glys}, \textit{Nmdmc}, and \textit{Zw}. 
 Genes involved in starvation responses and lipid and carbohydrate catabolism were significantly downregulated (\figref{fig:seqfig2}C), which was in contrast to the upregulation of these pathways that we observed when ER2 neurons were activated alone. 
 Notably, rather than recapitulating the effects of either of the previous two manipulations, or impacting a set of genes that was effectively a union of the two, the transcriptional profile of ER2/ER4-activated flies was distinct from those of both ER2 activation and ER4d inhibition, even where it impinged on similar pathways (\figref{fig:seqfig2}D-E). 
@@ -97,8 +94,8 @@ Naïve male and female ER2>Chr flies excreted amounts of blue dye statistically 
 After one week of light pre-treatment, individuals from the same cohort of flies were randomly distributed among new vials and tested again (\figref{fig:conexfig}A, center panels). 
 We again observed no light-driven changes in feeding by ER2>Chr males or females. 
 Following a month of light pre-treatment, males, but not females, exhibited a significant reduction of feeding, as evidenced by a statistically significant interaction effect (\figref{fig:conexfig}A, right). 
-There were also no consistent effects of ER2/ER4 neuron activation on feeding. The interaction term was not statistically significant for males or females that were light-naïve (\figref{fig:conexfig}B, left panels for each sex) or given one week (\figref{fig:conexfig}B, center) or one month 
-(\figref{fig:conexfig}B, right) of pre-treatment. 
+There were also no consistent effects of ER2/ER4 neuron activation on feeding, as the interaction term was not statistically significant for males or females that were light-naïve (\figref{fig:conexfig}B, left panels for each sex) or given one week (\figref{fig:conexfig}B, center) or one month 
+(\figref{fig:conexfig}B, right) of pre-treatment.
 We observed a nominally significant increase in ER2/ER4-activated female feeding after one week (p = 0.041), but this effect did not survive correction for multiple comparisons.
 These results suggest that ER2 and ER2/ER4 activation do not robustly regulate feeding. 
 
@@ -107,11 +104,11 @@ These results suggest that ER2 and ER2/ER4 activation do not robustly regulate f
 If the starvation-like transcriptional signature induced by ER2 activation reflects a true nutrient-deprived physiological state, we might expect flies to exhibit hallmarks of nutrient deprivation, including reduced triglyceride (TAG) stores as well as altered starvation resistance and activity levels. 
 After one week of ER2 activation to match RNA-seq treatment, TAG levels were unchanged in females but significantly reduced in males (\figref{fig:conexfig}C), whereas ER2/ER4 activation significantly reduced TAG in both sexes (\figref{fig:conexfig}D), contrary to the observed decrease in starvation-response genes. 
 We then examined if TAG differences predicted survival under nutrient deprivation. 
-Flies of both sexes were pre-treated with light for one week to match TAG assay condiditions before being flipped onto 2\% agar, a hydrating but non-nutritive medium. 
+Flies of both sexes were pre-treated with light for one week to match TAG assay conditions before being flipped onto 2\% agar, a hydrating but non-nutritive medium. 
 Females of both genotypes were more sensitive to starvation than controls (\figref{fig:conexfig}E-F, left panels). 
-In males, starvation outcomes diverged despite overlapping effects on TAG: ER2>Chr males were only modestly sensitized to starvation compared to their dark controls, an effect driven by a long tail in control survival. By contrast, ER2/ER4d>Chr males were significantly sensitized (\figref{fig:conexfig}E-F, right panels). 
+In males, starvation outcomes diverged despite overlapping effects on TAG: ER2>Chr males were only modestly sensitized to starvation compared to their dark controls, an effect driven by a long tail in control survival. By contrast, ER2/ER4>Chr males were significantly sensitized (\figref{fig:conexfig}E-F, right panels). 
 That starvation sensitivity was not associated with reduced TAG was especially notable in ER2>Chr females, in which longevity extension and starvation-associated transcriptional signatures occurred without detectable TAG depletion; nevertheless, they were accompanied by reduced starvation resistance. 
-Together, these findings indicate that EB neuron activation can alter lipid storage and starvation survival in ways not explained by food intake and not simply predicted by inferred nutrient state, suggesting that neural activation influences nutrient-state signaling independent of canonical metabolic and physiological outputs.
+Together, these findings indicate that EB neuron activation can alter lipid storage and starvation resistance in ways not explained by food intake and not simply predicted by inferred nutrient state, suggesting that neural activation influences nutrient-state signaling independent of canonical metabolic and physiological outputs.
 
 % We next asked whether these manipulations altered gross locomotor activity, using the \textit{Drosophila} Activity Monitoring System (DAMS) \citep{pfeiffenberger2010} to measure activity over 48 hours during optogenetic stimulation. 
 % Flies were housed individually in horizontal tubes and maintained either under activating light or in darkness for the duration of the assay. 
@@ -137,8 +134,8 @@ Flies were assayed using our custom “D-Drop” platform, which drops a chamber
 To gauge climbing speed and overall robustness, we focused on maximum height reached 9 sec after drop and total upward distance climbed over 30 sec. 
 Light-naïve flies were omitted, as flies were not optogenetically stimulated during this assay. 
 ER2>Chr flies of neither sex exhibited a significant genotype $\times$ light interaction for either metric after one week or one month of activation (\figref{fig:ddropfig}A). 
-ER2/ER4d activation likewise produced no detectable effect after one week of pre-treatment in either sex (\figref{fig:ddropfig}B, left panel for each sex). 
-After one month of pre-treatment, however, female ER2/ER4d>Chr flies outperformed controls in both height at 9 sec and total upward distance (\figref{fig:ddropfig}B). Males showed a modest decrease in climbing ability (Total Up p = 0.045), but this effect did not survive multiple testing correction.  
+ER2/ER4 activation likewise produced no detectable effect after one week of pre-treatment in either sex (\figref{fig:ddropfig}B, left panel for each sex). 
+After one month of pre-treatment, however, female ER2/ER4>Chr flies outperformed controls in both height at 9 sec and total upward distance (\figref{fig:ddropfig}B). Males showed a modest decrease in climbing ability (Total Up p = 0.045), but this effect did not survive multiple testing correction.  
 
 We observed that green light \textit{per se} shortens lifespan (\figref{fig:lifespanfig}C) and causes molecular stress responses (\figref{fig:seqfig}D) in both control and GtACR1 flies, and that ER4d neuron inhibition may buffer these stress responses. 
 We therefore asked if the effects of green light stress manifest physically as reduced negative geotaxis and if ER4d inhibition would promote endurance against this purported stress. 
@@ -197,11 +194,11 @@ Thus, under these conditions, the FLIC assay could not distinguish the effects o
 Given these limitations, we instead used activation as an alternative means of probing the behavioral state associated with this population. 
 In light-naïve flies, ER4d activation produced a behavioral signature resembling that of ER2 activation: trigger flies had fewer interactions with the sucrose well (\figref{fig:flicfig}C, left; uncorrected p = 0.05), made shorter visits (\figref{fig:flicsupp}D, left), and showed no reduction in the number of visits (\figref{fig:flicsupp}D, right). 
 Thus, as with ER2 stimulation, ER4d activation appeared to promote rapid disengagement from the trigger well rather than suppressing repeated approach to the sucrose source itself. 
-This aversive effect persisted after one week of pre-treatment (\figref{fig:flicfig}C, center) but was no longer evident after one month of chronic light exposure (\figref{fig:flicfig}C, right) suggesting that, unlike the response to ER2 activation, the negative valence associated with ER4d activation attenuates over time.
+This aversive effect persisted after one week of pre-treatment (\figref{fig:flicfig}C, center) but was no longer evident after one month of chronic light exposure (\figref{fig:flicfig}C, right), suggesting that, unlike the response to ER2 activation, the negative valence associated with ER4d activation attenuates over time.
 
 We next asked how flies respond when ER2 and ER4 neurons are activated simultaneously. 
 Based on the aversive effects of activating either ER2 or ER4d alone, one might expect combined activation to produce a similar or even stronger negative response. 
-Instead, ER2/ER4 activation in light-naïve flies increased the number of interactions with the sucrose well (\figref{fig:flicfig}D, left; uncorrected p = 0.020). Although median visit duration was unchanged  (\figref{fig:flicsupp}E, left), the frequency of visits increased (\figref{fig:flicsupp}E, right), indicating that stimulation reinforced engagement with the trigger-associated food source. 
+Instead, ER2/ER4 activation in light-naïve flies increased the number of interactions with the sucrose well (\figref{fig:flicfig}D, left; uncorrected p = 0.020). Although median visit duration was unchanged (\figref{fig:flicsupp}E, left), the frequency of visits increased (\figref{fig:flicsupp}E, right), indicating that stimulation reinforced engagement with the trigger-associated food source. 
 ER2/ER4-activated trigger flies continued to interact more with the sucrose well than their yoked controls after one week and one month of pre-treatment; however, at these later time points, there was no longer a significant (at p < 0.05) genotype $\times$ light effect (\figref{fig:flicfig}D, center and right, respectively), perhaps due to an increase in among-fly variance.
 Nevertheless, ER2/ER4 flies showed a trend toward greater attraction to the well than controls at these later time points (p = 0.06–0.1).
  
@@ -214,16 +211,19 @@ Flies were observed during a 10-min dark acclimation period followed by a 60-min
 Light-naïve flies of both sexes were tested, and each manipulation was evaluated at two stimulation frequencies (48 Hz to mimic FLIC conditions, and 200 Hz) to further gauge generalizability. 
 
 The positive valence of ER2/ER4 co-activation generalized cleanly. 
-Both sexes significantly preferred the illuminated side during treatment, and it was observed at both 48 Hz (\figref{fig:arenafig}B) and 200 Hz (\figref{fig:arenasupp}A), indicating that the appetitive state reflects a stable property of the ER2/ER4-activated circuit rather than an artifact of a particular assay or stimulation regime. 
+Both sexes significantly preferred the illuminated side during treatment, an effect observed at both 48 Hz (\figref{fig:arenafig}B) and 200 Hz (\figref{fig:arenasupp}A), indicating that the appetitive state reflects a stable property of the ER2/ER4-activated circuit rather than an artifact of a particular assay or stimulation regime. 
 
 Consistent with the FLIC results, activation of ER2 neurons in females produced a clear avoidance of the illuminated side during the treatment period (\figref{fig:arenafig}C, left), indicating that the negative valence associated with ER2 activation extends beyond feeding-related behavior. 
 This effect was also observed under a higher-frequency stimulation regime, supporting the robustness of the phenotype across light conditions (\figref{fig:arenasupp}B, left). 
-In males, ER2 activation produced the opposite preference: males preferred the illuminated side during both treatment and recovery at 48 Hz (\figref{fig:arenafig}C, right), with a weaker effect at 200 Hz (\figref{fig:arenasupp}B, right). 
+In males, ER2 activation produced no preference at 48 Hz (\figref{fig:arenafig}C, right) or 200 Hz (\figref{fig:arenasupp}B, right). 
 Thus, the arena revealed a sex-dependent valence for ER2 activation.
 
 By contrast, the FLIC findings for ER4d manipulation did not generalize robustly. 
-ER4d>GtACR1 and control flies showed indistinguishable side biases (females preferring illumination, males avoiding it; \figref{fig:arenasupp}D), so although the open-loop design removed the light-startle confound, it did not permit an unambiguous valence assignment. 
-ER4d activation, which had been aversive for naïve flies in the FLIC, produced variable behavior in the arena: females showed little avoidance at 48 Hz but avoided illumination at 200 Hz (\figref{fig:arenafig}D, left; \figref{fig:arenasupp}D, left), while males avoided illumination at 48 Hz but showed no preference at 200 Hz (\figref{fig:arenafig}D, right; \figref{fig:arenasupp}D, right).
+ER4d>GtACR1 and control flies showed indistinguishable side biases (females preferring illumination, males avoiding it; \figref{fig:arenasupp}C), so although the open-loop design removed the light-startle confound, it did not permit an unambiguous valence assignment. 
+ER4d activation, which had been aversive for naïve flies in the FLIC, produced variable behavior in the arena. 
+ER4d activation produced an aversive shift in both sexes at 48 Hz (\figref{fig:arenafig}D, left), although the effect was stronger in males. 
+Females exhibited reduced light preference relative to controls, whereas males preferred the unlit side.
+Neither sex exhibited a significant place preference at 200 Hz (\figref{fig:arenasupp}D, left).
 The absence of a stable signature across conditions suggests that ER4d neurons act in a more context-sensitive or modulatory fashion than ER2 or ER2/ER4.
 
 %% try this:
@@ -236,7 +236,7 @@ Finally, to examine how EB neuron manipulation in the brain influences gene expr
 We focused on ER2-activated flies to determine whether the strong starvation-response program observed in heads would manifest in the periphery. 
 Body donors were reared and collected the same way as head donors. 
 Bodies were separated from heads using a sieve, and five bodies were collected for each of five samples. 
-Again, using DESeq2 to identify genes with a significant genotype (CsChrimson, control) $times$ light (yes, no) interaction, we identified 229 upregulated and 181 downregulated genes in peripheral tissues (experiment-wise p-value < 0.01) (\figref{fig:bodyseqsupp}A). 
+Again, using DESeq2 to identify genes with a significant genotype (CsChrimson, control) $\times$ light (yes, no) interaction, we identified 229 upregulated and 181 downregulated genes in peripheral tissues (experiment-wise p-value < 0.01) (\figref{fig:bodyseqsupp}A). 
 Strikingly, the peripheral transcriptional response was nearly completely distinct from that observed in the head, with only 7 of 526 differentially-expressed genes shared between compartments (\figref{fig:bodyseqfig}A), indicating that ER2 activation drove tissue-specific transcriptional programs. 
 
 Despite the disparity in response genes, downregulated processes were consistent with the starvation-like transcriptional profile in heads, as ER2 activation drove peripheral downregulation of genes involved in cell cycle progression and DNA synthesis and repair (\figref{fig:bodyseqfig}B). 

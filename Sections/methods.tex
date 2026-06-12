@@ -2,9 +2,9 @@
 
 \subsection*{Fly stocks and husbandry}
 
-Eggs were collected from grape juice agar as described in Gendron et al., 2023, and 32 $\mu$L of eggs were aliquoted into bottles containing 25-50 mL of CT larval growth medium (\pink{recipe?}). 
+Eggs were collected from grape juice agar as described in Gendron et al., 2023, and 32 $\mu$L of eggs were aliquoted into bottles containing 25-50 mL of CT larval growth medium \citep{skorupa2008}. 
 Channelrhodopsin-expressing flies and their genetic controls were reared and maintained in dim 12:12 light:dark conditions at 25$^{\circ}$ C and 60\% humidity.
-Unless otherwise specified, flies were collected 0-1 days after eclosion, transferred to 10\% sucrose/10\% yeast (SY10) medium, and allowed to mate for \eh{2-6} days. %6 is R4d>Chr FLIC from christmas break...maybe mention there instead? otherwise it's 2-4
+Unless otherwise specified, flies were collected 0-1 days after eclosion, transferred to 10\% sucrose/10\% yeast (SY10) medium, and allowed to mate for 2-3 days.
 Mated flies were then sorted by sex onto all-trans retinal (500 $\mu$M ATR) SY10 medium, 20/vial, under brief CO\textsubscript{2} anesthesia. 
 Adult flies were flipped onto fresh food every 2-3 days until completion of experiments.
 Dark controls were flipped in a dark room to minimize incidental channel activation. 
@@ -12,10 +12,10 @@ The following stocks were used, and obtained from the Bloomington Drosophila Sto
 
 \subsection*{Optogenetic assays}
 
-After being sorted onto ATR food, flies were placed in a dark box for at least 1 day to allow enough time for all-trans retinal uptake before light stimulus. 
+After being sorted onto ATR food, flies were placed in a dark box for at least 1 day to allow enough time for all-trans retinal uptake before light stimulation. 
 Flies used for lifespan assays or 1-week or 1-month assay time points were then transferred to optogenetic rigs.
 Dark controls remained in a dark box in the same incubator. 
-Light-naive flies for behavioral assays were maintained for 1 week in the dark box to age-match 1-week light-treated flies.
+Light-naïve flies for behavioral assays were maintained for 1 week in the dark box to age-match 1-week light-treated flies.
 Our optogenetic rigs house 48 vials between 2 LED light bars, and rig walls are mirrored to facilitate consistent light distribution across vials. 
 Rigs and behavioral assay equipment use 627 nm (red) or 530 nm (green) Luxeon LEDs. 
 Control boards allow the experimenter to set light intensity, duration, and other stimulus parameters. 
@@ -24,11 +24,12 @@ Vial position was randomized within each optogenetic rig and dark box.
 \subsection*{Lifespan assays}
 
 Each treatment comprised 5-10 vials of 20 flies each (see \figref{fig:lifespanfig} caption for populations per experiment). 
-Flies were 3-9 days old when entering light; experimental and control genotypes were age-matched \hl{to within a day}.
-Flies were exposed to 12 V (red) or 20 V (green) light from ZT 0-12 every day (40 Hz, 32\% duty cycle).
+Flies were 3-9 days old when entering light.
+Experimental and control genotypes were established in parallel and were generally age-matched.
+Flies were exposed to 12 V (red) or 17-20 V (green) light during ZT 0-12.
+Unless otherwise specified, stimuli were delivered continuously throughout this interval at 40 Hz with a 32\% duty cycle.
+Male ER2>Chr flies received an intermittent stimulation schedule consisting of 6 min on and 12 min off cycles during ZT 0-12.
 Rigs and dark boxes were maintained in incubators set to 25$^{\circ}$ C and 60\% humidity. 
-\eh{Male R2 was a different program than everything else; rheostat paper doesn't specify program, so do we just omit that generally?}
-%19.5 V 
 
 \subsection*{Starvation assays}
 
@@ -37,7 +38,7 @@ After pre-treatment, flies were removed from ATR medium, sorted into 10 vials of
 Anti-fungal agent Tegosept was omitted from starvation medium to avoid introducing a nutritive solvent (EtOH). 
 Flies were treated with red light for the duration of the assay and flipped onto clean agar every 2-3 days.
 Surviving flies were counted every few hours. 
-Counting frequency increased as experiment progressed, as starving vials often go extinct within a short window. 
+Counting frequency increased as the experiment progressed, as starving vials often go extinct within a short window. 
 Due to the high frequency of census taking, starvation flies were not kept in an incubator, but at room temperature (21.1-23.3$^{\circ}$ C) and ambient humidity.
 
 \subsection*{Survivorship analysis}
@@ -47,7 +48,7 @@ P-values were obtained by log-rank analysis of color-coordinated pairs in \figre
 
 \subsection*{Brain dissections}
 
-\eh{These 3 sections are adapted from the rheostat paper. Changed language but it might be too close.}
+Brain dissections, immunostaining, and imaging were performed largely as described previously \citep{gendron2023}, with minor modifications.
 Driver (GAL4) lines were crossed with UAS-20X-GFP.
 Adult female brains were dissected in phosphate buffer saline (PBS) and fixed for an hour at room temperature in PBS containing 4\% paraformaldehyde. 
 Brains from ER2, ER2/ER4, and BDSC \#39805 drivers were transferred to a glass slide with Vectashield mounting medium (ZH0219), sealed with a coverslip and nail polish, and immediately imaged. 
@@ -64,7 +65,7 @@ Tubes were placed on an orbital shaker at 4$^{\circ}$ C for 2 days.
 On day 3, the anti-GFP solution was removed and brains were given 3 quick and 3 long PBS-T washes as described above. 
 PBS-T was removed and a 1:1000 dilution of anti-rabbit Alexa Fluor 488 (Invitrogen A-11008) in 5\% normal goat serum was added. 
 Tubes were covered in foil and placed on an orbital shaker at 4$^{\circ}$ C overnight, after which the secondary antibody was removed and brains were given 3 quick and 3 long PBS-T washes. 
-Brains where then mounted for imaging as described above. 
+Brains were then mounted for imaging as described above. 
 
 \subsection*{Imaging and analysis}
 
@@ -78,12 +79,12 @@ Brightness and contrast were adjusted similarly across treatments for visualizat
 \subsection*{Consumption-excretion assay}
 
 Con-ex experiments were performed as previously described \citep{shell2018}, with the addition of ATR (250 $\mu$M final) to the dyed food (FD\&C Blue No. 1).
-Light-naïve flies were sorted 10/vial instead of 20/vial for overnight ATR pre-treatment, to allow for direct flipping into con-ex vials withouth anesthesia the following day. 
+Light-naïve flies were sorted 10/vial instead of 20/vial for overnight ATR pre-treatment, to allow for direct flipping into con-ex vials without anesthesia the following day. 
 From an initial cohort of 120 flies, 100 were chosen for each time point (10 vials). 
 The remainder were treated identically to the analyzed experimental flies (including during assays) and were maintained to compensate for possible age-related attrition at later time points.
 Flies were 3-4 days old for the first (light-naïve) timepoint, to match standard lifespan conditions.
 After 24 hours, dyed food caps were removed, and flies were returned to standard ATR SY10 medium (20/vial) and placed back in the light rig or the dark box.
-Dye deposited on walls was washed by vortexting 3 mL of DI water in each vial. 
+Dye deposited on walls was washed by vortexing 3 mL of DI water in each vial. 
 Absorbance was measured as described by Shell et al., 2018. 
 For subsequent time points, remaining flies were re-mixed on a cold pad, and 100 per condition were selected for analysis as above.
 1-week time points were performed after 7 days in light (i.e. 6 days after end of naïve time point). 
@@ -98,9 +99,6 @@ Flies were homogenized in groups of 10 (except for ER2/ER4 females, which were i
 TAG was measured using the Infinity Triglyceride reagent (Thermo Electron Corp.) 
 Ten biological replicates were analyzed. 
 
-%\subsection*{48-hour activity assay}
-% 250 uM ATR in food
-
 \subsection*{Negative geotaxis assay}
 
 Negative geotaxis was assayed using equipment and tracking software developed by our lab (D-Drop Deluxe and DTrack).
@@ -109,13 +107,12 @@ D-Drop does not have integrated optogenetic LEDs, making this the only behaviora
 For assay, flies were anesthetized on a cold pad and individually transferred into lanes of custom 12-lane or 14-lane chambers, then placed at 25$^{\circ}$ C in ambient light or in a dark box for 10-25 minutes to recover.
 Chambers were then loaded onto the "D-Drop Deluxe," an instrument that drops, illuminates, and records videos of single chambers. 
 Each chamber was dropped 3 consecutive times and recorded for 30 sec after each drop.
-After recording, flies were given an additonal 30 sec to recover (60 total sec between drops).
+After recording, flies were given an additional 30 sec to recover (60 total sec between drops).
 Light-treated flies were dropped under ambient light conditions, with a ring light (for recording) contributing additional light. 
 Dark controls, though kept light-naïve until the assay, were also subjected to this ring light during recording.
 Height reached by 9 sec after drop and total up distance climbed in 30 sec after drop were averaged across replicates. 
-Interaction (Light $\times$ Genotype) p-values were derived from 2-way ANOVAs. 
+Interaction (light $\times$ genotype) p-values were derived from 2-way ANOVAs. 
 Benjamini-Hochberg FDR correction was applied within each sex and driver and across time points and climbing metrics.
-\pink{Get hardware details from Scott} 
 
 \subsection*{Fly liquid-food interaction assay}
 
@@ -127,33 +124,27 @@ Flies were anesthetized on a cold pad, aspirated into chambers, and given a few 
 Interactions were recorded for 6 hours between ZT 3 and 11 to avoid crepuscular feeding peaks.
 DFMs were staged in enclosed environments maintained at 25$^{\circ}$ C.
 
-Flies started light treatment (or aging in dark box) at 3-7 days post-eclosion. Light-naïve flies were aged for 7-12 days in dark before assays. One-week time points were pre-treated for at least 7 and up to 14 days. One-month time points were pre-treated for 28-29 days.
+Flies were allowed to mate for 2-6 days before sorting onto ATR, and started light treatment (or aging in dark box) at 3-7 days post-eclosion. 
+Light-naïve flies were aged for 7-12 days in dark before assays. 
+Flies assigned to the 1-week time point received 7-14 days of pre-treatment before testing.
+One-month time points were pre-treated for 28-29 days.
 
-Data were pooled from three replicates and analyzed using R code developed in-house: \url{https://github.com/PletcherLab/FLIC_R_Code} (minimum feeding threshold = 10, event gap = 5, tasting threshold = (0, 10)). \pink{code version? RR\_whatever} \eh{Adapting Kristy's methods, not sure what tasting threshold is; maybe relevant to Kristy and not me?)}
+Data were pooled from three replicates and analyzed using R code developed in-house: \url{https://github.com/PletcherLab/FLIC_R_Code} (minimum feeding threshold = 10, event gap = 5, tasting threshold = (0, 10)).
 Flies with no feeding signal, or whose baseline signal was unstable, were omitted from analysis. 
 If a "trigger" fly engaged in 0 sucrose well interactions, both it and its yoked control were omitted from analysis. 
-Sucrose interaction p-values were derived from the Genotype $\times$ Linkage (where Linkage = trigger fly or yoked control) interaction term of a linear mixed model (Interactions ~ Genotype * Linkage + (1|Group), lmer) with yoked pairs modeled as a random intercept.
+Sucrose interaction p-values were derived from the genotype $\times$ linkage (where linkage = trigger fly or yoked control) interaction term of a linear mixed model (Interactions ~ Genotype * Linkage + (1|Group), lmer) with yoked pairs modeled as a random intercept.
 Events and median durations were analyzed similarly. 
 Benjamini-Hochberg FDR correction was applied within each sex and driver and across interaction time points. 
 
-\eh{light parameters? same as arena?}
-
 \subsection*{Place preference assay}
 
-% Missing precise age data for some of these. It's probably in Slack...
-% But these ranges should cover it, assuming the usual ages based on my pipelines (3-8 days old before assays)
-% R2: Normal mating/sorting scheme. Flies were 11-18 days old at time of assays. 
-% 2769: Missing age data; assume 7-15 days old at time of assay 
-% R4d-Chr: 10-12 days old for 48 Hz; unsure for 200 Hz, but I assume the range of all flies covers it.
-% R4d-GtACR: Think I set these up at the same time as 2769, so they're a few days older
-\hl{Seven- to 21-day old} light-naive flies were aspirated into individual lanes of a multi-lane rectangular arena ((\figref{fig:arenafig}A).
-Flies were given 10 minutes to acclimate to the arena \eh{in the dark}, after which one half of the transparent arena floor was illuminated for 60 min (5 sec on/5 sec off).
+Young light-naïve flies (< 21 days post-eclosion) were aspirated into individual lanes of a multi-lane rectangular arena (\figref{fig:arenafig}A).
+Flies were given 10 minutes to acclimate to the arena in the dark, after which one half of the transparent arena floor was illuminated for 60 min (5 sec on/5 sec off).
 GtACR1 flies and their genetic controls were exposed to green light at 24 V/40 Hz/32\% duty cycle.
 CsChrimson flies and their genetic controls were exposed to red light (18 V) at either 48 Hz/32\% duty cycle (meant to mimic FLIC light parameters) or 200 Hz/20\% duty cycle. 
 Control and experimental genotypes were alternated between lanes. 
-\eh{Illuminated side of the arena was varied between runs.}
-Data were pooled across 2-3 runs.
-\eh{probably need some hardware/software info from Scott.}
+The illuminated side of the arena was varied between replicates.
+Data were pooled across 2-3 replicates.
 
 \subsection*{RNA sequencing data acquisition}
 
@@ -162,23 +153,21 @@ The same light parameters were used as for lifespans above.
 Flies were combined within conditions and vortexed to remove heads from bodies.
 Heads and bodies were sorted using a sieve, counted on dry ice in a petri dish, and placed into chilled bead lysis tubes.
 Ten heads or 5 bodies (ER2 only) were grouped per sample, and 5 samples were sequenced per condition. 
-\eh{(Should I mention that the bodies are a separate batch?)} 
 RNA was extracted using the New England BioLabs Inc. (NEB) Monarch Total RNA Miniprep Kit (T2010S). 
 Samples were lysed in 800 $\mu$L of the kit's lysis buffer at 6.5 m/s for 15 seconds in a FastPrep-24 homogenizer (MP Biomedicals).
 Bulk RNA was extracted according to manufacturer's instructions (including the optional DNase treatment) and sent to Admera Health LLC for library preparation using polyA selection and the NEBNext Ultra II Directional RNA Library Prep Kit.
 Libraries were sequenced on an Illumina platform with 2$\times$150 bp paired-end reads at a depth of 40 M reads per sample (20 M per direction).
-\pink{(Check files from Admera to see how they performed alignment and QC? Big Data server)}
 
-\subsection*{RNA sequencing data processing and statistsical analysis}
+\subsection*{RNA sequencing data processing and statistical analysis}
 
 Raw sequencing counts were analyzed using the DESeq2 package (v. 1.48) in R \citep{love2014}. 
-We used a 2$\times$2 factorial design with Treatment (Light vs. Dark) and Genotype (Experimental vs. Control) as factors, modeling gene expression as \texttt{~ Treatment + Genotype + Treatment:Genotype}.
-Dark and Control were used as reference levels.
+We used a 2$\times$2 factorial design with treatment (light vs. dark) and genotype (experimental vs. control) as factors, modeling gene expression as \texttt{~ Treatment + Genotype + Treatment:Genotype}.
+Dark and control were used as reference levels.
 We pre-filtered for genes with counts $\geq$ 10 in at least 3 samples.
 Differential expression was assessed using DESeq2's default Wald test with Benjamini-Hochberg FDR correction.
 Genes with padj < 0.01 were considered differentially expressed. 
 
-Heatmaps of log2-transformed normalized counts of differentially expressed genes were generated using the pheatmap R package (v 1.0) \citep{pheatmap}, with hierarchical clustering (Euclidean distance, complete linkage) and row-wise z-score scaling.
+Heatmaps of log2-transformed normalized counts of differentially expressed genes were generated using the pheatmap R package (v 1.0.13) \citep{pheatmap}, with hierarchical clustering (Euclidean distance, complete linkage) and row-wise z-score scaling.
 
 Gene Ontology (GO) enrichment analysis was performed using the clusterProfiler package (v. 4.16) in R \citep{clusterprofiler}. 
 Differentially expressed genes (padj < 0.01) were separated into upregulated and downregulated sets and tested independently for enrichment of Biological Process terms, using the pre-filtered gene set as the background universe. 
@@ -189,27 +178,19 @@ Rather than retaining the most statistically significant term in each cluster, w
 \subsection*{Metabolomics data acquisition, processing, and statistical analysis}
 
 Three-day-old female flies were treated and harvested as described for RNA sequencing. 
-Six samples of 30 whole female bodies were sent to the University of Washington's metabolomics core for analysis. \eh{care of Ben/Danijel?}
+Six samples of 30 whole female bodies were sent to the University of Washington's metabolomics core for analysis. 
+Approximately 10 mg of body tissue samples were homogenized in cold Milli-Q water and metabolites were extracted with methanol containing isotopically labeled internal standards ($^{13}$C-glucose and $^{13}$C-glutamic acid).
+Samples were vortexed, incubated at -20$^{\circ}$C, sonicated, and centrifuged at 14,000 rpm for 15 minutes at 4$^{\circ}$C.
+Supernatants were collected, dried under vacuum, and stored at -80$^{\circ}$C.
+Prior to analysis, dried extracts were reconstituted in a hydrophilic interaction liquid chromatography (HILIC) solvent consisting of a 30:70 mixture of mobile phases A1 (10 mM ammonium acetate in 95\% H$_2$O/3\% acetonitrile/2\% methanol + 0.2\% acetic acid) and B1 (10 mM ammonium acetate in 93\% acetonitrile/5\% water/2\% methanol + 0.2\% acetic acid), supplemented with $^{13}$C-lactate and $^{13}$C-tyrosine internal standards.
+Reconstituted samples were centrifuged at 14,000 rpm for 5 minutes at 4$^{\circ}$C and transferred to LC vials for mass spectrometry.
 
-\eh{Got this from Christi; if we keep it I'll modify the wording a bit, but I don't have a similar level of detail for RNA-seq.}
-\textit{Preparation of biological tissue samples for targeted LC-MS without absolute concentration: Adapted from Daniel Djukovic and Lisa Bettcher}
-10 mg of body tissue samples were homogenized in 200 $\mu$L of cold (4$^{\circ}$ C) Milli-Q water with zirconium oxide beads using a Bullet Blender. 
-After homogenization, metabolites were extracted by adding 800 $\mu$L of methanol containing internal standards. 
-This extraction solution was prepared by spiking 100 mL of methanol and 1 mL of 12.370 mM 13C-Glucose and 0.4 mL of 6.463 mM \hl{13}C-glutamic acid. 
-The mixture was vortexed for 10 seconds, incubated at -20$^{\circ}$ C for 30 minutes, then sonicated in an ice bath for 10 minutes.
-To separate the extracts, the mixture was centrifuged at 14K RPM for 15 minutes at 4$^{\circ}$ C. A 600 $\mu$L aliquot of the supernatant was transferred to a new tube, and the samples were dried completely in a Speedvac at 30$^{\circ}$ C for approximately 2 hours. 
-The dried pellets were then stored at -80$^{\circ}$ C until the reconstitution step.
-The dried pellets were then reconstituted in 1,000 $\mu$L of a hydrophilic interaction liquid chromatography (HILIC) solvent. 
-The HILIC solvent was made by a 30:70 mixture of mobile phase solvents A1 (10 mM ammonium acetate in 95\% H2O/3\% acetonitrile/2\% methanol + 0.2\% acetic acid) and B1 (10 mM ammonium acetate in 93\% acetonitrile/5\% water/2\%methanol + 0.2\% acetic acid), and was spiked with internal standard to a final concentration of 19.58\% $\mu$M \hl{13}C-lactate and 3.550 $\mu$M \hl{13}C-tyrosine. 
-The reconstituted samples were vortexed for 10 seconds and centrifuged for 5 minutes at 14K RPM in 4$^{\circ}$ C. 
-The final aliquot of the supernatant was transferred to LC vials for mass spectrometry.
-
-Targeted \eh{(specifics?)} metabolomics data from bodies were analyzed using a 2$\times$2 factorial design with Treatment (Light vs. Dark) and Genotype (ER2>Chr vs. ER2>WCS) as factors. 
+Targeted metabolomics data from bodies were analyzed using a 2$\times$2 factorial design with treatment (light vs. dark) and genotype (ER2>Chr vs. ER2>WCS) as factors. 
 Metabolites with more than two missing values across all samples were removed. 
 Remaining abundances were natural log-transformed and mean-centered per sample. 
 Residual missing values were imputed using KNN imputation (k = 5). 
-A separate OLS linear regression (\texttt{y ~ Treatment × Genotype}) was fit to each metabolite, with Dark and ER2>WCS as reference levels. 
-Benjamini-Hochberg FDR correction was applied independently to each coefficient family (Treatment, Genotype, and interaction). 
+A separate OLS linear regression (\texttt{y ~ Treatment × Genotype}) was fit to each metabolite, with dark and ER2>WCS as reference levels. 
+Benjamini-Hochberg FDR correction was applied independently to each coefficient family (treatment, genotype, and interaction). 
 Metabolites with an interaction FDR < 0.05 were considered significant.
 Pathway enrichment was performed using the FELLA package in R, which leverages the topological structure of the KEGG metabolic network. 
 The KEGG database for Drosophila melanogaster (organism code: dme) was compiled using buildGraphFromKEGGREST, excluding global overview pathways (map01100). 

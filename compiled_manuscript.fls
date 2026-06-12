@@ -151,14 +151,10 @@ INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT /usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm
-INPUT /usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
-INPUT ./Sections/main.tex
-INPUT ./Sections/main.tex
-INPUT Sections/main.tex
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -167,6 +163,10 @@ INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT ./Sections/main.tex
+INPUT ./Sections/main.tex
+INPUT Sections/main.tex
+INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
 INPUT ./Sections/discussion.tex
 INPUT ./Sections/discussion.tex
 INPUT Sections/discussion.tex
@@ -279,6 +279,7 @@ INPUT /Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/e
 INPUT /Users/evie/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb

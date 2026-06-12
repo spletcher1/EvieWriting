@@ -1,46 +1,53 @@
 This is BibTeX, Version 0.99e (TeX Live 2026)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: compiled_manuscript.aux
-The style file: plainnat.bst
+The style file: vancouver.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: references.bib
-You've used 54 entries,
-            2773 wiz_defined-function locations,
-            919 strings with 18383 characters,
-and the built_in function-call counts, 34828 in all, are:
-= -- 2871
-> -- 3013
-< -- 8
-+ -- 1006
-- -- 951
-* -- 3522
-:= -- 5539
-add.period$ -- 165
-call.type$ -- 54
-change.case$ -- 478
-chr.to.int$ -- 53
-cite$ -- 108
-duplicate$ -- 1122
-empty$ -- 2186
-format.name$ -- 1019
-if$ -- 6961
-int.to.chr$ -- 2
-int.to.str$ -- 1
-missing$ -- 53
-newline$ -- 281
-num.names$ -- 216
-pop$ -- 848
+Warning--empty author and editor in pheatmap
+Warning--missing publisher in pheatmap
+You've used 55 entries,
+            3507 wiz_defined-function locations,
+            1009 strings with 18467 characters,
+and the built_in function-call counts, 147610 in all, are:
+= -- 16191
+> -- 1559
+< -- 933
++ -- 758
+- -- 309
+* -- 11843
+:= -- 15848
+add.period$ -- 220
+call.type$ -- 55
+change.case$ -- 1
+chr.to.int$ -- 2158
+cite$ -- 57
+duplicate$ -- 11769
+empty$ -- 14461
+format.name$ -- 328
+if$ -- 34473
+int.to.chr$ -- 0
+int.to.str$ -- 55
+missing$ -- 712
+newline$ -- 279
+num.names$ -- 55
+pop$ -- 2054
 preamble$ -- 1
-purify$ -- 425
+purify$ -- 0
 quote$ -- 0
-skip$ -- 934
+skip$ -- 1354
 stack$ -- 0
-substring$ -- 1357
-swap$ -- 101
-text.length$ -- 0
+substring$ -- 28612
+swap$ -- 1846
+text.length$ -- 285
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 594
-warning$ -- 0
-while$ -- 245
-width$ -- 0
-write$ -- 714
+type$ -- 0
+warning$ -- 2
+while$ -- 726
+width$ -- 57
+write$ -- 609
+(There were 2 warnings)
